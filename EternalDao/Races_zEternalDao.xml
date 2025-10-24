@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ArrayOfRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="https://www.w3.org/2001/XMLSchema">
+    <Race>
+        <RaceId>99</RaceId>
+        <Name>Fill in name (The mod is called Eternal Dao with Xuanhuan high cultivation style race)</Name>
+        <Description>Fill in description</Description>
+        <ImageFilename>UserInterface/Races/Human</ImageFilename>
+        <BundleName>Human</BundleName>
+        <FlagFilename>UserInterface/Flags/Human_1</FlagFilename>
+        <AlternateFlagFilenames>
+            <string>UserInterface/Flags/Human_2</string>
+            <string>UserInterface/Flags/Human_3</string>
+            <string>UserInterface/Flags/Human_4</string>
+            <string>UserInterface/Flags/Human_5</string>
+            <string>UserInterface/Flags/Human_6</string>
+        </AlternateFlagFilenames>
+        <MainColor>
+            <R>149</R>
+            <G>6</G>
+            <B>6</B>
+            <A>255</A>
+        </MainColor>
+        <SecondaryColor>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+            <A>255</A>
+        </SecondaryColor>
+        <ReproductionRate>1.025</ReproductionRate>
+        <AssimilationRate>0.5</AssimilationRate>
+        <MigrationFactor>1.5</MigrationFactor>
+        <Aggression>0.75</Aggression>
+        <Caution>1</Caution>
+        <Dependability>1.5</Dependability>
+        <ConcernForOwnReputation>1.25</ConcernForOwnReputation>
+        <ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
+        <IsPlayable>true</IsPlayable>
+        <PreventUseAsIndependent>true</PreventUseAsIndependent>
+        <StartingGameEventNames/>
+        <PreferredGovernmentIds>
+            <short>99</short>
+        </PreferredGovernmentIds>
+        <AllowableGovernmentIds>
+            <!-- Republic -->
+            <short>0</short>
+            <!-- Direct Democracy -->
+            <short>2</short>
+            <!-- Feudalism -->
+            <short>3</short>
+            <!-- Monarchy -->
+            <short>4</short>
+            <!-- Stratocracy -->
+            <short>5</short>
+            <!-- Shadow Republic -->
+            <short>50</short>
+            <!-- Refugee Fleet -->
+            <short>32759</short>
+            <!-- Custom Eternal Dao Government -->
+            <short>99</short>
+        </AllowableGovernmentIds>
+        <ColonizationSuitabilityModifiers/>
+        <Bonuses/>
+        <AllowableIntelligenceMissionTypes>
+            <CharacterMissionType>CounterIntelligence</CharacterMissionType>
+            <CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+            <CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+            <CharacterMissionType>StealOperationsMap</CharacterMissionType>
+            <CharacterMissionType>StealTechData</CharacterMissionType>
+            <CharacterMissionType>SabotageConstruction</CharacterMissionType>
+            <CharacterMissionType>SabotageColony</CharacterMissionType>
+            <CharacterMissionType>DestroyBase</CharacterMissionType>
+            <CharacterMissionType>InciteRevolution</CharacterMissionType>
+            <CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+            <CharacterMissionType>DeepCover</CharacterMissionType>
+            <CharacterMissionType>DefectCharacter</CharacterMissionType>
+            <CharacterMissionType>DestroyFacility</CharacterMissionType>
+            <CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
+        </AllowableIntelligenceMissionTypes>
+        <ColonizationNewOrbTypeIds>
+            <unsignedByte>59</unsignedByte>
+            <unsignedByte>60</unsignedByte>
+            <unsignedByte>61</unsignedByte>
+            <unsignedByte>62</unsignedByte>
+            <unsignedByte>63</unsignedByte>
+            <unsignedByte>64</unsignedByte>
+            <unsignedByte>65</unsignedByte>
+            <unsignedByte>66</unsignedByte>
+            <!-- <unsignedByte>7</unsignedByte> -->
+            <unsignedByte>17</unsignedByte>
+            <unsignedByte>18</unsignedByte>
+            <unsignedByte>23</unsignedByte>
+            <unsignedByte>9</unsignedByte>
+            <unsignedByte>27</unsignedByte>
+            <unsignedByte>8</unsignedByte>
+            <unsignedByte>10</unsignedByte>
+            <unsignedByte>19</unsignedByte>
+            <unsignedByte>20</unsignedByte>
+            <unsignedByte>11</unsignedByte>
+            <unsignedByte>22</unsignedByte>
+            <unsignedByte>21</unsignedByte>
+            <unsignedByte>12</unsignedByte>
+            <unsignedByte>29</unsignedByte>
+            <unsignedByte>30</unsignedByte>
+            <!-- <unsignedByte>43</unsignedByte> -->
+            <unsignedByte>49</unsignedByte>
+            <unsignedByte>50</unsignedByte>
+            <unsignedByte>55</unsignedByte>
+            <unsignedByte>45</unsignedByte>
+            <unsignedByte>56</unsignedByte>
+            <unsignedByte>44</unsignedByte>
+            <unsignedByte>46</unsignedByte>
+            <unsignedByte>51</unsignedByte>
+            <unsignedByte>52</unsignedByte>
+            <unsignedByte>47</unsignedByte>
+            <unsignedByte>54</unsignedByte>
+            <unsignedByte>53</unsignedByte>
+            <unsignedByte>48</unsignedByte>
+            <unsignedByte>57</unsignedByte>
+            <unsignedByte>58</unsignedByte>
+        </ColonizationNewOrbTypeIds>
+        <ColonizationNewOrbTypeGameEventNames>
+            <string>Colonize New Temperate Continental World (Non-Ikkuro)</string>
+            <string>Colonize New Tropical Continental World (Non-Ikkuro)</string>
+            <string>Colonize New Grasslands World (Non-Ikkuro)</string>
+            <string>Colonize New Temperate Ocean World (Non-Ikkuro)</string>
+            <string>Colonize New Tropical Ocean World (Non-Ikkuro)</string>
+            <string>Colonize New Mangrove Swamp World (Non-Ikkuro)</string>
+            <string>Colonize New Marshy Swamp World (Non-Ikkuro)</string>
+            <string>Colonize New Sandy Desert World (Non-Ikkuro)</string>
+            <string>Colonize New Rocky Desert World (Non-Ikkuro)</string>
+            <string>Colonize New Savanna World (Non-Ikkuro)</string>
+            <string>Colonize New Glaciated World (Non-Ikkuro)</string>
+            <string>Colonize New Frozen Ocean World (Non-Ikkuro)</string>
+            <string>Colonize New Tundra World (Non-Ikkuro)</string>
+            <string>Colonize New Rocky Volcanic World (Non-Ikkuro)</string>
+            <string>Colonize New Carbonaceous Hothouse World (Non-Ikkuro)</string>
+            <string>Colonize New Sulphur Volcanic World (Non-Ikkuro)</string>
+            <string>Colonize New Tropical Continental World (Non-Ikkuro)</string>
+            <string>Colonize New Grasslands World (Non-Ikkuro)</string>
+            <string>Colonize New Temperate Ocean World (Non-Ikkuro)</string>
+            <string>Colonize New Tropical Ocean World (Non-Ikkuro)</string>
+            <string>Colonize New Mangrove Swamp World (Non-Ikkuro)</string>
+            <string>Colonize New Marshy Swamp World (Non-Ikkuro)</string>
+            <string>Colonize New Sandy Desert World (Non-Ikkuro)</string>
+            <string>Colonize New Rocky Desert World (Non-Ikkuro)</string>
+            <string>Colonize New Savanna World (Non-Ikkuro)</string>
+            <string>Colonize New Glaciated World (Non-Ikkuro)</string>
+            <string>Colonize New Frozen Ocean World (Non-Ikkuro)</string>
+            <string>Colonize New Tundra World (Non-Ikkuro)</string>
+            <string>Colonize New Rocky Volcanic World (Non-Ikkuro)</string>
+            <string>Colonize New Carbonaceous Hothouse World (Non-Ikkuro)</string>
+            <string>Colonize New Sulphur Volcanic World (Non-Ikkuro)</string>
+        </ColonizationNewOrbTypeGameEventNames>
+        <StartingResearchProjectIds>
+            <!-- Kinetic Weapons -->
+            <short>5</short>
+            <!-- Missile Weapons -->
+            <short>4</short>
+            <!-- Wet Geoengineering -->
+            <short>5419</short>
+        </StartingResearchProjectIds>
+    </Race>
+</ArrayOfRace>
