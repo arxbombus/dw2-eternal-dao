@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ArrayOfGameEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<!-- DEBUG ONLY: Manual research cheats for Eternal Dao government. Remove before shipping. -->
+	<GameEvent>
+		<Name>Debug: Eternal Dao Facility Research Menu</Name>
+		<Title>Debug Console: Eternal Dao Ascendancy</Title>
+		<Description>Select a lattice to grant its full research chain instantly. This menu is for development verification only.</Description>
+		<TriggerType>Undefined</TriggerType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<TriggerActionsAreChoices>true</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<ChoiceButtonText>Mandate Governance Tiers</ChoiceButtonText>
+				<GeneratedItemName>Debug: Grant Mandate Governance Research</GeneratedItemName>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<ChoiceButtonText>Origin Dao Fleet Tiers</ChoiceButtonText>
+				<GeneratedItemName>Debug: Grant Origin Dao Fleet Research</GeneratedItemName>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<ChoiceButtonText>Eternal Dao Legion Tiers</ChoiceButtonText>
+				<GeneratedItemName>Debug: Grant Eternal Dao Legion Research</GeneratedItemName>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<ChoiceButtonText>Grant All Facility Tiers</ChoiceButtonText>
+				<GeneratedItemName>Debug: Grant All Eternal Dao Research</GeneratedItemName>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Debug: Grant Mandate Governance Research</Name>
+		<TriggerType>Undefined</TriggerType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Debug: Mandate Governance Research Granted</MessageTitle>
+				<Description>All Eternal Mandate governance facilities are now unlocked for testing.</Description>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32059</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32060</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32061</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32062</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Debug: Grant Origin Dao Fleet Research</Name>
+		<TriggerType>Undefined</TriggerType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Debug: Origin Dao Fleet Research Granted</MessageTitle>
+				<Description>All Origin Dao fleet facility tiers are now available.</Description>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32069</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32070</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32071</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32072</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Debug: Grant Eternal Dao Legion Research</Name>
+		<TriggerType>Undefined</TriggerType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Debug: Eternal Dao Legion Research Granted</MessageTitle>
+				<Description>Legion forge upgrades are granted for immediate testing.</Description>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32079</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32080</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32081</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32082</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Debug: Grant All Eternal Dao Research</Name>
+		<TriggerType>Undefined</TriggerType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Debug: All Facility Research Granted</MessageTitle>
+				<Description>Governance, fleet, and legion facility research is fully unlocked for debug testing.</Description>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<GeneratedItemName>Debug: Grant Mandate Governance Research</GeneratedItemName>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<GeneratedItemName>Debug: Grant Origin Dao Fleet Research</GeneratedItemName>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<GeneratedItemName>Debug: Grant Eternal Dao Legion Research</GeneratedItemName>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+</ArrayOfGameEvent>

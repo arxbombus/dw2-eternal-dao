@@ -4,6 +4,8 @@
     "descriptionFile": "description.txt",
     "previewImage": "eternal-dao.jpg",
     "version": "0.1.0",
-    "bundles": [],
+    "bundles": [
+        "EternalDao.bundle"
+    ],
     "workshopId": ""
 }

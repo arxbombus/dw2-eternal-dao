@@ -6,9 +6,15 @@
 		<Name>Eternal Mandate Outpost Edict</Name>
 		<Description>Authorizes the outpost nexus lattice for Eternal Mandate governance.</Description>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>1400</Size>
+		<Size>100</Size>
 		<InitiationCost>
-			<Money>4500</Money>
+			<Money>500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>200</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<AdditionalRequirements>
 			<GovernmentId>32000</GovernmentId>
@@ -33,9 +39,15 @@
 		<Name>Eternal Mandate Concord Schematics</Name>
 		<Description>Codifies the Concord Lattice upgrades for Eternal Mandate governance.</Description>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>2200</Size>
+		<Size>300</Size>
 		<InitiationCost>
-			<Money>6000</Money>
+			<Money>1500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>600</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<AdditionalRequirements>
 			<GovernmentId>32000</GovernmentId>
@@ -64,9 +76,19 @@
 		<Name>Eternal Mandate Steward Protocols</Name>
 		<Description>Extends Concord lattices into full stewardship bastions.</Description>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>5400</Size>
+		<Size>900</Size>
 		<InitiationCost>
-			<Money>9000</Money>
+			<Money>4500</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>1200</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>300</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<AdditionalRequirements>
 			<GovernmentId>32000</GovernmentId>
@@ -95,9 +117,60 @@
 		<Name>Eternal Mandate Harmonic Doctrine</Name>
 		<Description>Finalizes harmonic zenith protocols linking every colonial ledger.</Description>
 		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>9600</Size>
+		<Size>2600</Size>
 		<InitiationCost>
-			<Money>14000</Money>
+			<Money>13000</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>2400</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>600</Amount>
+				</ResourceQuantity>
+			</Resources>
+		</InitiationCost>
+		<AdditionalRequirements>
+			<GovernmentId>32000</GovernmentId>
+		</AdditionalRequirements>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>4</Column>
+		<Row>487</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>527</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>32061</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>3</PrerequisiteProjectsMinimumPathCount>
+		<PlanetaryFacilityIds>
+			<short>32003</short>
+		</PlanetaryFacilityIds>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
+		<ResearchProjectId>32063</ResearchProjectId>
+		<Name>Add new facility here</Name>
+		<Description>New description here</Description>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>20250</Size>
+		<InitiationCost>
+			<Money>101300</Money>
+			<Resources>
+				<ResourceQuantity>
+					<ResourceId>8</ResourceId>
+					<Amount>9600</Amount>
+				</ResourceQuantity>
+				<ResourceQuantity>
+					<ResourceId>78</ResourceId>
+					<Amount>2400</Amount>
+				</ResourceQuantity>
+			</Resources>
 		</InitiationCost>
 		<AdditionalRequirements>
 			<GovernmentId>32000</GovernmentId>
@@ -107,10 +180,6 @@
 		<Column>6</Column>
 		<Row>487</Row>
 		<PrerequisiteProjects>
-			<ResearchPath>
-				<ResearchProjectId>527</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-			</ResearchPath>
 			<ResearchPath>
 				<ResearchProjectId>600</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>

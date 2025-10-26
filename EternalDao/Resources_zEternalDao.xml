@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ArrayOfResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Resource>
+        <ResourceId>32000</ResourceId>
+        <Name>Origin Dao Essence</Name>
+        <Description>[RESOURCE]Origin Dao Essence[/RESOURCE] is ...</Description>
+        <BaseCost>40</BaseCost>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyDevelopment</Type>
+                <Amount>0.05</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+            <Bonus>
+                <Type>ColonyHappiness</Type>
+                <Amount>0.1</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+</ArrayOfResource>

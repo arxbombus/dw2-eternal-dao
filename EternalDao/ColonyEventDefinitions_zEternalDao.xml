@@ -32,6 +32,24 @@ Thus for the next year our empire will enjoy the following bonuses:
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<MinimumIntervalPerEmpireYears>10</MinimumIntervalPerEmpireYears>
 	</ColonyEventDefinition>
+	<!-- DEBUG ONLY: Manual trigger for facility research cheats -->
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>32005</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<Name>Debug Mandate Research Console</Name>
+		<Description>[B]DEBUG ONLY[/B]: Opens the Eternal Dao facility research debug menu. Remove this event before release builds.</Description>
+		<ImageFilename>Environment/Events/Republic Positive Boost</ImageFilename>
+		<CanBeManuallyInitiated>true</CanBeManuallyInitiated>
+		<ManualInitiationCost>0</ManualInitiationCost>
+		<MinimumIntervalPerEmpireYears>-1</MinimumIntervalPerEmpireYears>
+		<DurationMinimum>0</DurationMinimum>
+		<DurationMaximum>0</DurationMaximum>
+		<GameEventName>Debug: Eternal Dao Facility Research Menu</GameEventName>
+		<GovernmentFilterIds>
+			<short>32000</short>
+		</GovernmentFilterIds>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+	</ColonyEventDefinition>
 	<!-- Mandate Concord Hearing -->
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>32001</ColonyEventDefinitionId>

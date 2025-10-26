@@ -10,7 +10,7 @@
             <OrbTypeId>0</OrbTypeId>
             <Factor>0.000025</Factor>
         </StarProbability>
-        <ImageFilename>Environment/OrbTypes/BlackHole</ImageFilename>
+        <ImageFilename>Environment/OrbTypes/EternalOriginDaoCelestial</ImageFilename>
         <LargeImageFilename>Environment/OrbTypes/Large/BlackHole</LargeImageFilename>
         <FullsizeImageFilename>Environment/OrbTypes/Fullsize/BlackHole</FullsizeImageFilename>
         <SurfaceDrawType>Star</SurfaceDrawType>
@@ -157,7 +157,7 @@
             <OrbTypeId>0</OrbTypeId>
             <Factor>0.0025</Factor>
         </StarProbability>
-        <ImageFilename>Environment/OrbTypes/BlackHole</ImageFilename>
+        <ImageFilename>Environment/OrbTypes/OriginDaoCelestial</ImageFilename>
         <LargeImageFilename>Environment/OrbTypes/Large/BlackHole</LargeImageFilename>
         <FullsizeImageFilename>Environment/OrbTypes/Fullsize/BlackHole</FullsizeImageFilename>
         <SurfaceDrawType>Star</SurfaceDrawType>
@@ -384,7 +384,7 @@
             <OrbTypeId>0</OrbTypeId>
             <Factor>0.05</Factor>
         </StarProbability>
-        <ImageFilename>Environment/OrbTypes/BlackHole</ImageFilename>
+        <ImageFilename>Environment/OrbTypes/DaoCelestial</ImageFilename>
         <LargeImageFilename>Environment/OrbTypes/Large/BlackHole</LargeImageFilename>
         <FullsizeImageFilename>Environment/OrbTypes/Fullsize/BlackHole</FullsizeImageFilename>
         <SurfaceDrawType>Star</SurfaceDrawType>

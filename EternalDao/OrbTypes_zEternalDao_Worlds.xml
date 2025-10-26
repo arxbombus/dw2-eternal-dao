@@ -6,7 +6,7 @@
         <Category>Planet</Category>
         <Name>Eternal Origin Dao Star</Name>
         <Description>Fill in description here</Description>
-        <ImageFilename>Environment/OrbTypes/Neutron</ImageFilename>
+        <ImageFilename>Environment/OrbTypes/EternalOriginDaoStar</ImageFilename>
         <LargeImageFilename>Environment/OrbTypes/Large/Neutron</LargeImageFilename>
         <FullsizeImageFilename>Environment/OrbTypes/Fullsize/Neutron</FullsizeImageFilename>
         <LandscapeImageFilename>Environment/OrbTypes/Landscapes/Forest_Continental</LandscapeImageFilename>
@@ -76,12 +76,12 @@
             <OrbTypeFactor>
                 <!-- Origin Dao Star -->
                 <OrbTypeId>63</OrbTypeId>
-                <Factor>0.025</Factor>
+                <Factor>0.05</Factor>
             </OrbTypeFactor>
             <OrbTypeFactor>
                 <!-- Dao Star -->
                 <OrbTypeId>64</OrbTypeId>
-                <Factor>0.05</Factor>
+                <Factor>0.2</Factor>
             </OrbTypeFactor>
             <OrbTypeFactor>
                 <!-- Dao Rocky Silicon -->
@@ -727,7 +727,7 @@
         <Category>Planet</Category>
         <Name>Origin Dao Star</Name>
         <Description>Fill in description here</Description>
-        <ImageFilename>Environment/OrbTypes/Neutron</ImageFilename>
+        <ImageFilename>Environment/OrbTypes/OriginDaoStar</ImageFilename>
         <LargeImageFilename>Environment/OrbTypes/Large/Neutron</LargeImageFilename>
         <FullsizeImageFilename>Environment/OrbTypes/Fullsize/Neutron</FullsizeImageFilename>
         <LandscapeImageFilename>Environment/OrbTypes/Landscapes/Forest_Continental</LandscapeImageFilename>
@@ -1523,7 +1523,7 @@
         <Category>Planet</Category>
         <Name>Dao Star</Name>
         <Description>Fill in description here</Description>
-        <ImageFilename>Environment/OrbTypes/Neutron</ImageFilename>
+        <ImageFilename>Environment/OrbTypes/DaoStar</ImageFilename>
         <LargeImageFilename>Environment/OrbTypes/Large/Neutron</LargeImageFilename>
         <FullsizeImageFilename>Environment/OrbTypes/Fullsize/Neutron</FullsizeImageFilename>
         <LandscapeImageFilename>Environment/OrbTypes/Landscapes/Forest_Continental</LandscapeImageFilename>
