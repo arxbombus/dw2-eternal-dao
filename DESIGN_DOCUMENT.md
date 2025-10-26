@@ -132,6 +132,57 @@ _Existing content:_ `Dao Tech Exhibition` remains as a manual colony festival (a
 
 ---
 
+## Government Facilities — Eternal Mandate Infrastructure
+
+All facilities reside in `EternalDao/PlanetaryFacilityDefinitions_zEternalDao.xml`. Dedicated `FacilityFamilyId` values prevent multiple tiers from coexisting; upgrades always replace the previous structure. Tier I facilities are created during empire initialization, while higher tiers require Eternal Dao-exclusive research.
+
+| Line | Family Id | Tier | Facility Id | Name | Cost | Maintenance | Key Effects |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Governance | 320 | I | 32000 | Eternal Mandate Outpost Nexus | 0 (starting build) | 8 000 | Colony: -30% corruption, +10 happiness, +8 development, +6 income; 30k corruption aura. |
+|  |  | II | 32001 | Eternal Mandate Concord Lattice | 75 000 | 11 000 | Aura radius 45k; Empire: +5% diplomacy, +5% trade; colony income +8%. |
+|  |  | III | 32002 | Eternal Mandate Steward Bastion | 95 000 | 14 000 | Colony development +12%; Empire: +4% corruption reduction, +8% counter-espionage; aura 60k. |
+|  |  | IV | 32003 | Eternal Mandate Harmonic Zenith | 120 000 | 18 000 | Empire: min colony happiness 12, +10% research all, +10% diplomacy; colony income +10%; aura 75k. |
+| Fleet | 321 | I | 32010 | Origin Dao Command Spire | 0 (starting build) | 12 000 | Colony: +25% ship build, +15% retrofit, +10% targeting; −5% tourism. |
+|  |  | II | 32011 | Origin Dao Stellar Aerie | 110 000 | 16 000 +2 Zenite/yr | Colony dock/repair +15%; Empire: +8% maneuver, +5% weapons damage. |
+|  |  | III | 32012 | Origin Dao Meridian Citadel | 140 000 | 20 000 | Colony: +1 carrier hangar, +20% shield recharge; Empire: +10% command range, +10% engagement speed; −5% trade. |
+|  |  | IV | 32013 | Origin Dao Ascendant Throne | 180 000 | 26 000 | Empire: -10% ship maintenance, +15% weapons damage, annual 30-day rapid deployment buff; +3 empire corruption. |
+| Legion | 322 | I | 32020 | Eternal Dao Muster Forge | 0 (starting build) | 12 000 | Colony: +25% troop recruitment, +15% experience, +10% defense; consumes 5 000 Steel/yr. |
+|  |  | II | 32021 | Eternal Dao Phalanx Citadel | 95 000 | 15 000 | Colony boarding +15%; Empire: +10% ground strength, +10% troop recovery. |
+|  |  | III | 32022 | Eternal Dao Legion Sanctum | 120 000 | 18 000 | Colony happiness −4; grants elite troop every 3 years; Empire: siege bonus +15%, garrison upkeep −10%. |
+|  |  | IV | 32023 | Eternal Dao Apex Cohort | 150 000 | 22 000 | Empire: +15% assault capacity, +15% troop damage reduction, wartime Mandate Rally (180-day +25% ground strength); consumes 1 Glacium +1 Chromium/yr. |
+
+Implementation notes:
+
+- Upgrades fire through a dedicated colony event that destroys the prior tier before building the new one, preventing double maintenance.
+- Resource upkeep may use negative `AddCargo` actions; if stability issues appear we fall back to equivalent `Money` drains tied to commodity prices.
+- Corruption aura leverages `ColonyCorruptionReductionProjectionRange`, scaling 30k → 45k → 60k → 75k.
+- Maintenance magnitudes presume late-game Eternal Dao economy; revisit after integration testing with other government bonuses.
+
+## Government Research — Exclusive Unlock Tree
+
+`EternalDao/ResearchProjectDefinitions_zEternalDao_Government.xml` houses three four-step chains (rows 487–489). Each project carries `GovernmentId=32000` and references vanilla research to stay inside the canonical progression.
+
+| Row | Column | Project Id | Name | Unlocks | Prerequisites |
+| --- | --- | --- | --- | --- | --- |
+| 487 | 0 | 348700 | Eternal Mandate Concord Schematics | Governance Tier II | System Governance (`ProjectId=1042`). |
+| 487 | 1 | 348701 | Eternal Mandate Steward Protocols | Governance Tier III | Governance Tier II + Sector Governance (`ProjectId=1043`). |
+| 487 | 2 | 348702 | Eternal Mandate Harmonic Doctrine | Governance Tier IV | Governance Tier III + Quadrant (`ProjectId=1044`) + Galactic Governance (`ProjectId=1045`). |
+| 488 | 0 | 348710 | Origin Dao Stellar Doctrine | Fleet Tier II | Advanced Command (`ProjectId=1272`). |
+| 488 | 1 | 348711 | Origin Dao Meridian Charter | Fleet Tier III | Fleet Tier II + Strategic Command (`ProjectId=1273`). |
+| 488 | 2 | 348712 | Origin Dao Ascendant Mandate | Fleet Tier IV | Fleet Tier III + Supreme Command (`ProjectId=1274`). |
+| 489 | 0 | 348720 | Eternal Dao Phalanx Treatise | Legion Tier II | Improved Crew Compartments (`ProjectId=1110`) + Shipboard Marines (`ProjectId=1111`). |
+| 489 | 1 | 348721 | Eternal Dao Legion Codex | Legion Tier III | Legion Tier II + Elite Shipboard Marines (`ProjectId=1113`). |
+| 489 | 2 | 348722 | Eternal Dao Apex Edict | Legion Tier IV | Legion Tier III + Ultimate Shipboard Garrisons (`ProjectId=1114`). |
+
+Additional implementation details:
+
+- Projects beyond Tier I include `AdditionalRequirements` pointing to the previous Eternal Dao research ID to enforce linear progression.
+- Each project uses `UnlocksFacilityId` where supported; otherwise we trigger a `TriggerEventOnResearchCompletion` that presents the upgrade prompt.
+- Tier I prerequisites (Planetary Administration, Improved Command, Improved Crew Compartments, Shipboard Marines) are granted during the government start event so players begin with full baseline infrastructure.
+- Column placement (0–2) keeps the three chains compact; adjust in the editor if tree overlap occurs with vanilla techs.
+
+---
+
 ### 1) Empyreal Ascension Cycle
 
 Summary

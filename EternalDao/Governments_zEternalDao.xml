@@ -15,6 +15,9 @@
             <string>[HL]Tribunal of Cascading Laws:[/HL] each war start grants three years of +10% weapons damage but -5 diplomacy bias</string>
             <string>[HL]Astral Tax Immunities:[/HL] every trade treaty adds annual income (2.5k/5k/7.5k credits) siphoned from private ledgers</string>
         </FeatureExplanations>
+        <StartingGameEventNames>
+            <string>Initialise Government (Eternal Dao Ascendancy)</string>
+        </StartingGameEventNames>
         <EmpireNameAdjectives>
             <string>Eternal</string>
             <string>Celestial</string>

@@ -34,7 +34,7 @@ Thus for the next year our empire will enjoy the following bonuses:
 	</ColonyEventDefinition>
 	<!-- Mandate Concord Hearing -->
 	<ColonyEventDefinition>
-		<ColonyEventDefinitionId>32002</ColonyEventDefinitionId>
+		<ColonyEventDefinitionId>32001</ColonyEventDefinitionId>
 		<Type>Undefined</Type>
 		<DurationMinimum>2</DurationMinimum>
 		<DurationMaximum>2</DurationMaximum>
@@ -59,7 +59,7 @@ Thus for the next year our empire will enjoy the following bonuses:
 	</ColonyEventDefinition>
 	<!-- Tribunal of Cascading Laws -->
 	<ColonyEventDefinition>
-		<ColonyEventDefinitionId>32003</ColonyEventDefinitionId>
+		<ColonyEventDefinitionId>32002</ColonyEventDefinitionId>
 		<Type>Undefined</Type>
 		<DurationMinimum>3</DurationMinimum>
 		<DurationMaximum>3</DurationMaximum>
@@ -82,7 +82,7 @@ Thus for the next year our empire will enjoy the following bonuses:
 	</ColonyEventDefinition>
 	<!-- Ley Tide Auditor Swarm -->
 	<ColonyEventDefinition>
-		<ColonyEventDefinitionId>32004</ColonyEventDefinitionId>
+		<ColonyEventDefinitionId>32003</ColonyEventDefinitionId>
 		<Type>Undefined</Type>
 		<DurationMinimum>2</DurationMinimum>
 		<DurationMaximum>2</DurationMaximum>
@@ -97,7 +97,7 @@ Thus for the next year our empire will enjoy the following bonuses:
 			<Bonus>
 				<Type>ColonyIncome</Type>
 				<Amount>-0.1</Amount>
-				<AppliesTo>Colony</AppliesTo>
+				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</Bonuses>
 		<GovernmentFilterIds>
@@ -110,7 +110,7 @@ Thus for the next year our empire will enjoy the following bonuses:
 	</ColonyEventDefinition>
 	<!-- Karmic Vent Festival -->
 	<ColonyEventDefinition>
-		<ColonyEventDefinitionId>32005</ColonyEventDefinitionId>
+		<ColonyEventDefinitionId>32004</ColonyEventDefinitionId>
 		<Type>Undefined</Type>
 		<DurationMinimum>1</DurationMinimum>
 		<DurationMaximum>1</DurationMaximum>

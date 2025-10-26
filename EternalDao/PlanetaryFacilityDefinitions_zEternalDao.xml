@@ -1,42 +1,478 @@
 <?xml version="1.0"?>
 <ArrayOfPlanetaryFacilityDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<!-- My First Planetary Facility -->
+	<!-- Eternal Mandate Governance Line -->
 	<PlanetaryFacilityDefinition>
 		<PlanetaryFacilityDefinitionId>32000</PlanetaryFacilityDefinitionId>
 		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.08</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.06</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<BuildCost>
+			<Money>60000</Money>
+		</BuildCost>
+		<MaintenanceCost>8000</MaintenanceCost>
+		<Size>100</Size>
+		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<BombardmentResistance>0.6</BombardmentResistance>
+		<GroundCombatResistance>0.6</GroundCombatResistance>
+		<ColonyCorruptionReductionProjectionRange>30000</ColonyCorruptionReductionProjectionRange>
+		<FacilityFamilyId>320</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<ValidGovernmentIds>
+			<short>32000</short>
+		</ValidGovernmentIds>
+		<Name>Eternal Mandate Outpost Nexus</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Planetary Administration Center</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>32001</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.35</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.12</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
 			<Bonus>
 				<Type>ColonyDevelopment</Type>
 				<Amount>0.1</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>ColonyHappiness</Type>
-				<Amount>0.05</Amount>
+				<Type>ColonyIncome</Type>
+				<Amount>0.08</Amount>
 				<AppliesTo>Item</AppliesTo>
 			</Bonus>
 		</ItemBonuses>
 		<EmpireBonuses>
 			<Bonus>
-				<Type>CharacterQualityLeader</Type>
-				<Amount>0.1</Amount>
+				<Type>Diplomacy</Type>
+				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 			<Bonus>
-				<Type>CharacterQualityScientist</Type>
-				<Amount>0.2</Amount>
+				<Type>TradeIncome</Type>
+				<Amount>0.05</Amount>
 				<AppliesTo>Empire</AppliesTo>
 			</Bonus>
 		</EmpireBonuses>
 		<BuildCost>
-			<Money>10000</Money>
+			<Money>75000</Money>
 		</BuildCost>
-		<MaintenanceCost>500</MaintenanceCost>
+		<MaintenanceCost>11000</MaintenanceCost>
 		<Size>100</Size>
 		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
-		<BombardmentResistance>0.5</BombardmentResistance>
-		<GroundCombatResistance>0.5</GroundCombatResistance>
-		<FacilityFamilyId>53</FacilityFamilyId>
-		<Name>My First Planetary Facility</Name>
-		<ImageFilename>Environment/PlanetaryFacilities/the enigma maze</ImageFilename>
+		<BombardmentResistance>0.65</BombardmentResistance>
+		<GroundCombatResistance>0.65</GroundCombatResistance>
+		<ColonyCorruptionReductionProjectionRange>45000</ColonyCorruptionReductionProjectionRange>
+		<FacilityFamilyId>320</FacilityFamilyId>
+		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<ValidGovernmentIds>
+			<short>32000</short>
+		</ValidGovernmentIds>
+		<Name>Eternal Mandate Concord Lattice</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Reality Adjustment Matrix</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>32002</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.12</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.04</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.08</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
+		<BuildCost>
+			<Money>95000</Money>
+		</BuildCost>
+		<MaintenanceCost>14000</MaintenanceCost>
+		<Size>100</Size>
+		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<BombardmentResistance>0.7</BombardmentResistance>
+		<GroundCombatResistance>0.7</GroundCombatResistance>
+		<ColonyCorruptionReductionProjectionRange>60000</ColonyCorruptionReductionProjectionRange>
+		<FacilityFamilyId>320</FacilityFamilyId>
+		<FacilityFamilyLevel>2</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<ValidGovernmentIds>
+			<short>32000</short>
+		</ValidGovernmentIds>
+		<Name>Eternal Mandate Steward Bastion</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Galactic Diplomatic Center</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>32003</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.12</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
+		<BuildCost>
+			<Money>120000</Money>
+		</BuildCost>
+		<MaintenanceCost>18000</MaintenanceCost>
+		<Size>100</Size>
+		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<BombardmentResistance>0.75</BombardmentResistance>
+		<GroundCombatResistance>0.75</GroundCombatResistance>
+		<ColonyCorruptionReductionProjectionRange>75000</ColonyCorruptionReductionProjectionRange>
+		<FacilityFamilyId>320</FacilityFamilyId>
+		<FacilityFamilyLevel>3</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<ValidGovernmentIds>
+			<short>32000</short>
+		</ValidGovernmentIds>
+		<Name>Eternal Mandate Harmonic Zenith</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Holographic Universe</ImageFilename>
+	</PlanetaryFacilityDefinition>
+
+	<!-- Origin Dao Fleet Line -->
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>32010</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ConstructionSpeedAllShips</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Targeting</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<BuildCost>
+			<Money>90000</Money>
+		</BuildCost>
+		<MaintenanceCost>12000</MaintenanceCost>
+		<Size>100</Size>
+		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<BombardmentResistance>0.65</BombardmentResistance>
+		<GroundCombatResistance>0.65</GroundCombatResistance>
+		<FacilityFamilyId>321</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<ValidGovernmentIds>
+			<short>32000</short>
+		</ValidGovernmentIds>
+		<Name>Origin Dao Command Spire</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Advanced Shipyard</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>32011</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>RepairRate</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>ShipManeuvering</Type>
+				<Amount>0.08</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WeaponsDamage</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
+		<BuildCost>
+			<Money>110000</Money>
+		</BuildCost>
+		<MaintenanceCost>16000</MaintenanceCost>
+		<Size>100</Size>
+		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<BombardmentResistance>0.7</BombardmentResistance>
+		<GroundCombatResistance>0.7</GroundCombatResistance>
+		<FacilityFamilyId>321</FacilityFamilyId>
+		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<ValidGovernmentIds>
+			<short>32000</short>
+		</ValidGovernmentIds>
+		<Name>Origin Dao Stellar Aerie</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/High Speed Shipyard</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>32012</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ShieldRechargeRate</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>ShipManeuvering</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
+		<BuildCost>
+			<Money>140000</Money>
+		</BuildCost>
+		<MaintenanceCost>20000</MaintenanceCost>
+		<Size>100</Size>
+		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<BombardmentResistance>0.75</BombardmentResistance>
+		<GroundCombatResistance>0.75</GroundCombatResistance>
+		<FacilityFamilyId>321</FacilityFamilyId>
+		<FacilityFamilyLevel>2</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<ValidGovernmentIds>
+			<short>32000</short>
+		</ValidGovernmentIds>
+		<Name>Origin Dao Meridian Citadel</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Bakuras Shipyard Complex</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>32013</PlanetaryFacilityDefinitionId>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WeaponsDamage</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>-0.03</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
+		<BuildCost>
+			<Money>180000</Money>
+		</BuildCost>
+		<MaintenanceCost>26000</MaintenanceCost>
+		<Size>100</Size>
+		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<BombardmentResistance>0.8</BombardmentResistance>
+		<GroundCombatResistance>0.8</GroundCombatResistance>
+		<FacilityFamilyId>321</FacilityFamilyId>
+		<FacilityFamilyLevel>3</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<ValidGovernmentIds>
+			<short>32000</short>
+		</ValidGovernmentIds>
+		<Name>Origin Dao Ascendant Throne</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Galactic Command Center</ImageFilename>
+	</PlanetaryFacilityDefinition>
+
+	<!-- Eternal Dao Legion Line -->
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>32020</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>TroopRecruitment</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopExperienceGain</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDefense</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<BuildCost>
+			<Money>80000</Money>
+		</BuildCost>
+		<MaintenanceCost>12000</MaintenanceCost>
+		<Size>100</Size>
+		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<BombardmentResistance>0.7</BombardmentResistance>
+		<GroundCombatResistance>0.75</GroundCombatResistance>
+		<FacilityFamilyId>322</FacilityFamilyId>
+		<FacilityFamilyLevel>0</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<ValidGovernmentIds>
+			<short>32000</short>
+		</ValidGovernmentIds>
+		<Name>Eternal Dao Muster Forge</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Galactic Command Center</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>32021</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>BoardingAssault</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>RecruitedTroopStrengthAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
+		<BuildCost>
+			<Money>95000</Money>
+		</BuildCost>
+		<MaintenanceCost>15000</MaintenanceCost>
+		<Size>100</Size>
+		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<BombardmentResistance>0.75</BombardmentResistance>
+		<GroundCombatResistance>0.8</GroundCombatResistance>
+		<FacilityFamilyId>322</FacilityFamilyId>
+		<FacilityFamilyLevel>1</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<ValidGovernmentIds>
+			<short>32000</short>
+		</ValidGovernmentIds>
+		<Name>Eternal Dao Phalanx Citadel</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Planetary Command Center</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>32022</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>-0.04</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>TroopGroundAttack</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
+		<BuildCost>
+			<Money>120000</Money>
+		</BuildCost>
+		<MaintenanceCost>18000</MaintenanceCost>
+		<Size>100</Size>
+		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<BombardmentResistance>0.8</BombardmentResistance>
+		<GroundCombatResistance>0.85</GroundCombatResistance>
+		<FacilityFamilyId>322</FacilityFamilyId>
+		<FacilityFamilyLevel>2</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<ValidGovernmentIds>
+			<short>32000</short>
+		</ValidGovernmentIds>
+		<Name>Eternal Dao Legion Sanctum</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Galactic Command Center</ImageFilename>
+	</PlanetaryFacilityDefinition>
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>32023</PlanetaryFacilityDefinitionId>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>TroopGroundAttack</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopGroundDefense</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
+		<BuildCost>
+			<Money>150000</Money>
+		</BuildCost>
+		<MaintenanceCost>22000</MaintenanceCost>
+		<Size>100</Size>
+		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<BombardmentResistance>0.85</BombardmentResistance>
+		<GroundCombatResistance>0.9</GroundCombatResistance>
+		<FacilityFamilyId>322</FacilityFamilyId>
+		<FacilityFamilyLevel>3</FacilityFamilyLevel>
+		<ExclusiveWithinFamily>true</ExclusiveWithinFamily>
+		<ValidGovernmentIds>
+			<short>32000</short>
+		</ValidGovernmentIds>
+		<Name>Eternal Dao Apex Cohort</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/Galactic Command Center</ImageFilename>
 	</PlanetaryFacilityDefinition>
 </ArrayOfPlanetaryFacilityDefinition>

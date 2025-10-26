@@ -1,3 +1,408 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ArrayOfGameEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<GameEvent>
+		<Name>Initialise Government (Eternal Dao Ascendancy)</Name>
+		<TriggerType>Undefined</TriggerType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementRaceId>99</PlacementRaceId>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>TriggerEvent</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<GeneratedItemName>Initialise Government 2 (Eternal Dao Ascendancy)</GeneratedItemName>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+				<MessageViewMode>Undefined</MessageViewMode>
+				<DelaySecondsMinimum>5</DelaySecondsMinimum>
+				<DelaySecondsMaximum>5</DelaySecondsMaximum>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Initialise Government 2 (Eternal Dao Ascendancy)</Name>
+		<TriggerType>Undefined</TriggerType>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementRaceId>99</PlacementRaceId>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<SuppressTriggerDescriptions>true</SuppressTriggerDescriptions>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Eternal Mandate Infrastructure</MessageTitle>
+				<Description>The Eternal Dao Senate anchors three jade-core complexes on our capital world, binding the Ascendancy&apos;s governance, fleet, and legion lattices into the local ley-lines.</Description>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>32000</Id1>
+				<Value1>1</Value1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>32010</Id1>
+				<Value1>1</Value1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<ActionLocationShouldBeFuelSource>false</ActionLocationShouldBeFuelSource>
+				<ActionLocationItemType>Undefined</ActionLocationItemType>
+				<Id1>32020</Id1>
+				<Value1>1</Value1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>425</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>453</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>415</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>411</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>81</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+
+	<!-- Governance Upgrade Events -->
+	<GameEvent>
+		<Name>Upgrade Governance Concord (Eternal Dao)</Name>
+		<TriggerType>ResearchBreakthrough</TriggerType>
+		<TriggerResearchProjectId>32060</TriggerResearchProjectId>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementRaceId>99</PlacementRaceId>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Eternal Mandate Concord Lattice</MessageTitle>
+				<Description>The Senate deploys the Concord Lattice across our capital, widening the corruption-dampening aura.</Description>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>RemoveFacility</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32000</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32001</Id1>
+				<Value1>1</Value1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Upgrade Governance Steward (Eternal Dao)</Name>
+		<TriggerType>ResearchBreakthrough</TriggerType>
+		<TriggerResearchProjectId>32061</TriggerResearchProjectId>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementRaceId>99</PlacementRaceId>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Eternal Mandate Steward Bastion</MessageTitle>
+				<Description>Steward auditors establish permanent bastions, projecting counter-intelligence across our domains.</Description>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>RemoveFacility</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32001</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32002</Id1>
+				<Value1>1</Value1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Upgrade Governance Harmonic (Eternal Dao)</Name>
+		<TriggerType>ResearchBreakthrough</TriggerType>
+		<TriggerResearchProjectId>32062</TriggerResearchProjectId>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementRaceId>99</PlacementRaceId>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Eternal Mandate Harmonic Zenith</MessageTitle>
+				<Description>The Harmonic Zenith resonates through the empire, anchoring the minimum serenity threshold for every colony.</Description>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>RemoveFacility</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32002</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32003</Id1>
+				<Value1>1</Value1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+
+	<!-- Fleet Upgrade Events -->
+	<GameEvent>
+		<Name>Upgrade Fleet Stellar (Eternal Dao)</Name>
+		<TriggerType>ResearchBreakthrough</TriggerType>
+		<TriggerResearchProjectId>32070</TriggerResearchProjectId>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementRaceId>99</PlacementRaceId>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Origin Dao Stellar Aerie</MessageTitle>
+				<Description>Fleet auditors expand the command spire into a stellar aerie, increasing maneuver envelopes.</Description>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>RemoveFacility</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32010</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32011</Id1>
+				<Value1>1</Value1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Upgrade Fleet Meridian (Eternal Dao)</Name>
+		<TriggerType>ResearchBreakthrough</TriggerType>
+		<TriggerResearchProjectId>32071</TriggerResearchProjectId>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementRaceId>99</PlacementRaceId>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Origin Dao Meridian Citadel</MessageTitle>
+				<Description>The fleet command lattice ascends into a meridian citadel, extending response corridors.</Description>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>RemoveFacility</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32011</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32012</Id1>
+				<Value1>1</Value1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Upgrade Fleet Ascendant (Eternal Dao)</Name>
+		<TriggerType>ResearchBreakthrough</TriggerType>
+		<TriggerResearchProjectId>32072</TriggerResearchProjectId>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementRaceId>99</PlacementRaceId>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Origin Dao Ascendant Throne</MessageTitle>
+				<Description>The Ascendant Throne ignites, granting empire-wide deployment authority for our fleets.</Description>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>RemoveFacility</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32012</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32013</Id1>
+				<Value1>1</Value1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+
+	<!-- Legion Upgrade Events -->
+	<GameEvent>
+		<Name>Upgrade Legion Phalanx (Eternal Dao)</Name>
+		<TriggerType>ResearchBreakthrough</TriggerType>
+		<TriggerResearchProjectId>32080</TriggerResearchProjectId>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementRaceId>99</PlacementRaceId>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Eternal Dao Phalanx Citadel</MessageTitle>
+				<Description>Phalanx citadels interlink the muster forge with shipboard marines, elevating assault readiness.</Description>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>RemoveFacility</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32020</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32021</Id1>
+				<Value1>1</Value1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Upgrade Legion Sanctum (Eternal Dao)</Name>
+		<TriggerType>ResearchBreakthrough</TriggerType>
+		<TriggerResearchProjectId>32081</TriggerResearchProjectId>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementRaceId>99</PlacementRaceId>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Eternal Dao Legion Sanctum</MessageTitle>
+				<Description>Legion sanctums weave elite cohorts into siege lattices, reducing upkeep while boosting assaults.</Description>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>RemoveFacility</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32021</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32022</Id1>
+				<Value1>1</Value1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
+	<GameEvent>
+		<Name>Upgrade Legion Apex (Eternal Dao)</Name>
+		<TriggerType>ResearchBreakthrough</TriggerType>
+		<TriggerResearchProjectId>32082</TriggerResearchProjectId>
+		<TriggerPriority>0</TriggerPriority>
+		<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+		<ConditionEvaluation>EvaluateOnce</ConditionEvaluation>
+		<PlacementAtGameStart>false</PlacementAtGameStart>
+		<PlacementRaceId>99</PlacementRaceId>
+		<TriggerActionsAreChoices>false</TriggerActionsAreChoices>
+		<TriggerActions>
+			<GameEventAction>
+				<Type>GeneralStoryMessageToEmpire</Type>
+				<MessageTitle>Eternal Dao Apex Cohort</MessageTitle>
+				<Description>Apex cohort directives cascade through the legions, unlocking Mandate rally doctrines.</Description>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>RemoveFacility</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32022</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>BuildFacility</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32023</Id1>
+				<Value1>1</Value1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+		</TriggerActions>
+	</GameEvent>
 </ArrayOfGameEvent>

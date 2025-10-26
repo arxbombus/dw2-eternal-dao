@@ -142,6 +142,41 @@ The Ascendancy represents government as enlightenment — the return of The Wand
 
 ---
 
+### 6.2 Mandate Infrastructure Web
+
+The Ascendancy seeds every capital with three jade-cored complexes that tune the empire’s cadence from day one. Each complex is unique—upgrades overwrite prior tiers, and only Eternal Dao research can reveal the advanced schematics. Their upkeep is ruinous by mortal standards, but the Senate insists that enlightenment deserves premium maintenance contracts.
+
+#### Eternal Mandate Governance Line (Row 487)
+
+| Tier | Name | Unlock | Highlights |
+| --- | --- | --- | --- |
+| I | Eternal Mandate Outpost Nexus | Granted with Planetary Administration | -30% colony corruption, +10% happiness, +8% development, +6% income aura within 30k.
+| II | Eternal Mandate Concord Lattice | System Governance + Tier I | Extends corruption aura (45k), adds empire +5% diplomacy/+5% trade, colony income bonus rises to +8%.
+| III | Eternal Mandate Steward Bastion | Sector Governance + Tier II | Projects +4% empire corruption reduction and +8% counter-espionage, colony development hits +12%.
+| IV | Eternal Mandate Harmonic Zenith | Quadrant + Galactic Governance + Tier III | Guarantees minimum colony happiness 12, grants empire +10% research and +10% diplomacy, aura radius 75k.
+
+#### Origin Dao Fleet Line (Row 488)
+
+| Tier | Name | Unlock | Highlights |
+| --- | --- | --- | --- |
+| I | Origin Dao Command Spire | Improved Command | +25% ship build, +15% retrofit, +10% targeting; −5% local tourism.
+| II | Origin Dao Stellar Aerie | Advanced Command + Tier I | Adds empire +8% maneuver/+5% weapons damage; colony dock/repair +15%; rare Zenite upkeep begins.
+| III | Origin Dao Meridian Citadel | Strategic Command + Tier II | Empire command range +10%, engagement speed +10%; colony shields recharge +20%, +1 carrier hangar.
+| IV | Origin Dao Ascendant Throne | Supreme Command + Tier III | Empire ship maintenance −10%, weapons damage +15%, annual rapid-deployment surge; corruption +3.
+
+#### Eternal Dao Legion Line (Row 489)
+
+| Tier | Name | Unlock | Highlights |
+| --- | --- | --- | --- |
+| I | Eternal Dao Muster Forge | Improved Crew Compartments + Shipboard Marines | +25% troop recruitment, +15% experience, +10% colony defense; consumes refined metals.
+| II | Eternal Dao Phalanx Citadel | Advanced Crew Compartments + Tier I | Empire ground strength +10%, recovery +10%; colony boarding strength +15%.
+| III | Eternal Dao Legion Sanctum | Elite Shipboard Marines + Tier II | Empire siege bonus +15%, garrison upkeep −10%; spawns elite troop every three years; −4% colony happiness.
+| IV | Eternal Dao Apex Cohort | Ultimate Shipboard Garrisons + Tier III | Empire assault capacity +15%, troop damage taken −15%; triggers Mandate Rally during wars.
+
+Each tier demands escalating maintenance; the shipyards bleed credits fastest, the legion sanctums trail slightly behind, and the governance lattice offsets its costs by rewriting tax ledgers in real time.
+
+---
+
 ## 7. Principal Figures — The Three Prodigies
 
 ### 7.1 **Wei Jian (卫剑) — Guardian Sword**
