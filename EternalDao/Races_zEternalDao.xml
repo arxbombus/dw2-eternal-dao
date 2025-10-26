@@ -2,8 +2,9 @@
 <ArrayOfRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="https://www.w3.org/2001/XMLSchema">
     <Race>
         <RaceId>99</RaceId>
-        <Name>Fill in name (The mod is called Eternal Dao with Xuanhuan high cultivation style race)</Name>
+        <Name>Eternal Celestials</Name>
         <Description>Fill in description</Description>
+        <FeatureExplanations/>
         <ImageFilename>UserInterface/Races/Human</ImageFilename>
         <BundleName>Human</BundleName>
         <FlagFilename>UserInterface/Flags/Human_1</FlagFilename>
@@ -28,17 +29,17 @@
         </SecondaryColor>
         <ReproductionRate>1.025</ReproductionRate>
         <AssimilationRate>0.5</AssimilationRate>
-        <MigrationFactor>1.5</MigrationFactor>
+        <MigrationFactor>1.25</MigrationFactor>
         <Aggression>0.75</Aggression>
         <Caution>1</Caution>
         <Dependability>1.5</Dependability>
         <ConcernForOwnReputation>1.25</ConcernForOwnReputation>
-        <ImportanceOfOthersReputations>1</ImportanceOfOthersReputations>
+        <ImportanceOfOthersReputations>0.75</ImportanceOfOthersReputations>
         <IsPlayable>true</IsPlayable>
         <PreventUseAsIndependent>true</PreventUseAsIndependent>
         <StartingGameEventNames/>
         <PreferredGovernmentIds>
-            <short>99</short>
+            <short>32000</short>
         </PreferredGovernmentIds>
         <AllowableGovernmentIds>
             <!-- Republic -->
@@ -55,11 +56,366 @@
             <short>50</short>
             <!-- Refugee Fleet -->
             <short>32759</short>
-            <!-- Custom Eternal Dao Government -->
-            <short>99</short>
+            <!-- Eternal Dao Ascendancy -->
+            <short>32000</short>
         </AllowableGovernmentIds>
-        <ColonizationSuitabilityModifiers/>
-        <Bonuses/>
+        <ColonizationSuitabilityModifiers>
+            <!-- Eternal Origin Dao Star -->
+            <OrbTypeFactor>
+                <OrbTypeId>62</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <!-- Origin Dao Star -->
+            <OrbTypeFactor>
+                <OrbTypeId>63</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <!-- Dao Star -->
+            <OrbTypeFactor>
+                <OrbTypeId>64</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>7</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>43</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>18</OrbTypeId>
+                <Factor>0.05</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>50</OrbTypeId>
+                <Factor>0.05</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>17</OrbTypeId>
+                <Factor>0</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>49</OrbTypeId>
+                <Factor>0</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>12</OrbTypeId>
+                <Factor>-0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>48</OrbTypeId>
+                <Factor>-0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>30</OrbTypeId>
+                <Factor>-0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>58</OrbTypeId>
+                <Factor>-0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>29</OrbTypeId>
+                <Factor>-0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>57</OrbTypeId>
+                <Factor>-0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>10</OrbTypeId>
+                <Factor>-0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>46</OrbTypeId>
+                <Factor>-0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>19</OrbTypeId>
+                <Factor>-0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>51</OrbTypeId>
+                <Factor>-0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>8</OrbTypeId>
+                <Factor>-0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>44</OrbTypeId>
+                <Factor>-0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>27</OrbTypeId>
+                <Factor>-0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>56</OrbTypeId>
+                <Factor>-0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>20</OrbTypeId>
+                <Factor>-0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>52</OrbTypeId>
+                <Factor>-0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>9</OrbTypeId>
+                <Factor>-0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>45</OrbTypeId>
+                <Factor>-0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>23</OrbTypeId>
+                <Factor>-0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>55</OrbTypeId>
+                <Factor>-0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>21</OrbTypeId>
+                <Factor>-0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>53</OrbTypeId>
+                <Factor>-0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>11</OrbTypeId>
+                <Factor>-0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>47</OrbTypeId>
+                <Factor>-0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>22</OrbTypeId>
+                <Factor>-0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <OrbTypeId>54</OrbTypeId>
+                <Factor>-0.1</Factor>
+            </OrbTypeFactor>
+        </ColonizationSuitabilityModifiers>
+        <Bonuses>
+            <!-- ShipMaintenanceAll -->
+            <Bonus>
+                <Type>ShipMaintenanceAll</Type>
+                <Amount>-1</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- PlanetaryFacilityMaintenance -->
+            <Bonus>
+                <Type>PlanetaryFacilityMaintenance</Type>
+                <Amount>-0.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- TroopMaintenance -->
+            <Bonus>
+                <Type>TroopMaintenance</Type>
+                <Amount>-0.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- ConstructionSpeedAllShips -->
+            <Bonus>
+                <Type>ConstructionSpeedAllShips</Type>
+                <Amount>-0.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- ColonyCorruptionReduction -->
+            <Bonus>
+                <Type>ColonyCorruptionReduction</Type>
+                <Amount>0.1</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- ColonyIncome -->
+            <Bonus>
+                <Type>ColonyIncome</Type>
+                <Amount>0.75</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- ColonyDevelopment -->
+            <Bonus>
+                <Type>ColonyDevelopment</Type>
+                <Amount>1.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- Diplomacy -->
+            <Bonus>
+                <Type>Diplomacy</Type>
+                <Amount>0.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- MiningRate -->
+            <Bonus>
+                <Type>MiningRate</Type>
+                <Amount>0.75</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- Countermeasures -->
+            <Bonus>
+                <Type>Countermeasures</Type>
+                <Amount>0.25</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- DamageControl -->
+            <Bonus>
+                <Type>DamageControl</Type>
+                <Amount>0.25</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- HyperjumpSpeed -->
+            <Bonus>
+                <Type>HyperjumpSpeed</Type>
+                <Amount>1.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- HyperDriveJumpAccuracy -->
+            <Bonus>
+                <Type>HyperDriveJumpAccuracy</Type>
+                <Amount>0.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- ShipSpeed -->
+            <Bonus>
+                <Type>ShipSpeed</Type>
+                <Amount>1.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- ShipManeuvering -->
+            <Bonus>
+                <Type>ShipManeuvering</Type>
+                <Amount>0.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- ArmorStrength -->
+            <Bonus>
+                <Type>ArmorStrength</Type>
+                <Amount>1.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- ShieldRechargeRate -->
+            <Bonus>
+                <Type>ShieldRechargeRate</Type>
+                <Amount>0.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- RepairRate -->
+            <Bonus>
+                <Type>RepairRate</Type>
+                <Amount>0.25</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- WeaponsDamage -->
+            <Bonus>
+                <Type>WeaponsDamage</Type>
+                <Amount>0.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- WeaponsRange -->
+            <Bonus>
+                <Type>WeaponsRange</Type>
+                <Amount>0.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- BoardingAssault -->
+            <Bonus>
+                <Type>BoardingAssault</Type>
+                <Amount>0.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- BoardingDefense -->
+            <Bonus>
+                <Type>BoardingDefense</Type>
+                <Amount>0.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- CharacterQualityLeader -->
+            <Bonus>
+                <Type>CharacterQualityLeader</Type>
+                <Amount>0.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- CharacterQualityAmbassador -->
+            <Bonus>
+                <Type>CharacterQualityAmbassador</Type>
+                <Amount>0.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- CharacterQualityColonyGovernor -->
+            <Bonus>
+                <Type>CharacterQualityColonyGovernor</Type>
+                <Amount>0.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- CharacterQualityFleetAdmiral -->
+            <Bonus>
+                <Type>CharacterQualityFleetAdmiral</Type>
+                <Amount>0.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- CharacterQualityIntelligenceAgent -->
+            <Bonus>
+                <Type>CharacterQualityIntelligenceAgent</Type>
+                <Amount>0.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- CharacterQualityScientist -->
+            <Bonus>
+                <Type>CharacterQualityScientist</Type>
+                <Amount>0.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- CharacterQualityShipCaptain -->
+            <Bonus>
+                <Type>CharacterQualityShipCaptain</Type>
+                <Amount>0.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- CharacterQualityTroopGeneral -->
+            <Bonus>
+                <Type>CharacterQualityTroopGeneral</Type>
+                <Amount>0.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- RecruitedTroopStrength -->
+            <Bonus>
+                <Type>RecruitedTroopStrengthAll</Type>
+                <Amount>0.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- TroopRecoveryRate -->
+            <Bonus>
+                <Type>TroopRecoveryRate</Type>
+                <Amount>0.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- Scenery -->
+            <Bonus>
+                <Type>Scenery</Type>
+                <Amount>1</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- ScannerRange -->
+            <Bonus>
+                <Type>ScannerRange</Type>
+                <Amount>1.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- ResearchAll -->
+            <Bonus>
+                <Type>ResearchAll</Type>
+                <Amount>0.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+        </Bonuses>
         <AllowableIntelligenceMissionTypes>
             <CharacterMissionType>CounterIntelligence</CharacterMissionType>
             <CharacterMissionType>StealTerritoryMap</CharacterMissionType>
@@ -156,8 +512,39 @@
             <short>5</short>
             <!-- Missile Weapons -->
             <short>4</short>
-            <!-- Wet Geoengineering -->
-            <short>5419</short>
+            <!-- Mixed Geoengineering -->
+            <short>5420</short>
         </StartingResearchProjectIds>
+        <StartingCharacterTraitsLeader>
+            <CharacterTraitType>AllianceBuilder</CharacterTraitType>
+            <CharacterTraitType>EloquentSpeaker</CharacterTraitType>
+            <CharacterTraitType>GoodAdministrator</CharacterTraitType>
+            <CharacterTraitType>InspiringPresence</CharacterTraitType>
+        </StartingCharacterTraitsLeader>
+        <StartingCharacterTraitsAmbassador>
+            <CharacterTraitType>EloquentSpeaker</CharacterTraitType>
+        </StartingCharacterTraitsAmbassador>
+        <StartingCharacterTraitsAdmiral>
+            <CharacterTraitType>GrandAdmiral</CharacterTraitType>
+            <CharacterTraitType>SkilledNavigator</CharacterTraitType>
+            <CharacterTraitType>LocalDefenseTactics</CharacterTraitType>
+        </StartingCharacterTraitsAdmiral>
+        <StartingCharacterTraitsGeneral>
+            <CharacterTraitType>DiscipleOfWar</CharacterTraitType>
+        </StartingCharacterTraitsGeneral>
+        <StartingCharacterTraitsScientist>
+            <CharacterTraitType>Logical</CharacterTraitType>
+            <CharacterTraitType>Creative</CharacterTraitType>
+            <CharacterTraitType>Methodical</CharacterTraitType>
+        </StartingCharacterTraitsScientist>
+        <StartingCharacterTraitsSpy>
+            <CharacterTraitType>Patriot</CharacterTraitType>
+        </StartingCharacterTraitsSpy>
+        <AdditionalCharacterTraits>
+            <CharacterTraitType>ToughDiscipline</CharacterTraitType>
+            <CharacterTraitType>GoodTactician</CharacterTraitType>
+            <CharacterTraitType>Energetic</CharacterTraitType>
+            <CharacterTraitType>UltraGenius</CharacterTraitType>
+        </AdditionalCharacterTraits>
     </Race>
 </ArrayOfRace>

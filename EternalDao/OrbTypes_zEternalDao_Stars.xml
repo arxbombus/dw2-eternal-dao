@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ArrayOfOrbType xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <!-- Eternal Origin Dao Celestial Star -->
+    <OrbType>
+        <OrbTypeId>59</OrbTypeId>
+        <Category>Star</Category>
+        <Name>Eternal Origin Dao Celestial</Name>
+        <Description></Description>
+        <StarProbability>
+            <OrbTypeId>0</OrbTypeId>
+            <Factor>0.000025</Factor>
+        </StarProbability>
+        <ImageFilename>Environment/OrbTypes/BlackHole</ImageFilename>
+        <LargeImageFilename>Environment/OrbTypes/Large/BlackHole</LargeImageFilename>
+        <FullsizeImageFilename>Environment/OrbTypes/Fullsize/BlackHole</FullsizeImageFilename>
+        <SurfaceDrawType>Star</SurfaceDrawType>
+        <AtmosphereDrawType>Corona</AtmosphereDrawType>
+        <AtmosphereMaterialFilenames>
+            <string>StarCorona</string>
+        </AtmosphereMaterialFilenames>
+        <SurfaceMaterialFilenames>
+            <string>StarOrb</string>
+        </SurfaceMaterialFilenames>
+        <AmbientLightColor>
+            <B>255</B>
+            <G>191</G>
+            <R>221</R>
+            <A>255</A>
+        </AmbientLightColor>
+        <StarColor>
+            <B>255</B>
+            <G>33</G>
+            <R>105</R>
+            <A>255</A>
+        </StarColor>
+        <StarLightColor>
+            <B>255</B>
+            <G>162</G>
+            <R>192</R>
+            <A>255</A>
+        </StarLightColor>
+        <AmbientLightIntensity>0.1</AmbientLightIntensity>
+        <StarColorVariationFactor>0.1</StarColorVariationFactor>
+        <StarBrightnessFactor>1</StarBrightnessFactor>
+        <StarColorGradient/>
+        <AmbientSoundEffectFilenames>
+            <string>Sounds/Ambient/Star_Surging1</string>
+            <string>Sounds/Ambient/Star_Surging2</string>
+            <string>Sounds/Ambient/Star_Mid1</string>
+        </AmbientSoundEffectFilenames>
+        <EnergyOutputMinimum>1</EnergyOutputMinimum>
+        <EnergyOutputMaximum>1</EnergyOutputMaximum>
+        <LocationEffectId>0</LocationEffectId>
+        <CommonBonuses>
+            <BonusRange>
+                <Type>ResearchReactor</Type>
+                <Minimum>0.25</Minimum>
+                <Maximum>0.5</Maximum>
+                <AppearanceChance>0.75</AppearanceChance>
+                <Descriptions>
+                    <string>Dao Magnetic Inversion Fields</string>
+                    <string>Tribulation Energy Oscillations</string>
+                    <string>Celestial Energy Resonance</string>
+                </Descriptions>
+            </BonusRange>
+            <BonusRange>
+                <Type>ResearchSensors</Type>
+                <Minimum>0.25</Minimum>
+                <Maximum>0.5</Maximum>
+                <AppearanceChance>0.75</AppearanceChance>
+                <Descriptions>
+                    <string>Dao Gravitic Lens Arrays</string>
+                    <string>Phased Cultivation Arrays</string>
+                    <string>Dao Wave Amplifiers</string>
+                </Descriptions>
+            </BonusRange>
+            <BonusRange>
+                <Type>ResearchAll</Type>
+                <Minimum>0.05</Minimum>
+                <Maximum>0.25</Maximum>
+                <AppearanceChance>0.5</AppearanceChance>
+                <Descriptions>
+                    <string>Temporal Dao Stabilizers</string>
+                    <string>Tribulation Time Dilation Fields</string>
+                    <string>Chrono Flux of the Reality Shifting Dao</string>
+                </Descriptions>
+            </BonusRange>
+        </CommonBonuses>
+        <AsteroidFieldProbability>0</AsteroidFieldProbability>
+        <AsteroidFieldOrbTypeId>0</AsteroidFieldOrbTypeId>
+        <ChildTypes>
+            <OrbTypeFactor>
+                <!-- Eternal Origin Dao Star -->
+                <OrbTypeId>62</OrbTypeId>
+                <Factor>0.0025</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Origin Dao Star -->
+                <OrbTypeId>63</OrbTypeId>
+                <Factor>0.05</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Dao Star -->
+                <OrbTypeId>64</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Origin Dao Giant -->
+                <OrbTypeId>65</OrbTypeId>
+                <Factor>0.05</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Dao Giant -->
+                <OrbTypeId>66</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Origin Dao Asteroid Field -->
+                <OrbTypeId>67</OrbTypeId>
+                <Factor>0.025</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Dao Asteroid Field -->
+                <OrbTypeId>68</OrbTypeId>
+                <Factor>0.075</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Dao Rocky Silicon -->
+                <OrbTypeId>69</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Dao Rocky Metallic -->
+                <OrbTypeId>70</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Dao Rocky Ice -->
+                <OrbTypeId>71</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+        </ChildTypes>
+        <ChildCountMinimum>64</ChildCountMinimum>
+        <ChildCountMaximum>64</ChildCountMaximum>
+        <OrbitalDistanceFromSunRatioMinimum>0</OrbitalDistanceFromSunRatioMinimum>
+        <OrbitalDistanceFromSunRatioMaximum>1</OrbitalDistanceFromSunRatioMaximum>
+        <DiameterMinimum>60000</DiameterMinimum>
+        <DiameterMaximum>60000</DiameterMaximum>
+    </OrbType>
+    <!-- Origin Dao Celestial Star -->
+    <OrbType>
+        <OrbTypeId>60</OrbTypeId>
+        <Category>Star</Category>
+        <Name>Origin Dao Celestial</Name>
+        <Description></Description>
+        <StarProbability>
+            <OrbTypeId>0</OrbTypeId>
+            <Factor>0.0025</Factor>
+        </StarProbability>
+        <ImageFilename>Environment/OrbTypes/BlackHole</ImageFilename>
+        <LargeImageFilename>Environment/OrbTypes/Large/BlackHole</LargeImageFilename>
+        <FullsizeImageFilename>Environment/OrbTypes/Fullsize/BlackHole</FullsizeImageFilename>
+        <SurfaceDrawType>Star</SurfaceDrawType>
+        <AtmosphereDrawType>Corona</AtmosphereDrawType>
+        <AtmosphereMaterialFilenames>
+            <string>StarCorona</string>
+        </AtmosphereMaterialFilenames>
+        <SurfaceMaterialFilenames>
+            <string>StarOrb</string>
+        </SurfaceMaterialFilenames>
+        <AmbientLightColor>
+            <B>96</B>
+            <G>160</G>
+            <R>255</R>
+            <A>255</A>
+        </AmbientLightColor>
+        <StarColor>
+            <B>0</B>
+            <G>0</G>
+            <R>255</R>
+            <A>255</A>
+        </StarColor>
+        <StarLightColor>
+            <B>88</B>
+            <G>99</G>
+            <R>255</R>
+            <A>255</A>
+        </StarLightColor>
+        <AmbientLightIntensity>0.1</AmbientLightIntensity>
+        <StarColorVariationFactor>0.1</StarColorVariationFactor>
+        <StarBrightnessFactor>1</StarBrightnessFactor>
+        <StarColorGradient>CoreEffects/ShaderGradients/MainSequence</StarColorGradient>
+        <AmbientSoundEffectFilenames>
+            <string>Sounds/Ambient/Star_Surging1</string>
+            <string>Sounds/Ambient/Star_Surging2</string>
+            <string>Sounds/Ambient/Star_Mid1</string>
+        </AmbientSoundEffectFilenames>
+        <EnergyOutputMinimum>1</EnergyOutputMinimum>
+        <EnergyOutputMaximum>1</EnergyOutputMaximum>
+        <LocationEffectId>0</LocationEffectId>
+        <CommonBonuses>
+            <BonusRange>
+                <Type>ResearchReactor</Type>
+                <Minimum>0.05</Minimum>
+                <Maximum>0.25</Maximum>
+                <AppearanceChance>0.5</AppearanceChance>
+                <Descriptions>
+                    <string>Dao Magnetic Inversion Fields</string>
+                    <string>Tribulation Energy Oscillations</string>
+                    <string>Celestial Energy Resonance</string>
+                </Descriptions>
+            </BonusRange>
+            <BonusRange>
+                <Type>ResearchSensors</Type>
+                <Minimum>0.05</Minimum>
+                <Maximum>0.25</Maximum>
+                <AppearanceChance>0.5</AppearanceChance>
+                <Descriptions>
+                    <string>Dao Gravitic Lens Arrays</string>
+                    <string>Phased Cultivation Arrays</string>
+                    <string>Dao Wave Amplifiers</string>
+                </Descriptions>
+            </BonusRange>
+            <BonusRange>
+                <Type>ResearchAll</Type>
+                <Minimum>0.03</Minimum>
+                <Maximum>0.1</Maximum>
+                <AppearanceChance>0.125</AppearanceChance>
+                <Descriptions>
+                    <string>Dao Temporal Stabilizers</string>
+                    <string>Tribulation Time Dilation Fields</string>
+                    <string>Celestial Chrono Flux</string>
+                </Descriptions>
+            </BonusRange>
+        </CommonBonuses>
+        <AsteroidFieldProbability>0</AsteroidFieldProbability>
+        <AsteroidFieldOrbTypeId>0</AsteroidFieldOrbTypeId>
+        <ChildTypes>
+            <OrbTypeFactor>
+                <!-- Eternal Origin Dao Star -->
+                <OrbTypeId>62</OrbTypeId>
+                <Factor>0.000025</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Origin Dao Star -->
+                <OrbTypeId>63</OrbTypeId>
+                <Factor>0.05</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Dao Star -->
+                <OrbTypeId>64</OrbTypeId>
+                <Factor>0.2</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Origin Dao Giant -->
+                <OrbTypeId>65</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Dao Giant -->
+                <OrbTypeId>66</OrbTypeId>
+                <Factor>0.2</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Origin Dao Asteroid Field -->
+                <OrbTypeId>67</OrbTypeId>
+                <Factor>0.05</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Dao Asteroid Field -->
+                <OrbTypeId>68</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Dao Rocky Silicon -->
+                <OrbTypeId>69</OrbTypeId>
+                <Factor>0.2</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Dao Rocky Metallic -->
+                <OrbTypeId>70</OrbTypeId>
+                <Factor>0.2</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Dao Rocky Ice -->
+                <OrbTypeId>71</OrbTypeId>
+                <Factor>0.2</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Temperate Continental Super -->
+                <OrbTypeId>43</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Marshy Swamp Super -->
+                <OrbTypeId>44</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Tropical Ocean Super -->
+                <OrbTypeId>45</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Sandy Desert Super -->
+                <OrbTypeId>46</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Glaciated Super -->
+                <OrbTypeId>47</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Rocky Volcanic Super -->
+                <OrbTypeId>48</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Tropical Continental Super -->
+                <OrbTypeId>49</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Grasslands Super -->
+                <OrbTypeId>50</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Rocky Desert Super -->
+                <OrbTypeId>51</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Savanna Super -->
+                <OrbTypeId>52</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Tundra Super -->
+                <OrbTypeId>53</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Frozen Ocean Super -->
+                <OrbTypeId>54</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Temperate Ocean Super -->
+                <OrbTypeId>55</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Mangrove Swamp Super -->
+                <OrbTypeId>56</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Carbonaceous Hothouse Super -->
+                <OrbTypeId>57</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Sulphur Volcanic Super -->
+                <OrbTypeId>58</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+        </ChildTypes>
+        <ChildCountMinimum>24</ChildCountMinimum>
+        <ChildCountMaximum>48</ChildCountMaximum>
+        <OrbitalDistanceFromSunRatioMinimum>0</OrbitalDistanceFromSunRatioMinimum>
+        <OrbitalDistanceFromSunRatioMaximum>1</OrbitalDistanceFromSunRatioMaximum>
+        <DiameterMinimum>45000</DiameterMinimum>
+        <DiameterMaximum>55000</DiameterMaximum>
+    </OrbType>
+    <!-- Dao Celestial Star -->
+    <OrbType>
+        <OrbTypeId>61</OrbTypeId>
+        <Category>Star</Category>
+        <Name>Dao Celestial</Name>
+        <Description></Description>
+        <StarProbability>
+            <OrbTypeId>0</OrbTypeId>
+            <Factor>0.05</Factor>
+        </StarProbability>
+        <ImageFilename>Environment/OrbTypes/BlackHole</ImageFilename>
+        <LargeImageFilename>Environment/OrbTypes/Large/BlackHole</LargeImageFilename>
+        <FullsizeImageFilename>Environment/OrbTypes/Fullsize/BlackHole</FullsizeImageFilename>
+        <SurfaceDrawType>Star</SurfaceDrawType>
+        <AtmosphereDrawType>Corona</AtmosphereDrawType>
+        <AtmosphereMaterialFilenames>
+            <string>StarCorona</string>
+        </AtmosphereMaterialFilenames>
+        <SurfaceMaterialFilenames>
+            <string>StarOrb</string>
+        </SurfaceMaterialFilenames>
+        <AmbientLightColor>
+            <B>223</B>
+            <G>223</G>
+            <R>239</R>
+            <A>255</A>
+        </AmbientLightColor>
+        <StarColor>
+            <B>64</B>
+            <G>255</G>
+            <R>45</R>
+            <A>255</A>
+        </StarColor>
+        <StarLightColor>
+            <B>142</B>
+            <G>255</G>
+            <R>131</R>
+            <A>255</A>
+        </StarLightColor>
+        <AmbientLightIntensity>0.1</AmbientLightIntensity>
+        <StarColorVariationFactor>0.1</StarColorVariationFactor>
+        <StarBrightnessFactor>1</StarBrightnessFactor>
+        <StarColorGradient>CoreEffects/ShaderGradients/MainSequence</StarColorGradient>
+        <AmbientSoundEffectFilenames>
+            <string>Sounds/Ambient/Star_Soft</string>
+            <string>Sounds/Ambient/Star_Soft2</string>
+            <string>Sounds/Ambient/Star_Soft3</string>
+        </AmbientSoundEffectFilenames>
+        <EnergyOutputMinimum>1</EnergyOutputMinimum>
+        <EnergyOutputMaximum>1</EnergyOutputMaximum>
+        <LocationEffectId>0</LocationEffectId>
+        <CommonBonuses>
+            <BonusRange>
+                <Type>ResearchReactor</Type>
+                <Minimum>0.03</Minimum>
+                <Maximum>0.15</Maximum>
+                <AppearanceChance>0.1</AppearanceChance>
+                <Descriptions>
+                    <string>Dao Magnetic Inversion Fields</string>
+                    <string>Tribulation Energy Oscillations</string>
+                    <string>Celestial Energy Resonance</string>
+                </Descriptions>
+            </BonusRange>
+            <BonusRange>
+                <Type>ResearchSensors</Type>
+                <Minimum>0.03</Minimum>
+                <Maximum>0.15</Maximum>
+                <AppearanceChance>0.1</AppearanceChance>
+                <Descriptions>
+                    <string>Dao Gravitic Lens Arrays</string>
+                    <string>Phased Cultivation Arrays</string>
+                    <string>Dao Wave Amplifiers</string>
+                </Descriptions>
+            </BonusRange>
+            <BonusRange>
+                <Type>ResearchAll</Type>
+                <Minimum>0.03</Minimum>
+                <Maximum>0.08</Maximum>
+                <AppearanceChance>0.025</AppearanceChance>
+                <Descriptions>
+                    <string>Dao Temporal Stabilizers</string>
+                    <string>Tribulation Time Dilation Fields</string>
+                    <string>Celestial Chrono Flux</string>
+                </Descriptions>
+            </BonusRange>
+        </CommonBonuses>
+        <AsteroidFieldProbability>0</AsteroidFieldProbability>
+        <AsteroidFieldOrbTypeId>0</AsteroidFieldOrbTypeId>
+        <ChildTypes>
+            <OrbTypeFactor>
+                <!-- Eternal Origin Dao Star -->
+                <OrbTypeId>62</OrbTypeId>
+                <Factor>0.000005</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Origin Dao Star -->
+                <OrbTypeId>63</OrbTypeId>
+                <Factor>0.0125</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Dao Star -->
+                <OrbTypeId>64</OrbTypeId>
+                <Factor>0.05</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Origin Dao Giant -->
+                <OrbTypeId>65</OrbTypeId>
+                <Factor>0.0125</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Dao Giant -->
+                <OrbTypeId>66</OrbTypeId>
+                <Factor>0.05</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Origin Dao Asteroid Field -->
+                <OrbTypeId>67</OrbTypeId>
+                <Factor>0.005</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Dao Asteroid Field -->
+                <OrbTypeId>68</OrbTypeId>
+                <Factor>0.05</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Dao Rocky Silicon -->
+                <OrbTypeId>69</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Dao Rocky Metallic -->
+                <OrbTypeId>70</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Dao Rocky Ice -->
+                <OrbTypeId>71</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Temperate Continental Super -->
+                <OrbTypeId>43</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Marshy Swamp Super -->
+                <OrbTypeId>44</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Tropical Ocean Super -->
+                <OrbTypeId>45</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Sandy Desert Super -->
+                <OrbTypeId>46</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Glaciated Super -->
+                <OrbTypeId>47</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Rocky Volcanic Super -->
+                <OrbTypeId>48</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Tropical Continental Super -->
+                <OrbTypeId>49</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Grasslands Super -->
+                <OrbTypeId>50</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Rocky Desert Super -->
+                <OrbTypeId>51</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Savanna Super -->
+                <OrbTypeId>52</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Tundra Super -->
+                <OrbTypeId>53</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Frozen Ocean Super -->
+                <OrbTypeId>54</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Temperate Ocean Super -->
+                <OrbTypeId>55</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Mangrove Swamp Super -->
+                <OrbTypeId>56</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Carbonaceous Hothouse Super -->
+                <OrbTypeId>57</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Sulphur Volcanic Super -->
+                <OrbTypeId>58</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Rocky Silicon -->
+                <OrbTypeId>13</OrbTypeId>
+                <Factor>0.15</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Rocky Metallic -->
+                <OrbTypeId>25</OrbTypeId>
+                <Factor>0.15</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Rocky Ice -->
+                <OrbTypeId>26</OrbTypeId>
+                <Factor>0.15</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Rocky Silicon Dwarf -->
+                <OrbTypeId>40</OrbTypeId>
+                <Factor>0.15</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Rocky Metallic Dwarf -->
+                <OrbTypeId>41</OrbTypeId>
+                <Factor>0.15</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Rocky Ice Dwarf -->
+                <OrbTypeId>42</OrbTypeId>
+                <Factor>0.15</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Gas Giant -->
+                <OrbTypeId>14</OrbTypeId>
+                <Factor>0.15</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Frozen Gas Giant -->
+                <OrbTypeId>15</OrbTypeId>
+                <Factor>0.15</Factor>
+            </OrbTypeFactor>
+            <OrbTypeFactor>
+                <!-- Brown Dwarf -->
+                <OrbTypeId>24</OrbTypeId>
+                <Factor>0.1</Factor>
+            </OrbTypeFactor>
+        </ChildTypes>
+        <ChildCountMinimum>24</ChildCountMinimum>
+        <ChildCountMaximum>48</ChildCountMaximum>
+        <OrbitalDistanceFromSunRatioMinimum>0</OrbitalDistanceFromSunRatioMinimum>
+        <OrbitalDistanceFromSunRatioMaximum>1</OrbitalDistanceFromSunRatioMaximum>
+        <DiameterMinimum>35000</DiameterMinimum>
+        <DiameterMaximum>45000</DiameterMaximum>
+    </OrbType>
+</ArrayOfOrbType>

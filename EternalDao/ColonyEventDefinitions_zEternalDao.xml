@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<ArrayOfColonyEventDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<!-- Dao Tech Exhibition -->
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>32000</ColonyEventDefinitionId>
+		<Name>Dao Tech Exhibition</Name>
+		<Description>Our [B]Eternal Dao Ascendancy government[/B] has ordered the establishment of a Dao Tech Exhibition.
+
+This exhibition showcases the pinnacle of our technological achievements to inspire our citizens and allies.
+
+Thus for the next year our empire will enjoy the following bonuses:
+
+[ULI][BONUS]+10% boost to High Tech Research[/BONUS][/ULI]</Description>
+		<ImageFilename>Environment/Events/Democracy Positive Boost</ImageFilename>
+		<Type>Undefined</Type>
+		<DurationMinimum>5</DurationMinimum>
+		<DurationMaximum>5</DurationMaximum>
+		<ColonyHappiness>5</ColonyHappiness>
+		<CanBeManuallyInitiated>true</CanBeManuallyInitiated>
+		<ManualInitiationCost>50000</ManualInitiationCost>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchHighTech</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<GovernmentFilterIds>
+			<!-- Eternal Dao Ascendancy -->
+			<short>32000</short>
+		</GovernmentFilterIds>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<MinimumIntervalPerEmpireYears>10</MinimumIntervalPerEmpireYears>
+	</ColonyEventDefinition>
+	<!-- Celestial Praxis Ledger -->
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>32001</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>3</DurationMinimum>
+		<DurationMaximum>3</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.08</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Celestial Praxis Ledger</Name>
+		<Description>The Senate has released the latest Praxis Ledger. Every laboratory and talisman stall sings in tune, accelerating research empire-wide for three years.</Description>
+		<ImageFilename>Environment/Events/Democracy Positive Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<!-- Mandate Concord Hearing -->
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>32002</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<ColonyHappiness>6</ColonyHappiness>
+		<CanBeManuallyInitiated>true</CanBeManuallyInitiated>
+		<ManualInitiationCost>15000</ManualInitiationCost>
+		<MinimumIntervalPerEmpireYears>3</MinimumIntervalPerEmpireYears>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<GovernmentFilterIds>
+			<short>32000</short>
+		</GovernmentFilterIds>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Mandate Concord Hearing</Name>
+		<Description>A Concord Hearing has reconciled the colony’s ledgers. For two years happiness rises and corruption loosens its grip.</Description>
+		<ImageFilename>Environment/Events/Republic Positive Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<!-- Tribunal of Cascading Laws -->
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>32003</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>3</DurationMinimum>
+		<DurationMaximum>3</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>WeaponsDamage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Tribunal of Cascading Laws</Name>
+		<Description>The Tribunal has sounded war gongs. Weapon formations sharpen while diplomatic patience thins.</Description>
+		<ImageFilename>Environment/Events/Warrior Wave</ImageFilename>
+	</ColonyEventDefinition>
+	<!-- Ley Tide Auditor Swarm -->
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>32004</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<RandomInitiationChance>0.1</RandomInitiationChance>
+		<MinimumIntervalPerEmpireYears>8</MinimumIntervalPerEmpireYears>
+		<Bonuses>
+			<Bonus>
+				<Type>MiningRate</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Colony</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<GovernmentFilterIds>
+			<short>32000</short>
+		</GovernmentFilterIds>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Ley Tide Auditor Swarm</Name>
+		<Description>Jade auditors descend to retune extraction song-lines. Mining output surges while the inspection fee is deducted from local ledgers.</Description>
+		<ImageFilename>Environment/Events/Mining Boom</ImageFilename>
+	</ColonyEventDefinition>
+	<!-- Karmic Vent Festival -->
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>32005</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<ColonyHappiness>-5</ColonyHappiness>
+		<CanBeManuallyInitiated>true</CanBeManuallyInitiated>
+		<ManualInitiationCost>10000</ManualInitiationCost>
+		<MinimumIntervalPerEmpireYears>2</MinimumIntervalPerEmpireYears>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<GovernmentFilterIds>
+			<short>32000</short>
+		</GovernmentFilterIds>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Karmic Vent Festival</Name>
+		<Description>Corruption is vented through licensed fireworks displays. Spirits feel lighter, even if morale takes a brief dip.</Description>
+		<ImageFilename>Environment/Events/Democracy Negative Boost</ImageFilename>
+	</ColonyEventDefinition>
+	<!-- Chronicle of Wandering Gates -->
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>32006</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>1</DurationMinimum>
+		<DurationMaximum>1</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>ScanSurveyTimeReduction</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Chronicle of Wandering Gates</Name>
+		<Description>New star charts enter the Wandering Gates chronicle. Explorers traverse unknown systems with 20% faster surveys for the next year.</Description>
+		<ImageFilename>Environment/Events/Exploration</ImageFilename>
+	</ColonyEventDefinition>
+	<!-- Astral Tax Immunity -->
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>32007</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>3</DurationMinimum>
+		<DurationMaximum>3</DurationMaximum>
+		<Bonuses>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>0.12</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Astral Tax Immunity</Name>
+		<Description>Trade envoys secured an astral tax waiver. Revenues swell while ship upkeep lightens for three years.</Description>
+		<ImageFilename>Environment/Events/Trade Windfall</ImageFilename>
+	</ColonyEventDefinition>
+	<!-- Sovereign Quietus Protocol -->
+	<ColonyEventDefinition>
+		<ColonyEventDefinitionId>32008</ColonyEventDefinitionId>
+		<Type>Undefined</Type>
+		<DurationMinimum>2</DurationMinimum>
+		<DurationMaximum>2</DurationMaximum>
+		<ColonyHappiness>-5</ColonyHappiness>
+		<Bonuses>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ValuesDecayGradually>false</ValuesDecayGradually>
+		<Name>Sovereign Quietus Protocol</Name>
+		<Description>The Quietus Protocol guides the empire into reflective calm. War weariness fades quickly while colonies accept a brief dip in cheer.</Description>
+		<ImageFilename>Environment/Events/Pacifist</ImageFilename>
+	</ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>

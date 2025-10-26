@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ArrayOfResearchProjectDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <ResearchProjectDefinition>
+        <ResearchProjectId>9903</ResearchProjectId>
+        <Name>Xeno Studies: Eternal Celestials Language and Expressions</Name>
+        <Size>50</Size>
+        <InitiationCost>
+            <Money>250</Money>
+        </InitiationCost>
+        <EnabledByDefault>false</EnabledByDefault>
+        <ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+        <Column>0</Column>
+        <Row>485</Row>
+        <DiplomacyFactors>
+            <EmpireIncidentFactor>
+                <Type>Undefined</Type>
+                <Description>Your knowledge of our language has improved our mutual understanding.</Description>
+                <Amount>2</Amount>
+                <DecayRate>0</DecayRate>
+                <TargetValue>2</TargetValue>
+                <AdditionalValue>0</AdditionalValue>
+            </EmpireIncidentFactor>
+        </DiplomacyFactors>
+        <DiplomacyFactorRaceIds>
+            <unsignedByte>99</unsignedByte>
+        </DiplomacyFactorRaceIds>
+    </ResearchProjectDefinition>
+    <ResearchProjectDefinition>
+        <ResearchProjectId>9904</ResearchProjectId>
+        <Name>Xeno Studies: Eternal Celestials Culture and Customs</Name>
+        <Size>150</Size>
+        <InitiationCost>
+            <Money>750</Money>
+        </InitiationCost>
+        <EnabledByDefault>false</EnabledByDefault>
+        <ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+        <Column>2</Column>
+        <Row>485</Row>
+        <PrerequisiteProjects>
+            <ResearchPath>
+                <ResearchProjectId>9903</ResearchProjectId>
+                <PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+            </ResearchPath>
+        </PrerequisiteProjects>
+        <DiplomacyFactors>
+            <EmpireIncidentFactor>
+                <Type>Undefined</Type>
+                <Description>Your knowledge of our culture and customs improves our relations.</Description>
+                <Amount>4</Amount>
+                <DecayRate>0</DecayRate>
+                <TargetValue>4</TargetValue>
+                <AdditionalValue>0</AdditionalValue>
+            </EmpireIncidentFactor>
+        </DiplomacyFactors>
+        <DiplomacyFactorRaceIds>
+            <unsignedByte>99</unsignedByte>
+        </DiplomacyFactorRaceIds>
+    </ResearchProjectDefinition>
+    <ResearchProjectDefinition>
+        <ResearchProjectId>9905</ResearchProjectId>
+        <Name>Xeno Studies: Eternal Celestials History and Traditions</Name>
+        <Size>1350</Size>
+        <InitiationCost>
+            <Money>6750</Money>
+        </InitiationCost>
+        <EnabledByDefault>false</EnabledByDefault>
+        <ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+        <Column>4</Column>
+        <Row>485</Row>
+        <PrerequisiteProjects>
+            <ResearchPath>
+                <ResearchProjectId>9904</ResearchProjectId>
+                <PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+            </ResearchPath>
+        </PrerequisiteProjects>
+        <DiplomacyFactors>
+            <EmpireIncidentFactor>
+                <Type>Undefined</Type>
+                <Description>Your knowledge of our history and traditions has impressed us.</Description>
+                <Amount>6</Amount>
+                <DecayRate>0</DecayRate>
+                <TargetValue>6</TargetValue>
+                <AdditionalValue>0</AdditionalValue>
+            </EmpireIncidentFactor>
+        </DiplomacyFactors>
+        <DiplomacyFactorRaceIds>
+            <unsignedByte>99</unsignedByte>
+        </DiplomacyFactorRaceIds>
+    </ResearchProjectDefinition>
+    <ResearchProjectDefinition>
+        <ResearchProjectId>9906</ResearchProjectId>
+        <Name>Xeno Studies: Eternal Celestials Immersion</Name>
+        <Size>10125</Size>
+        <InitiationCost>
+            <Money>50625</Money>
+        </InitiationCost>
+        <EnabledByDefault>false</EnabledByDefault>
+        <ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+        <Column>6</Column>
+        <Row>485</Row>
+        <PrerequisiteProjects>
+            <ResearchPath>
+                <ResearchProjectId>9905</ResearchProjectId>
+                <PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+            </ResearchPath>
+        </PrerequisiteProjects>
+        <DiplomacyFactors>
+            <EmpireIncidentFactor>
+                <Type>Undefined</Type>
+                <Description>We are as one.</Description>
+                <Amount>8</Amount>
+                <DecayRate>0</DecayRate>
+                <TargetValue>8</TargetValue>
+                <AdditionalValue>0</AdditionalValue>
+            </EmpireIncidentFactor>
+        </DiplomacyFactors>
+        <DiplomacyFactorRaceIds>
+            <unsignedByte>99</unsignedByte>
+        </DiplomacyFactorRaceIds>
+    </ResearchProjectDefinition>
+</ArrayOfResearchProjectDefinition>

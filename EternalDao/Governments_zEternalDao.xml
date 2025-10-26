@@ -1,18 +1,290 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ArrayOfGovernment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.or/2001/XMLSchema">
     <Government>
-        <GovernmentId>99</GovernmentId>
-        <Name>Fill in name</Name>
-        <Description></Description>
-        <StartinGameEventNames/>
-        <ImageFilename/>
-        <LeaderTitle/>
-        <CabinetTitle/>
+        <GovernmentId>32000</GovernmentId>
+        <Name>Eternal Dao Ascendancy</Name>
+        <Description>The Eternal Dao Ascendancy governs by rhythm instead of decree. Senate edicts arrive as waves of cultivation insight, auditors travel by jade ley-line, and peace accords conclude with mandated meditation breaks. Citizens expect bureaucracy, enlightenment, and dumplings in equal measure—and the Senate delivers all three with a smile and a stamped form.</Description>
+        <LeaderTitle>Eternal Dao Supreme</LeaderTitle>
+        <CabinetTitle>Eternal Mandate Senator</CabinetTitle>
+        <FeatureExplanations>
+            <string>[HL]Dao Tech Exhibition:[/HL] sponsor a ceremonial expo at a colony to gain +10% High Tech Research and +5 happiness for five years (50,000 credits; 10-year cooldown)</string>
+            <string>[HL]Celestial Praxis Ledger:[/HL] every research breakthrough releases a three-year +8% research speed wave across the empire</string>
+            <string>[HL]Mandate Concord Hearings:[/HL] manually convene hearings (15,000 credits) to grant +6 colony happiness and -5% corruption empire-wide for two years</string>
+            <string>[HL]Tribunal of Cascading Laws:[/HL] when war begins, fleets gain +10% weapons damage and diplomacy tolerance drops 5% for three years</string>
+        </FeatureExplanations>
+        <EmpireNameAdjectives>
+            <string>Eternal</string>
+            <string>Celestial</string>
+            <string>Empyreal</string>
+            <string>Transcendent</string>
+            <string>Ascendant</string>
+        </EmpireNameAdjectives>
+        <EmpireNameMiddles>
+            <string>Dao</string>
+            <string>Mandate</string>
+            <string>Resonance</string>
+            <string>Crucible</string>
+            <string>Exodus</string>
+            <string>Refraction</string>
+        </EmpireNameMiddles>
+        <EmpireNameNouns>
+            <string>Ascendancy</string>
+            <string>Senate</string>
+            <string>Lattice</string>
+            <string>Consortium</string>
+            <string>Concordat</string>
+            <string>Symposium</string>
+        </EmpireNameNouns>
+        <LeaderReplacementTypicalPeriod>60</LeaderReplacementTypicalPeriod>
+        <LeaderReplacementDisruption>0</LeaderReplacementDisruption>
+        <LeaderReplacementBoost>15</LeaderReplacementBoost>
+        <LeaderReplacementTypicalManner>Election</LeaderReplacementTypicalManner>
+        <Stability>1.25</Stability>
+        <ConcernForOwnReputation>1</ConcernForOwnReputation>
+        <ImportanceOfOthersReputations>0.25</ImportanceOfOthersReputations>
+        <UsesCabinet>true</UsesCabinet>
+        <CabinetFactorNavalChief>0</CabinetFactorNavalChief>
+        <CabinetFactorGroundForcesChief>0</CabinetFactorGroundForcesChief>
+        <CabinetFactorIntelligenceDirector>0</CabinetFactorIntelligenceDirector>
+        <CabinetFactorHeadDiplomat>0</CabinetFactorHeadDiplomat>
+        <CabinetFactorScienceAdministrator>0</CabinetFactorScienceAdministrator>
+        <CabinetFactorTradeIndustryAdministrator>0</CabinetFactorTradeIndustryAdministrator>
+        <UseBaseForCapital>false</UseBaseForCapital>
+        <CanRaid>false</CanRaid>
+        <AllowControlMiningShips>false</AllowControlMiningShips>
+        <ExtraIntelligenceMissionTypes>
+            <CharacterMissionType>InternalStabilization</CharacterMissionType>
+        </ExtraIntelligenceMissionTypes>
+        <MigrationFactor>0.5</MigrationFactor>
+        <ResearchBreakthroughProgressChance>0</ResearchBreakthroughProgressChance>
+        <ResearchBreakthroughProgressAmountRatio>0</ResearchBreakthroughProgressAmountRatio>
+        <ResearchCrashProgressChance>0</ResearchCrashProgressChance>
+        <ResearchCrashProgressAmountRatio>0</ResearchCrashProgressAmountRatio>
+        <SpendScientistCrashBreakthrough>false</SpendScientistCrashBreakthrough>
+        <SpendScientistCriticalResearchFailure>false</SpendScientistCriticalResearchFailure>
+        <WarStartColonyEventDefinitionId>32003</WarStartColonyEventDefinitionId>
+        <CharacterTraitFactorInspiringPresence>1.5</CharacterTraitFactorInspiringPresence>
+        <LuxuryResourceConsumptionRateFactor>2</LuxuryResourceConsumptionRateFactor>
+        <SpecialMode>Undefined</SpecialMode>
         <EconomicFactors>
-            <IncomeFactors/>
-            <ExpenseFactors/>
+            <IncomeFactors>
+                <!-- Undefined, i.e. Unused -->
+                <float>1</float>
+                <!-- ColonyTax -->
+                <float>1</float>
+                <!-- ResourceTrading -->
+                <float>1</float>
+                <!-- Fuel -->
+                <float>1</float>
+                <!-- Information -->
+                <float>1</float>
+                <!-- Tribute -->
+                <float>1</float>
+                <!-- Raiding -->
+                <float>1</float>
+                <!-- Missions -->
+                <float>1</float>
+                <!-- ColonyCrime -->
+                <float>0</float>
+                <!-- Tourism -->
+                <float>1</float>
+                <!-- ShipBuilding -->
+                <float>1</float>
+                <!-- Discoveries -->
+                <float>1</float>
+                <!-- TradeBonuses -->
+                <float>1</float>
+                <!-- PrivateColonyRevenue -->
+                <float>1</float>
+            </IncomeFactors>
+            <ExpenseFactors>
+                <!-- Undefined, i.e. Unused -->
+                <float>1</float>
+                <!-- ColonyDevelopment -->
+                <float>1</float>
+                <!-- Research -->
+                <float>1</float>
+                <!-- ShipMaintenance -->
+                <float>1</float>
+                <!-- TroopMaintenance -->
+                <float>1</float>
+                <!-- FacilityMaintenance -->
+                <float>1</float>
+                <!-- Starships -->
+                <float>1</float>
+                <!-- TroopRecruitment -->
+                <float>1</float>
+                <!-- Facilities -->
+                <float>1</float>
+                <!-- ResourceTrading -->
+                <float>1</float>
+                <!-- Fuel -->
+                <float>1</float>
+                <!-- Information -->
+                <float>1</float>
+                <!-- Tribute -->
+                <float>1</float>
+                <!-- Missions -->
+                <float>1</float>
+                <!-- EnemyRaids -->
+                <float>1</float>
+            </ExpenseFactors>
         </EconomicFactors>
-        <Biases/>
-        <Bonuses/>
+        <Biases>
+            <!-- Republic -->
+            <IndexFactor>
+                <Index>0</Index>
+                <Factor>0.15</Factor>
+            </IndexFactor>
+            <!-- Technocracy -->
+            <IndexFactor>
+                <Index>6</Index>
+                <Factor>0.25</Factor>
+            </IndexFactor>
+            <!-- Way of Illumination -->
+            <IndexFactor>
+                <Index>9</Index>
+                <Factor>0.25</Factor>
+            </IndexFactor>
+            <!-- Eternal Dao Ascendancy -->
+            <IndexFactor>
+                <Index>32000</Index>
+                <Factor>0.5</Factor>
+            </IndexFactor>
+        </Biases>
+        <Bonuses>
+            <!-- TradeIncome -->
+            <Bonus>
+                <Type>TradeIncome</Type>
+                <Amount>0.1</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- TourismIncome -->
+            <Bonus>
+                <Type>TourismIncome</Type>
+                <Amount>0.25</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- ColonyHappiness -->
+            <Bonus>
+                <Type>ColonyHappiness</Type>
+                <Amount>0.1</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- ColonyCorruptionReduction -->
+            <Bonus>
+                <Type>ColonyCorruptionReduction</Type>
+                <Amount>0.1</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- MiningRate -->
+            <Bonus>
+                <Type>MiningRate</Type>
+                <Amount>0.25</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- Diplomacy -->
+            <Bonus>
+                <Type>Diplomacy</Type>
+                <Amount>1.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- ColonyPopulationGrowthRate -->
+            <Bonus>
+                <Type>ColonyPopulationGrowthRate</Type>
+                <Amount>-0.1</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- ResearchAll -->
+            <Bonus>
+                <Type>ResearchAll</Type>
+                <Amount>0.1</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- CharacterQualityLeader -->
+            <Bonus>
+                <Type>CharacterQualityLeader</Type>
+                <Amount>0.25</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- CharacterQualityAmbassador -->
+            <Bonus>
+                <Type>CharacterQualityAmbassador</Type>
+                <Amount>0.25</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- CharacterQualityFleetAdmiral -->
+            <Bonus>
+                <Type>CharacterQualityFleetAdmiral</Type>
+                <Amount>0.25</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- CharacterQualityTroopGeneral -->
+            <Bonus>
+                <Type>CharacterQualityTroopGeneral</Type>
+                <Amount>0.25</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- CharacterQualityScientist -->
+            <Bonus>
+                <Type>CharacterQualityScientist</Type>
+                <Amount>0.25</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- CharacterQualityIntelligenceAgent -->
+            <Bonus>
+                <Type>CharacterQualityIntelligenceAgent</Type>
+                <Amount>0.25</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- CharacterQualityShipCaptain -->
+            <Bonus>
+                <Type>CharacterQualityShipCaptain</Type>
+                <Amount>0.25</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- CharacterAppearanceAmbassador -->
+            <Bonus>
+                <Type>CharacterAppearanceAmbassador</Type>
+                <Amount>0.25</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- CharacterAppearanceColonyGovernor -->
+            <Bonus>
+                <Type>CharacterAppearanceColonyGovernor</Type>
+                <Amount>0.25</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- CharacterAppearanceFleetAdmiral -->
+            <Bonus>
+                <Type>CharacterAppearanceFleetAdmiral</Type>
+                <Amount>0.25</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- CharacterAppearanceIntelligenceAgent -->
+            <Bonus>
+                <Type>CharacterAppearanceIntelligenceAgent</Type>
+                <Amount>0.25</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- CharacterAppearanceScientist -->
+            <Bonus>
+                <Type>CharacterAppearanceScientist</Type>
+                <Amount>0.25</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- CharacterAppearanceShipCaptain -->
+            <Bonus>
+                <Type>CharacterAppearanceShipCaptain</Type>
+                <Amount>0.25</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- CharacterAppearanceTroopGeneral -->
+            <Bonus>
+                <Type>CharacterAppearanceTroopGeneral</Type>
+                <Amount>0.25</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+        </Bonuses>
     </Government>
 </ArrayOfGovernment>

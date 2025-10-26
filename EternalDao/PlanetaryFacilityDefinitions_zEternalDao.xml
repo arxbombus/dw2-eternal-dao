@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<ArrayOfPlanetaryFacilityDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<!-- My First Planetary Facility -->
+	<PlanetaryFacilityDefinition>
+		<PlanetaryFacilityDefinitionId>32000</PlanetaryFacilityDefinitionId>
+		<ItemBonuses>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</ItemBonuses>
+		<EmpireBonuses>
+			<Bonus>
+				<Type>CharacterQualityLeader</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityScientist</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</EmpireBonuses>
+		<BuildCost>
+			<Money>10000</Money>
+		</BuildCost>
+		<MaintenanceCost>500</MaintenanceCost>
+		<Size>100</Size>
+		<MaximumBuildCountPerEmpire>1</MaximumBuildCountPerEmpire>
+		<BombardmentResistance>0.5</BombardmentResistance>
+		<GroundCombatResistance>0.5</GroundCombatResistance>
+		<FacilityFamilyId>53</FacilityFamilyId>
+		<Name>My First Planetary Facility</Name>
+		<ImageFilename>Environment/PlanetaryFacilities/the enigma maze</ImageFilename>
+	</PlanetaryFacilityDefinition>
+</ArrayOfPlanetaryFacilityDefinition>

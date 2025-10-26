@@ -71,7 +71,7 @@ Imortal cultivators who blend xianxia tropes with bureaucratic comedy. They're o
 - **10 Story Arcs**: Following the Three Prodigies and The Wanderer mystery
 - **6 Racial Features**: Unique mechanics like Tribulation Grid Subsidy, Merit Pastry Program
 - **8 Episodic Events**: Replayable humor (HOA violations, sword-light ballet, etc.)
-- **11 Unique Components**: Techno-dao fusion weapons, reactors, shields
+- **11 Unique Components**: Dao Tech fusion weapons, reactors, shields
 - **9 Unique Facilities**: Senate Halls, Ley-Line Nexus Spires, Artifact Spirit Colleges
 - **Overpowered but Balanced**: Via Bureaucracy Load, Karmic Debt, Tribulation Weather
 

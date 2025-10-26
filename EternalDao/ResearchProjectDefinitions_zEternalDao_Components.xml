@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ArrayOfResearchProjectDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <!-- Dao Tech  -->
+    <ResearchProjectDefinition>
+        <ResearchProjectId>32000</ResearchProjectId>
+        <Name>Dao Tech Weapons</Name>
+        <Size>17</Size>
+        <EnabledByDefault>true</EnabledByDefault>
+        <ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+        <Column>0</Column>
+        <Row>487</Row>
+        <AllowedRaceIds>
+            <!-- Eternal Celestials -->
+            <RaceProbability>
+                <RaceId>99</RaceId>
+                <Probability>1</Probability>
+            </RaceProbability>
+        </AllowedRaceIds>
+        <Components>
+            <Component>
+                <ComponentId>643</ComponentId>
+                <Level>0</Level>
+            </Component>
+        </Components>
+    </ResearchProjectDefinition>
+</ArrayOfResearchProjectDefinition>

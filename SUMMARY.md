@@ -15,7 +15,7 @@ Created comprehensive 532-line lore encyclopedia containing:
 - **Species Identity**: Eternal Celestials - immortal cultivators beyond Transcendence Realm
 - **Faction Name**: Eternal Dao Stellarity
 - **Origin Story**: The Wanderer (transmigrator who created their universe)
-- **Philosophy**: Techno-Dao fusion (technology + cultivation as equals)
+- **Philosophy**: Dao Tech fusion (technology + cultivation as equals)
 - **Government**: Imperial Mandate Senate (bureaucratic immortals)
 - **Power Scaling**: Citizens (Golden Immortal) → Officials (Saints) → Senate (Origin Dao Creator/Transcendence) → Three Prodigies (Beyond Transcendence)
 - **The Scattering**: Polite philosophical schism + sauce incident (intern mixed up jade slips)
@@ -152,7 +152,7 @@ Created comprehensive 532-line lore encyclopedia containing:
 
 #### Research Tree (5 Branches, ~50 Projects)
 
-1. **Techno-Dao Foundations** - Civics, safety, logistics (10 projects)
+1. **Dao Tech Foundations** - Civics, safety, logistics (10 projects)
 2. **Artifact Symbiosis** - Computers, sensors, AI/spirit integration (9 projects)
 3. **Formation Engineering** - Defense, shields, facilities (9 projects)
 4. **Martial Harmonies** - Weapons, armor, combat (9 projects)
