@@ -15,12 +15,12 @@
             <string>UserInterface/Flags/Human_5</string>
             <string>UserInterface/Flags/Human_6</string>
         </AlternateFlagFilenames>
-        <MainColor>
+        <Maino>
             <R>149</R>
             <G>6</G>
             <B>6</B>
             <A>255</A>
-        </MainColor>
+        </Maino>
         <SecondaryColor>
             <R>0</R>
             <G>0</G>
@@ -63,17 +63,17 @@
             <!-- Eternal Origin Dao Star -->
             <OrbTypeFactor>
                 <OrbTypeId>62</OrbTypeId>
-                <Factor>0.1</Factor>
+                <Factor>0.2</Factor>
             </OrbTypeFactor>
             <!-- Origin Dao Star -->
             <OrbTypeFactor>
                 <OrbTypeId>63</OrbTypeId>
-                <Factor>0.1</Factor>
+                <Factor>0.2</Factor>
             </OrbTypeFactor>
             <!-- Dao Star -->
             <OrbTypeFactor>
                 <OrbTypeId>64</OrbTypeId>
-                <Factor>0.1</Factor>
+                <Factor>0.2</Factor>
             </OrbTypeFactor>
             <OrbTypeFactor>
                 <OrbTypeId>7</OrbTypeId>
@@ -406,7 +406,7 @@
             <!-- ScannerRange -->
             <Bonus>
                 <Type>ScannerRange</Type>
-                <Amount>1.5</Amount>
+                <Amount>0.5</Amount>
                 <AppliesTo>Empire</AppliesTo>
             </Bonus>
             <!-- ResearchAll -->

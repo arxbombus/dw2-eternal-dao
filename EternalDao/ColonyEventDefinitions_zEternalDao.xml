@@ -32,24 +32,6 @@ Thus for the next year our empire will enjoy the following bonuses:
 		<ValuesDecayGradually>false</ValuesDecayGradually>
 		<MinimumIntervalPerEmpireYears>10</MinimumIntervalPerEmpireYears>
 	</ColonyEventDefinition>
-	<!-- Celestial Praxis Ledger -->
-	<ColonyEventDefinition>
-		<ColonyEventDefinitionId>32001</ColonyEventDefinitionId>
-		<Type>Undefined</Type>
-		<DurationMinimum>3</DurationMinimum>
-		<DurationMaximum>3</DurationMaximum>
-		<Bonuses>
-			<Bonus>
-				<Type>ResearchAll</Type>
-				<Amount>0.08</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-		</Bonuses>
-		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Celestial Praxis Ledger</Name>
-		<Description>The Senate has released the latest Praxis Ledger. Every laboratory and talisman stall sings in tune, accelerating research empire-wide for three years.</Description>
-		<ImageFilename>Environment/Events/Democracy Positive Boost</ImageFilename>
-	</ColonyEventDefinition>
 	<!-- Mandate Concord Hearing -->
 	<ColonyEventDefinition>
 		<ColonyEventDefinitionId>32002</ColonyEventDefinitionId>
@@ -150,65 +132,5 @@ Thus for the next year our empire will enjoy the following bonuses:
 		<Name>Karmic Vent Festival</Name>
 		<Description>Corruption is vented through licensed fireworks displays. Spirits feel lighter, even if morale takes a brief dip.</Description>
 		<ImageFilename>Environment/Events/Democracy Negative Boost</ImageFilename>
-	</ColonyEventDefinition>
-	<!-- Chronicle of Wandering Gates -->
-	<ColonyEventDefinition>
-		<ColonyEventDefinitionId>32006</ColonyEventDefinitionId>
-		<Type>Undefined</Type>
-		<DurationMinimum>1</DurationMinimum>
-		<DurationMaximum>1</DurationMaximum>
-		<Bonuses>
-			<Bonus>
-				<Type>ScanSurveyTimeReduction</Type>
-				<Amount>0.2</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-		</Bonuses>
-		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Chronicle of Wandering Gates</Name>
-		<Description>New star charts enter the Wandering Gates chronicle. Explorers traverse unknown systems with 20% faster surveys for the next year.</Description>
-		<ImageFilename>Environment/Events/Exploration</ImageFilename>
-	</ColonyEventDefinition>
-	<!-- Astral Tax Immunity -->
-	<ColonyEventDefinition>
-		<ColonyEventDefinitionId>32007</ColonyEventDefinitionId>
-		<Type>Undefined</Type>
-		<DurationMinimum>3</DurationMinimum>
-		<DurationMaximum>3</DurationMaximum>
-		<Bonuses>
-			<Bonus>
-				<Type>TradeIncome</Type>
-				<Amount>0.12</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-			<Bonus>
-				<Type>ShipMaintenanceAll</Type>
-				<Amount>-0.05</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-		</Bonuses>
-		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Astral Tax Immunity</Name>
-		<Description>Trade envoys secured an astral tax waiver. Revenues swell while ship upkeep lightens for three years.</Description>
-		<ImageFilename>Environment/Events/Trade Windfall</ImageFilename>
-	</ColonyEventDefinition>
-	<!-- Sovereign Quietus Protocol -->
-	<ColonyEventDefinition>
-		<ColonyEventDefinitionId>32008</ColonyEventDefinitionId>
-		<Type>Undefined</Type>
-		<DurationMinimum>2</DurationMinimum>
-		<DurationMaximum>2</DurationMaximum>
-		<ColonyHappiness>-5</ColonyHappiness>
-		<Bonuses>
-			<Bonus>
-				<Type>WarWearinessReduction</Type>
-				<Amount>0.25</Amount>
-				<AppliesTo>Empire</AppliesTo>
-			</Bonus>
-		</Bonuses>
-		<ValuesDecayGradually>false</ValuesDecayGradually>
-		<Name>Sovereign Quietus Protocol</Name>
-		<Description>The Quietus Protocol guides the empire into reflective calm. War weariness fades quickly while colonies accept a brief dip in cheer.</Description>
-		<ImageFilename>Environment/Events/Pacifist</ImageFilename>
 	</ColonyEventDefinition>
 </ArrayOfColonyEventDefinition>

@@ -7,10 +7,13 @@
         <LeaderTitle>Eternal Dao Supreme</LeaderTitle>
         <CabinetTitle>Eternal Mandate Senator</CabinetTitle>
         <FeatureExplanations>
-            <string>[HL]Dao Tech Exhibition:[/HL] sponsor a ceremonial expo at a colony to gain +10% High Tech Research and +5 happiness for five years (50,000 credits; 10-year cooldown)</string>
-            <string>[HL]Celestial Praxis Ledger:[/HL] every research breakthrough releases a three-year +8% research speed wave across the empire</string>
-            <string>[HL]Mandate Concord Hearings:[/HL] manually convene hearings (15,000 credits) to grant +6 colony happiness and -5% corruption empire-wide for two years</string>
-            <string>[HL]Tribunal of Cascading Laws:[/HL] when war begins, fleets gain +10% weapons damage and diplomacy tolerance drops 5% for three years</string>
+            <string>[HL]Celestial Praxis Ledger:[/HL] constant +10% research throughput from continuous Dao documentation</string>
+            <string>[HL]Dao Tech Exhibition:[/HL] fund a five-year expo at a colony (+10% High Tech research, +5 happiness; 50k credits, 10-year cooldown)</string>
+            <string>[HL]Mandate Concord Hearings:[/HL] spend 15k credits to add +6 colony happiness and shave -5% empire corruption for two years</string>
+            <string>[HL]Karmic Vent Festivals:[/HL] manually vent corruption (-10% empire corruption, -5 colony happiness for one year at 10k credits)</string>
+            <string>[HL]Ley Tide Auditor Swarms:[/HL] random inspections raise empire mining +15% for two years while skimming 10% local revenue</string>
+            <string>[HL]Tribunal of Cascading Laws:[/HL] each war start grants three years of +10% weapons damage but -5 diplomacy bias</string>
+            <string>[HL]Astral Tax Immunities:[/HL] every trade treaty adds annual income (2.5k/5k/7.5k credits) siphoned from private ledgers</string>
         </FeatureExplanations>
         <EmpireNameAdjectives>
             <string>Eternal</string>
@@ -66,6 +69,9 @@
         <CharacterTraitFactorInspiringPresence>1.5</CharacterTraitFactorInspiringPresence>
         <LuxuryResourceConsumptionRateFactor>2</LuxuryResourceConsumptionRateFactor>
         <SpecialMode>Undefined</SpecialMode>
+        <TradeIncomePerYearPerRestrictedTradeTreaty>2500</TradeIncomePerYearPerRestrictedTradeTreaty>
+        <TradeIncomePerYearPerLimitedTradeTreaty>5000</TradeIncomePerYearPerLimitedTradeTreaty>
+        <TradeIncomePerYearPerFreeTradeTreaty>7500</TradeIncomePerYearPerFreeTradeTreaty>
         <EconomicFactors>
             <IncomeFactors>
                 <!-- Undefined, i.e. Unused -->
