@@ -2,6 +2,33 @@
 <ArrayOfResearchProjectDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<!-- Governance Upgrades -->
 	<ResearchProjectDefinition>
+		<ResearchProjectId>32059</ResearchProjectId>
+		<Name>Eternal Mandate Outpost Edict</Name>
+		<Description>Authorizes the outpost nexus lattice for Eternal Mandate governance.</Description>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>1400</Size>
+		<InitiationCost>
+			<Money>4500</Money>
+		</InitiationCost>
+		<AdditionalRequirements>
+			<GovernmentId>32000</GovernmentId>
+		</AdditionalRequirements>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>1</Column>
+		<Row>487</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>425</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
+		<PlanetaryFacilityIds>
+			<short>32000</short>
+		</PlanetaryFacilityIds>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
 		<ResearchProjectId>32060</ResearchProjectId>
 		<Name>Eternal Mandate Concord Schematics</Name>
 		<Description>Codifies the Concord Lattice upgrades for Eternal Mandate governance.</Description>
@@ -15,15 +42,19 @@
 		</AdditionalRequirements>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>0</Column>
+		<Column>2</Column>
 		<Row>487</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>453</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>32059</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>32001</short>
 		</PlanetaryFacilityIds>
@@ -42,7 +73,7 @@
 		</AdditionalRequirements>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>1</Column>
+		<Column>3</Column>
 		<Row>487</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -73,7 +104,7 @@
 		</AdditionalRequirements>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>2</Column>
+		<Column>6</Column>
 		<Row>487</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -96,6 +127,33 @@
 	</ResearchProjectDefinition>
 	<!-- Fleet Upgrades -->
 	<ResearchProjectDefinition>
+		<ResearchProjectId>32069</ResearchProjectId>
+		<Name>Origin Dao Command Writ</Name>
+		<Description>Sanctions the command spire lattice for Eternal Dao fleets.</Description>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>3600</Size>
+		<InitiationCost>
+			<Money>9000</Money>
+		</InitiationCost>
+		<AdditionalRequirements>
+			<GovernmentId>32000</GovernmentId>
+		</AdditionalRequirements>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>2</Column>
+		<Row>488</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>415</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
+		<PlanetaryFacilityIds>
+			<short>32010</short>
+		</PlanetaryFacilityIds>
+	</ResearchProjectDefinition>
+	<ResearchProjectDefinition>
 		<ResearchProjectId>32070</ResearchProjectId>
 		<Name>Origin Dao Stellar Doctrine</Name>
 		<Description>Refines command lattices for accelerated fleet operations.</Description>
@@ -109,15 +167,19 @@
 		</AdditionalRequirements>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>0</Column>
+		<Column>3</Column>
 		<Row>488</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
 				<ResearchProjectId>415</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>32069</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>1</PrerequisiteProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>32011</short>
 		</PlanetaryFacilityIds>
@@ -136,7 +198,7 @@
 		</AdditionalRequirements>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>1</Column>
+		<Column>4</Column>
 		<Row>488</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
@@ -167,15 +229,15 @@
 		</AdditionalRequirements>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>2</Column>
+		<Column>5</Column>
 		<Row>488</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>577</ResearchProjectId>
+				<ResearchProjectId>32071</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>32071</ResearchProjectId>
+				<ResearchProjectId>660</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 			</ResearchPath>
 		</PrerequisiteProjects>
@@ -185,6 +247,37 @@
 		</PlanetaryFacilityIds>
 	</ResearchProjectDefinition>
 	<!-- Legion Upgrades -->
+	<ResearchProjectDefinition>
+		<ResearchProjectId>32079</ResearchProjectId>
+		<Name>Eternal Dao Muster Mandate</Name>
+		<Description>Establishes the muster forge charter for Eternal Dao legions.</Description>
+		<ImageFilename>UserInterface/Placeholder</ImageFilename>
+		<Size>3200</Size>
+		<InitiationCost>
+			<Money>8500</Money>
+		</InitiationCost>
+		<AdditionalRequirements>
+			<GovernmentId>32000</GovernmentId>
+		</AdditionalRequirements>
+		<EnabledByDefault>true</EnabledByDefault>
+		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
+		<Column>2</Column>
+		<Row>489</Row>
+		<PrerequisiteProjects>
+			<ResearchPath>
+				<ResearchProjectId>411</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>81</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+			</ResearchPath>
+		</PrerequisiteProjects>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
+		<PlanetaryFacilityIds>
+			<short>32020</short>
+		</PlanetaryFacilityIds>
+	</ResearchProjectDefinition>
 	<ResearchProjectDefinition>
 		<ResearchProjectId>32080</ResearchProjectId>
 		<Name>Eternal Dao Phalanx Treatise</Name>
@@ -199,19 +292,23 @@
 		</AdditionalRequirements>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>0</Column>
+		<Column>3</Column>
 		<Row>489</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>411</ResearchProjectId>
+				<ResearchProjectId>448</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 			</ResearchPath>
 			<ResearchPath>
-				<ResearchProjectId>81</ResearchProjectId>
+				<ResearchProjectId>144</ResearchProjectId>
+				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
+			</ResearchPath>
+			<ResearchPath>
+				<ResearchProjectId>32079</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>3</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>32021</short>
 		</PlanetaryFacilityIds>
@@ -230,15 +327,11 @@
 		</AdditionalRequirements>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>1</Column>
+		<Column>4</Column>
 		<Row>489</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>448</ResearchProjectId>
-				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
-			</ResearchPath>
-			<ResearchPath>
-				<ResearchProjectId>144</ResearchProjectId>
+				<ResearchProjectId>475</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 			</ResearchPath>
 			<ResearchPath>
@@ -246,7 +339,7 @@
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 			</ResearchPath>
 		</PrerequisiteProjects>
-		<PrerequisiteProjectsMinimumPathCount>3</PrerequisiteProjectsMinimumPathCount>
+		<PrerequisiteProjectsMinimumPathCount>2</PrerequisiteProjectsMinimumPathCount>
 		<PlanetaryFacilityIds>
 			<short>32022</short>
 		</PlanetaryFacilityIds>
@@ -265,11 +358,11 @@
 		</AdditionalRequirements>
 		<EnabledByDefault>true</EnabledByDefault>
 		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>2</Column>
+		<Column>5</Column>
 		<Row>489</Row>
 		<PrerequisiteProjects>
 			<ResearchPath>
-				<ResearchProjectId>475</ResearchProjectId>
+				<ResearchProjectId>573</ResearchProjectId>
 				<PathAppearanceLikelihood>1</PathAppearanceLikelihood>
 			</ResearchPath>
 			<ResearchPath>

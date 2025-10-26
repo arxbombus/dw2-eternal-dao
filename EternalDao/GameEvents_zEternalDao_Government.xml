@@ -100,6 +100,24 @@
 				<Id1>81</Id1>
 				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
 			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32059</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32069</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
+			<GameEventAction>
+				<Type>ResearchBreakthrough</Type>
+				<ActionLocationHint>HomeColony</ActionLocationHint>
+				<Id1>32079</Id1>
+				<AllConditionsMustBeMet>true</AllConditionsMustBeMet>
+			</GameEventAction>
 		</TriggerActions>
 	</GameEvent>
 
