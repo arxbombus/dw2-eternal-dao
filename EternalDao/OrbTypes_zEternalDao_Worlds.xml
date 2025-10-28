@@ -39,7 +39,7 @@
         </RingsPrimaryColor>
         <RingsProbability>0.5</RingsProbability>
         <AtmosphereDensity>0.35</AtmosphereDensity>
-        <AtmosphereDrawType>Haze</AtmosphereDrawType>
+        <AtmosphereDrawType>Haze</AtmosphereDrawType>|
         <AmbientLightIntensity>0.2</AmbientLightIntensity>
         <CloudCoverageMinimum>0.5</CloudCoverageMinimum>
         <CloudCoverageMaximum>0.75</CloudCoverageMaximum>

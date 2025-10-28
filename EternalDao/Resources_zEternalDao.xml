@@ -2,19 +2,741 @@
 <ArrayOfResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <Resource>
         <ResourceId>32000</ResourceId>
-        <Name>Origin Dao Essence</Name>
-        <Description>[RESOURCE]Origin Dao Essence[/RESOURCE] is ...</Description>
-        <BaseCost>40</BaseCost>
+        <Name>Verdant Meridian Sprouts</Name>
+        <Description>[RESOURCE]Verdant Meridian Sprouts[/RESOURCE] are tender qi-rich shoots coaxed along natural meridians; a simple infusion steadies geomancers at new sites.</Description>
+        <BaseCost>10</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
         <Bonuses>
             <Bonus>
                 <Type>ColonyDevelopment</Type>
-                <Amount>0.05</Amount>
+                <Amount>0.020</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32001</ResourceId>
+        <Name>Jasper Qi Lichen</Name>
+        <Description>[RESOURCE]Jasper Qi Lichen[/RESOURCE] is mineral-fed lichen etching runic path-lines across cliff faces to guide survey cultivators.</Description>
+        <BaseCost>10</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyDevelopment</Type>
+                <Amount>0.030</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32002</ResourceId>
+        <Name>Silkwhisper Pods</Name>
+        <Description>[RESOURCE]Silkwhisper Pods[/RESOURCE] are gossamer pods whose whispering filaments lure passing traders with auspicious breezes.</Description>
+        <BaseCost>10</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyIncome</Type>
+                <Amount>0.020</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32003</ResourceId>
+        <Name>Amber Tribute Nectar</Name>
+        <Description>[RESOURCE]Amber Tribute Nectar[/RESOURCE] is syrupy nectar offered in shrine rites, its aroma sealing prosperity pacts among caravan clans.</Description>
+        <BaseCost>10</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyIncome</Type>
+                <Amount>0.030</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32004</ResourceId>
+        <Name>Starweave Mycelium</Name>
+        <Description>[RESOURCE]Starweave Mycelium[/RESOURCE] threads asteroid caverns with breathable sanctuaries born of bioluminescent strands.</Description>
+        <BaseCost>10</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyPopulationGrowthRate</Type>
+                <Amount>0.025</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32005</ResourceId>
+        <Name>Dawnchant Puff Spores</Name>
+        <Description>[RESOURCE]Dawnchant Puff Spores[/RESOURCE] bloom into warm dawn mist that shelters newborn cultivators against frozen winds.</Description>
+        <BaseCost>10</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyPopulationGrowthRate</Type>
+                <Amount>0.020</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32006</ResourceId>
+        <Name>Harmonizing Dew Berries</Name>
+        <Description>[RESOURCE]Harmonizing Dew Berries[/RESOURCE] are translucent berries steeped at sunrise to calm hearts and harmonize communal qi.</Description>
+        <BaseCost>10</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyHappiness</Type>
+                <Amount>0.025</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32007</ResourceId>
+        <Name>Laughing Ember Peaches</Name>
+        <Description>[RESOURCE]Laughing Ember Peaches[/RESOURCE] are geothermal peaches whose sparkling flesh kindles laughter-filled gatherings.</Description>
+        <BaseCost>10</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyHappiness</Type>
+                <Amount>0.030</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32008</ResourceId>
+        <Name>Glideleaf Carapace</Name>
+        <Description>[RESOURCE]Glideleaf Carapace[/RESOURCE] forms flexible leaf-scales that bond to hulls and guide pilots along flowing qi currents.</Description>
+        <BaseCost>10</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ShipManeuvering</Type>
+                <Amount>0.020</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32009</ResourceId>
+        <Name>Ironroot Soldier Seeds</Name>
+        <Description>[RESOURCE]Ironroot Soldier Seeds[/RESOURCE] sprout into living palisades, reinforcing wandering militias wherever they take root.</Description>
+        <BaseCost>10</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>TroopGroundDefense</Type>
+                <Amount>0.030</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32010</ResourceId>
+        <Name>Auric Terrace Bulrush</Name>
+        <Description>[RESOURCE]Auric Terrace Bulrush[/RESOURCE] are sunward reeds aligning terraces into disciplined meridian steps for builders.</Description>
+        <BaseCost>20</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyDevelopment</Type>
+                <Amount>0.040</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32011</ResourceId>
+        <Name>Celestial Ledger Moss</Name>
+        <Description>[RESOURCE]Celestial Ledger Moss[/RESOURCE] is glow moss revealing stress fractures with numeric motes whenever stone is disturbed.</Description>
+        <BaseCost>20</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyDevelopment</Type>
+                <Amount>0.055</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32012</ResourceId>
+        <Name>Golden Dew Taxflower</Name>
+        <Description>[RESOURCE]Golden Dew Taxflower[/RESOURCE] bears petals distilling amber dew prized in market shrine offerings.</Description>
+        <BaseCost>20</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyIncome</Type>
+                <Amount>0.045</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32013</ResourceId>
+        <Name>Saffron Tribute Kelp</Name>
+        <Description>[RESOURCE]Saffron Tribute Kelp[/RESOURCE] is drifting kelp absorbing stellar saffron, exchanged as sacred tribute between caravans.</Description>
+        <BaseCost>20</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyIncome</Type>
+                <Amount>0.055</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32014</ResourceId>
+        <Name>Cradleflare Saplings</Name>
+        <Description>[RESOURCE]Cradleflare Saplings[/RESOURCE] exude ember-bright sap that warms nurseries beneath auroral skies.</Description>
+        <BaseCost>20</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyPopulationGrowthRate</Type>
+                <Amount>0.045</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32015</ResourceId>
+        <Name>Leyline Brood Tubers</Name>
+        <Description>[RESOURCE]Leyline Brood Tubers[/RESOURCE] drink leyline pulses and become hearty provisions for traveling clans.</Description>
+        <BaseCost>20</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyPopulationGrowthRate</Type>
+                <Amount>0.035</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32016</ResourceId>
+        <Name>Serene Heart Lotus</Name>
+        <Description>[RESOURCE]Serene Heart Lotus[/RESOURCE] unfurls lotus blossoms echoing tranquil mantras that dissolve unrest wherever they bloom.</Description>
+        <BaseCost>20</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyHappiness</Type>
+                <Amount>0.060</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32017</ResourceId>
+        <Name>Insight Veil Pollen</Name>
+        <Description>[RESOURCE]Insight Veil Pollen[/RESOURCE] settles over scrolls in iridescent veils, sharpening perception of hidden patterns.</Description>
+        <BaseCost>20</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ResearchAll</Type>
+                <Amount>0.050</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32018</ResourceId>
+        <Name>Skylash Reef Coral</Name>
+        <Description>[RESOURCE]Skylash Reef Coral[/RESOURCE] clamps to hull seams like ribbon coral, teaching ships to pivot with tidal grace.</Description>
+        <BaseCost>20</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ShipManeuvering</Type>
+                <Amount>0.050</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32019</ResourceId>
+        <Name>Bronze Banner Millet</Name>
+        <Description>[RESOURCE]Bronze Banner Millet[/RESOURCE] is bronze-husked grain roasted before battle to charge warrior qi.</Description>
+        <BaseCost>20</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>TroopGroundAttack</Type>
+                <Amount>0.050</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32020</ResourceId>
+        <Name>Radiant Meridian Rice</Name>
+        <Description>[RESOURCE]Radiant Meridian Rice[/RESOURCE] is zero-gravity rice forming luminous meridian grids across orbital paddies.</Description>
+        <BaseCost>30</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyDevelopment</Type>
+                <Amount>0.070</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32021</ResourceId>
+        <Name>Heavenforge Quartz Lattice</Name>
+        <Description>[RESOURCE]Heavenforge Quartz Lattice[/RESOURCE] self-assembles into quartz frameworks that project pristine scaffolds for new structures.</Description>
+        <BaseCost>30</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyDevelopment</Type>
+                <Amount>0.090</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32022</ResourceId>
+        <Name>Luminous Ledger Tea</Name>
+        <Description>[RESOURCE]Luminous Ledger Tea[/RESOURCE] brews from leaves glowing with arithmetic veins that guide traders toward balanced exchange.</Description>
+        <BaseCost>30</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyIncome</Type>
+                <Amount>0.080</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32023</ResourceId>
+        <Name>Skycurrent Seed Pods</Name>
+        <Description>[RESOURCE]Skycurrent Seed Pods[/RESOURCE] are seeds that sail high atmospheric rivers, sowing ready-made habitation blooms.</Description>
+        <BaseCost>30</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyPopulationGrowthRate</Type>
+                <Amount>0.070</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32024</ResourceId>
+        <Name>Celestial Cradle Coral</Name>
+        <Description>[RESOURCE]Celestial Cradle Coral[/RESOURCE] is warm coral nurturing infants within buoyant reef cradles.</Description>
+        <BaseCost>30</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyPopulationGrowthRate</Type>
+                <Amount>0.090</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32025</ResourceId>
+        <Name>Joyous Cloud Lychee</Name>
+        <Description>[RESOURCE]Joyous Cloud Lychee[/RESOURCE] is effervescent lychee releasing laughter qi like drifting clouds.</Description>
+        <BaseCost>30</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyHappiness</Type>
+                <Amount>0.090</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32026</ResourceId>
+        <Name>Moonveil Chorus Fern</Name>
+        <Description>[RESOURCE]Moonveil Chorus Fern[/RESOURCE] is a silver fern chiming moonlit hymns that soften overworked minds.</Description>
+        <BaseCost>30</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyHappiness</Type>
+                <Amount>0.070</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32027</ResourceId>
+        <Name>Chronosap Amber</Name>
+        <Description>[RESOURCE]Chronosap Amber[/RESOURCE] suspends slowed time droplets so scholars can stretch each meditative breath.</Description>
+        <BaseCost>30</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ResearchAll</Type>
+                <Amount>0.080</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32028</ResourceId>
+        <Name>Starwake Scale Barnacles</Name>
+        <Description>[RESOURCE]Starwake Scale Barnacles[/RESOURCE] are crystalline barnacles channeling wake energy into sharper broadside bursts.</Description>
+        <BaseCost>30</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>WeaponsDamage</Type>
+                <Amount>0.080</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32029</ResourceId>
+        <Name>Dao Vanguard Mycelia</Name>
+        <Description>[RESOURCE]Dao Vanguard Mycelia[/RESOURCE] are resilient mycelia lacing armor with regenerative threads for steadfast troops.</Description>
+        <BaseCost>30</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>TroopGroundDefense</Type>
+                <Amount>0.090</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32030</ResourceId>
+        <Name>Prismatic Mandate Pines</Name>
+        <Description>[RESOURCE]Prismatic Mandate Pines[/RESOURCE] are prismatic pines rooting in sacred geometry and aligning entire districts.</Description>
+        <BaseCost>40</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyDevelopment</Type>
+                <Amount>0.120</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32031</ResourceId>
+        <Name>Celestine Survey Obelisks</Name>
+        <Description>[RESOURCE]Celestine Survey Obelisks[/RESOURCE] rise from bedrock to beam survey sigils across settlements.</Description>
+        <BaseCost>40</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyDevelopment</Type>
+                <Amount>0.140</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32032</ResourceId>
+        <Name>Auroral Tithe Lyrium</Name>
+        <Description>[RESOURCE]Auroral Tithe Lyrium[/RESOURCE] is polar lyrium refracting auroras into luminous wealth sigils.</Description>
+        <BaseCost>40</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyIncome</Type>
+                <Amount>0.110</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32033</ResourceId>
+        <Name>Senate Treasury Petals</Name>
+        <Description>[RESOURCE]Senate Treasury Petals[/RESOURCE] shed gilded petals that fall as sealing charms, binding prosperity vows.</Description>
+        <BaseCost>40</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyIncome</Type>
+                <Amount>0.130</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32034</ResourceId>
+        <Name>Chronogarden Sap</Name>
+        <Description>[RESOURCE]Chronogarden Sap[/RESOURCE] dilates time within cradle groves, shielding young lineages.</Description>
+        <BaseCost>40</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyPopulationGrowthRate</Type>
+                <Amount>0.120</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32035</ResourceId>
+        <Name>Harmonious Joy Nectar</Name>
+        <Description>[RESOURCE]Harmonious Joy Nectar[/RESOURCE] is honeyed nectar brewed during resonance gatherings to lift communal spirits.</Description>
+        <BaseCost>40</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyHappiness</Type>
+                <Amount>0.140</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32036</ResourceId>
+        <Name>Dao Serenity Plums</Name>
+        <Description>[RESOURCE]Dao Serenity Plums[/RESOURCE] ripen beneath meditation chimes, clearing anxious thought.</Description>
+        <BaseCost>40</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyHappiness</Type>
+                <Amount>0.110</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32037</ResourceId>
+        <Name>Oracle Prism Pollen</Name>
+        <Description>[RESOURCE]Oracle Prism Pollen[/RESOURCE] refracts possibilities into clear foresight for devoted researchers.</Description>
+        <BaseCost>40</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ResearchAll</Type>
+                <Amount>0.120</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32038</ResourceId>
+        <Name>Starshroud Aegis Kelp</Name>
+        <Description>[RESOURCE]Starshroud Aegis Kelp[/RESOURCE] wraps hulls in dense fronds and teaches shields to breathe with tidal rhythm.</Description>
+        <BaseCost>40</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ShieldRechargeRate</Type>
+                <Amount>0.130</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32039</ResourceId>
+        <Name>Lotus Phalanx Bark</Name>
+        <Description>[RESOURCE]Lotus Phalanx Bark[/RESOURCE] is fibrous bark fused into armor plates, synchronizing warriors in lotus formations.</Description>
+        <BaseCost>40</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>TroopGroundAttack</Type>
+                <Amount>0.120</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32040</ResourceId>
+        <Name>Eonforge Terrace Grain</Name>
+        <Description>[RESOURCE]Eonforge Terrace Grain[/RESOURCE] is ancient grain terraced along timeless slopes, unfolding ready-built districts.</Description>
+        <BaseCost>50</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyDevelopment</Type>
+                <Amount>0.180</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32041</ResourceId>
+        <Name>Celestial Bankstone</Name>
+        <Description>[RESOURCE]Celestial Bankstone[/RESOURCE] is sentient stone tallying energy flows and inspiring honest exchange.</Description>
+        <BaseCost>50</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyIncome</Type>
+                <Amount>0.170</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32042</ResourceId>
+        <Name>Ancestor Bloom Cysts</Name>
+        <Description>[RESOURCE]Ancestor Bloom Cysts[/RESOURCE] are bioluminescent cysts storing ancestral memories for newborn caretakers.</Description>
+        <BaseCost>50</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyPopulationGrowthRate</Type>
+                <Amount>0.160</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32043</ResourceId>
+        <Name>Mandate Insight Chalcedony</Name>
+        <Description>[RESOURCE]Mandate Insight Chalcedony[/RESOURCE] is veined chalcedony projecting precedent visions into meditative minds.</Description>
+        <BaseCost>50</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ResearchAll</Type>
+                <Amount>0.190</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32044</ResourceId>
+        <Name>Horizonwing Pearl Coral</Name>
+        <Description>[RESOURCE]Horizonwing Pearl Coral[/RESOURCE] is pearled coral teaching fleets to fold space like migratory voidwings.</Description>
+        <BaseCost>50</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ShipSpeed</Type>
+                <Amount>0.170</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32045</ResourceId>
+        <Name>Dao Ironblood Myrrh</Name>
+        <Description>[RESOURCE]Dao Ironblood Myrrh[/RESOURCE] is resin steeped in volcanic iron, hardening resolve through protracted sieges.</Description>
+        <BaseCost>50</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>TroopGroundDefense</Type>
+                <Amount>0.180</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32046</ResourceId>
+        <Name>Eternal Mandala Core</Name>
+        <Description>[RESOURCE]Eternal Mandala Core[/RESOURCE] pulses harmonic patterns that reshape city, wealth, and study alike.</Description>
+        <BaseCost>100</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyDevelopment</Type>
+                <Amount>0.240</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+            <Bonus>
+                <Type>ColonyIncome</Type>
+                <Amount>0.200</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+            <Bonus>
+                <Type>ResearchAll</Type>
+                <Amount>0.220</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32047</ResourceId>
+        <Name>Daoheart Wellspring</Name>
+        <Description>[RESOURCE]Daoheart Wellspring[/RESOURCE] is a living spring whose waters carry ancestral blessings, birthing joyful, orderly populations.</Description>
+        <BaseCost>100</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyPopulationGrowthRate</Type>
+                <Amount>0.260</Amount>
                 <AppliesTo>Item</AppliesTo>
             </Bonus>
             <Bonus>
                 <Type>ColonyHappiness</Type>
-                <Amount>0.1</Amount>
+                <Amount>0.220</Amount>
                 <AppliesTo>Item</AppliesTo>
+            </Bonus>
+            <Bonus>
+                <Type>ColonyDevelopment</Type>
+                <Amount>0.200</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32048</ResourceId>
+        <Name>Horizonfold War Relic</Name>
+        <Description>[RESOURCE]Horizonfold War Relic[/RESOURCE] is a battle relic etched with horizonfold runes, empowering fleets and legions alike.</Description>
+        <BaseCost>100</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ShipManeuvering</Type>
+                <Amount>0.240</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <Bonus>
+                <Type>WeaponsDamage</Type>
+                <Amount>0.220</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <Bonus>
+                <Type>TroopGroundAttack</Type>
+                <Amount>0.200</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+        </Bonuses>
+    </Resource>
+    <Resource>
+        <ResourceId>32049</ResourceId>
+        <Name>Grand Senate Concord Jade</Name>
+        <Description>[RESOURCE]Grand Senate Concord Jade[/RESOURCE] is a vast jade bloom engraved with ancient concords that radiate happiness, prosperity, and insight.</Description>
+        <BaseCost>100</BaseCost>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <Bonuses>
+            <Bonus>
+                <Type>ColonyHappiness</Type>
+                <Amount>0.250</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+            <Bonus>
+                <Type>ColonyIncome</Type>
+                <Amount>0.230</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+            <Bonus>
+                <Type>ResearchAll</Type>
+                <Amount>0.200</Amount>
+                <AppliesTo>Empire</AppliesTo>
             </Bonus>
         </Bonuses>
     </Resource>
