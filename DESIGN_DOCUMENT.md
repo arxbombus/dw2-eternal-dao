@@ -185,69 +185,99 @@ Additional implementation details:
 
 ## Luxury Resource Suite – Eternal Dao Exclusives
 
-Fifty cultivation-grade luxury resources support Eternal Dao economies, military readiness, and research lattices. They are restricted to Eternal Dao orb archetypes (`Eternal Origin Dao Star`, `Origin Dao Star`, `Dao Star`, `Origin Dao Giant`, `Dao Giant`, `Origin Dao Asteroid Field`, `Dao Asteroid Field`, `Dao Rocky Silicon`, `Dao Rocky Metallic`, `Dao Rocky Ice`) to reinforce the mod’s unique start locations.
+Sixty cultivation-grade luxury resources power Eternal Dao economies, morale, research lattices, and martial formations. They remain exclusive to Eternal Dao start conditions, reinforcing the faction's bespoke supply chains.
 
 Design guardrails:
 
-- **Tier distribution:** 10 × Tier 1, 10 × Tier 2, 10 × Tier 3, 10 × Tier 4, 6 × Tier 5, 4 × Tier 6. Base costs scale 10/20/30/40/50/100.
-- **Category cadence:** Within Tiers 1–5 each category appears exactly twice—Colony Development, Colony Income, Colony Growth, Colony Happiness—with one Military (ships), one Military (troops), and one Research resource per tier. Tier 6 elevates to “Super Luxury” artifacts with three bonuses each.
-- **Bonus bands:** Each modifier respects the tier ranges (1–3 %, 3–6 %, 6–10 %, 10–15 %, 15–20 %, 20–30 %). Tier 6 stacks multiple effects but keeps individual values inside the cap.
-- **Lore touchstones:** Names evoke naturally occurring Dao phenomena (flora, fauna, mineral, aqueous) and descriptions show how cultivators harvest or channel their power.
+- **Tier distribution:** 10 resources per tier (1 through 6). Base costs scale 10/20/30/40/50/100.
+- **Category cadence:** Within Tiers 1–5 each of the four colony categories appears twice, with one ship-focused military resource, one troop-focused military resource (dual-purposed with Research where noted), and one dedicated Research effect. Tier 6 ascends to super luxuries that stack three synergistic bonuses.
+- **Bonus bands:** Each modifier respects the per-tier bonus windows (1–3 %, 3–6 %, 6–10 %, 10–15 %, 15–20 %, 20–30 %). Tier 6 individual bonuses stay inside 20–30 %.
+- **Lore touchstones:** Every name references naturally occurring Dao phenomena—spirit flora, beast harvests, mineral veins, astral delicacies—sprinkled with rare easter eggs like Meimei's famed street food.
 
-| # | Resource Name | Tier | Category | Base Cost | Bonus Effect | Allowed Orb Type | Description | Image |
-| - | ------------- | ---- | -------- | --------- | ------------ | ---------------- | ----------- | ----- |
-| 1 | Verdant Meridian Sprouts | 1 | Colony Development | 10 | +2% ColonyDevelopment (Colony) | Dao Rocky Silicon | Tender qi-rich shoots coaxed along natural meridians; a simple infusion steadies geomancers at new sites. | UserInterface/Placeholder |
-| 2 | Jasper Qi Lichen | 1 | Colony Development | 10 | +3% ColonyDevelopment (Colony) | Dao Rocky Metallic | Mineral-fed lichen etching runic path-lines across cliff faces to guide survey cultivators. | UserInterface/Placeholder |
-| 3 | Silkwhisper Pods | 1 | Colony Income | 10 | +2% ColonyIncome (Colony) | Dao Asteroid Field | Gossamer pods whose whispering filaments lure passing traders with auspicious breezes. | UserInterface/Placeholder |
-| 4 | Amber Tribute Nectar | 1 | Colony Income | 10 | +3% ColonyIncome (Colony) | Dao Rocky Metallic | Syrupy nectar offered in shrine rites, its aroma sealing prosperity pacts among caravan clans. | UserInterface/Placeholder |
-| 5 | Starweave Mycelium | 1 | Colony Growth | 10 | +2.5% ColonyPopulationGrowthRate (Colony) | Dao Asteroid Field | Bioluminescent threads weaving breathable sanctuaries through hollowed asteroids. | UserInterface/Placeholder |
-| 6 | Dawnchant Puff Spores | 1 | Colony Growth | 10 | +2% ColonyPopulationGrowthRate (Colony) | Dao Rocky Ice | Sunrise spores that rise as warm mist, sheltering newborn cultivators against frozen winds. | UserInterface/Placeholder |
-| 7 | Harmonizing Dew Berries | 1 | Colony Happiness | 10 | +2.5% ColonyHappiness (Colony) | Dao Rocky Ice | Translucent berries steeped at sunrise to calm hearts and harmonize communal qi. | UserInterface/Placeholder |
-| 8 | Laughing Ember Peaches | 1 | Colony Happiness | 10 | +3% ColonyHappiness (Colony) | Dao Rocky Metallic | Geothermal peaches whose sparkling flesh kindles laughter-filled gatherings. | UserInterface/Placeholder |
-| 9 | Glideleaf Carapace | 1 | Military (ships) | 10 | +2% ShipManeuvering (Empire) | Dao Asteroid Field | Flexible leaf-scales bonding to hulls and guiding pilots along flowing qi currents. | UserInterface/Placeholder |
-| 10 | Ironroot Soldier Seeds | 1 | Military (troops) | 10 | +3% TroopGroundDefense (Empire) | Dao Rocky Metallic | Seeds that sprout into living palisades, reinforcing wandering militias wherever they take root. | UserInterface/Placeholder |
-| 11 | Auric Terrace Bulrush | 2 | Colony Development | 20 | +4% ColonyDevelopment (Colony) | Dao Rocky Silicon | Sunward reeds aligning terraces into disciplined meridian steps for builders. | UserInterface/Placeholder |
-| 12 | Celestial Ledger Moss | 2 | Colony Development | 20 | +5.5% ColonyDevelopment (Colony) | Dao Rocky Metallic | Glow moss revealing stress fractures with numeric motes whenever stone is disturbed. | UserInterface/Placeholder |
-| 13 | Golden Dew Taxflower | 2 | Colony Income | 20 | +4.5% ColonyIncome (Colony) | Dao Rocky Silicon | Petals distilling amber dew prized in market shrine offerings. | UserInterface/Placeholder |
-| 14 | Saffron Tribute Kelp | 2 | Colony Income | 20 | +5.5% ColonyIncome (Colony) | Dao Star | Drifting kelp absorbing stellar saffron, exchanged as sacred tribute between caravans. | UserInterface/Placeholder |
-| 15 | Cradleflare Saplings | 2 | Colony Growth | 20 | +4.5% ColonyPopulationGrowthRate (Colony) | Dao Rocky Ice | Saplings whose ember-bright sap warms nurseries beneath auroral skies. | UserInterface/Placeholder |
-| 16 | Leyline Brood Tubers | 2 | Colony Growth | 20 | +3.5% ColonyPopulationGrowthRate (Colony) | Dao Rocky Metallic | Tubers that drink leyline pulses and become hearty provisions for traveling clans. | UserInterface/Placeholder |
-| 17 | Serene Heart Lotus | 2 | Colony Happiness | 20 | +6% ColonyHappiness (Colony) | Dao Star | Lotus blossoms echoing tranquil mantras, dissolving unrest wherever they bloom. | UserInterface/Placeholder |
-| 18 | Insight Veil Pollen | 2 | Research | 20 | +5% ResearchAll (Empire) | Dao Star | Iridescent pollen settling over scrolls and sharpening perception of hidden patterns. | UserInterface/Placeholder |
-| 19 | Skylash Reef Coral | 2 | Military (ships) | 20 | +5% ShipManeuvering (Empire) | Dao Asteroid Field | Ribbon coral clamping to hull seams, teaching ships to pivot with tidal grace. | UserInterface/Placeholder |
-| 20 | Bronze Banner Millet | 2 | Military (troops) | 20 | +5% TroopGroundAttack (Empire) | Dao Rocky Metallic | Bronze-husked grain roasted before battle to charge warrior qi. | UserInterface/Placeholder |
-| 21 | Radiant Meridian Rice | 3 | Colony Development | 30 | +7% ColonyDevelopment (Colony) | Dao Star | Zero-gravity rice forming luminous meridian grids across orbital paddies. | UserInterface/Placeholder |
-| 22 | Heavenforge Quartz Lattice | 3 | Colony Development | 30 | +9% ColonyDevelopment (Colony) | Origin Dao Star | Self-assembling quartz frameworks projecting pristine scaffolds for new structures. | UserInterface/Placeholder |
-| 23 | Luminous Ledger Tea | 3 | Colony Income | 30 | +8% ColonyIncome (Colony) | Dao Giant | Tea leaves glowing with arithmetic veins that guide traders toward balanced exchange. | UserInterface/Placeholder |
-| 24 | Skycurrent Seed Pods | 3 | Colony Growth | 30 | +7% ColonyPopulationGrowthRate (Colony) | Dao Giant | Seeds that sail high atmospheric rivers, sowing ready-made habitation blooms. | UserInterface/Placeholder |
-| 25 | Celestial Cradle Coral | 3 | Colony Growth | 30 | +9% ColonyPopulationGrowthRate (Colony) | Origin Dao Giant | Warm coral nurturing infants within buoyant reef cradles. | UserInterface/Placeholder |
-| 26 | Joyous Cloud Lychee | 3 | Colony Happiness | 30 | +9% ColonyHappiness (Colony) | Dao Star | Effervescent lychee releasing laughter qi like drifting clouds. | UserInterface/Placeholder |
-| 27 | Moonveil Chorus Fern | 3 | Colony Happiness | 30 | +7% ColonyHappiness (Colony) | Origin Dao Star | Silver ferns chiming moonlit hymns that soften overworked minds. | UserInterface/Placeholder |
-| 28 | Chronosap Amber | 3 | Research | 30 | +8% ResearchAll (Empire) | Origin Dao Star | Amber suspending slowed time droplets so scholars can stretch each meditative breath. | UserInterface/Placeholder |
-| 29 | Starwake Scale Barnacles | 3 | Military (ships) | 30 | +8% WeaponsDamage (Empire) | Dao Giant | Crystalline barnacles channeling wake energy into sharper broadside bursts. | UserInterface/Placeholder |
-| 30 | Dao Vanguard Mycelia | 3 | Military (troops) | 30 | +9% TroopGroundDefense (Empire) | Origin Dao Giant | Resilient mycelia lacing armor with regenerative threads for steadfast troops. | UserInterface/Placeholder |
-| 31 | Prismatic Mandate Pines | 4 | Colony Development | 40 | +12% ColonyDevelopment (Colony) | Origin Dao Star | Prismatic pines rooting in sacred geometry and aligning entire districts. | UserInterface/Placeholder |
-| 32 | Celestine Survey Obelisks | 4 | Colony Development | 40 | +14% ColonyDevelopment (Colony) | Origin Dao Star | Obelisks rising from bedrock to beam survey sigils across settlements. | UserInterface/Placeholder |
-| 33 | Auroral Tithe Lyrium | 4 | Colony Income | 40 | +11% ColonyIncome (Colony) | Origin Dao Giant | Polar lyrium refracting auroras into luminous wealth sigils. | UserInterface/Placeholder |
-| 34 | Senate Treasury Petals | 4 | Colony Income | 40 | +13% ColonyIncome (Colony) | Origin Dao Star | Gilded petals that fall as sealing charms, binding prosperity vows. | UserInterface/Placeholder |
-| 35 | Chronogarden Sap | 4 | Colony Growth | 40 | +12% ColonyPopulationGrowthRate (Colony) | Origin Dao Star | Sap that dilates time within cradle groves, shielding young lineages. | UserInterface/Placeholder |
-| 36 | Harmonious Joy Nectar | 4 | Colony Happiness | 40 | +14% ColonyHappiness (Colony) | Origin Dao Giant | Honeyed nectar brewed during resonance gatherings to lift communal spirits. | UserInterface/Placeholder |
-| 37 | Dao Serenity Plums | 4 | Colony Happiness | 40 | +11% ColonyHappiness (Colony) | Origin Dao Star | Plums ripened beneath meditation chimes, clearing anxious thought. | UserInterface/Placeholder |
-| 38 | Oracle Prism Pollen | 4 | Research | 40 | +12% ResearchAll (Empire) | Origin Dao Star | Prismatic pollen refracting possibilities into clear foresight. | UserInterface/Placeholder |
-| 39 | Starshroud Aegis Kelp | 4 | Military (ships) | 40 | +13% ShieldRechargeRate (Empire) | Origin Dao Giant | Dense kelp wrapping hulls and teaching shields to breathe with tidal rhythm. | UserInterface/Placeholder |
-| 40 | Lotus Phalanx Bark | 4 | Military (troops) | 40 | +12% TroopGroundAttack (Empire) | Origin Dao Star | Fibrous bark fused into armor plates, synchronizing warriors in lotus formations. | UserInterface/Placeholder |
-| 41 | Eonforge Terrace Grain | 5 | Colony Development | 50 | +18% ColonyDevelopment (Colony) | Eternal Origin Dao Star | Ancient grain terraced along timeless slopes, unfolding ready-built districts. | UserInterface/Placeholder |
-| 42 | Celestial Bankstone | 5 | Colony Income | 50 | +17% ColonyIncome (Colony) | Eternal Origin Dao Star | Sentient stone tallying energy flows and inspiring honest exchange. | UserInterface/Placeholder |
-| 43 | Ancestor Bloom Cysts | 5 | Colony Growth | 50 | +16% ColonyPopulationGrowthRate (Colony) | Eternal Origin Dao Star | Bioluminescent cysts storing ancestral memories for newborn caretakers. | UserInterface/Placeholder |
-| 44 | Mandate Insight Chalcedony | 5 | Research | 50 | +19% ResearchAll (Empire) | Eternal Origin Dao Star | Veined chalcedony projecting precedent visions into meditative minds. | UserInterface/Placeholder |
-| 45 | Horizonwing Pearl Coral | 5 | Military (ships) | 50 | +17% ShipSpeed (Empire) | Eternal Origin Dao Star | Pearled coral teaching fleets to fold space like migratory voidwings. | UserInterface/Placeholder |
-| 46 | Dao Ironblood Myrrh | 5 | Military (troops) | 50 | +18% TroopGroundDefense (Empire) | Eternal Origin Dao Star | Resin steeped in volcanic iron, hardening resolve through protracted sieges. | UserInterface/Placeholder |
-| 47 | Eternal Mandala Core | 6 | Super Luxuries | 100 | +24% ColonyDevelopment (Colony) / +20% ColonyIncome (Colony) / +22% ResearchAll (Empire) | Eternal Origin Dao Star | Crystalline heart pulsing harmonic patterns that reshape city, wealth, and study alike. | UserInterface/Placeholder |
-| 48 | Daoheart Wellspring | 6 | Super Luxuries | 100 | +26% ColonyPopulationGrowthRate (Colony) / +22% ColonyHappiness (Colony) / +20% ColonyDevelopment (Colony) | Eternal Origin Dao Star | Living spring whose waters carry ancestral blessings, birthing joyful, orderly populations. | UserInterface/Placeholder |
-| 49 | Horizonfold War Relic | 6 | Super Luxuries | 100 | +24% ShipManeuvering (Empire) / +22% WeaponsDamage (Empire) / +20% TroopGroundAttack (Empire) | Eternal Origin Dao Star | Battle relic etched with horizonfold runes, empowering fleets and legions alike. | UserInterface/Placeholder |
-| 50 | Grand Senate Concord Jade | 6 | Super Luxuries | 100 | +25% ColonyHappiness (Colony) / +23% ColonyIncome (Colony) / +20% ResearchAll (Empire) | Eternal Origin Dao Star | Vast jade bloom engraved with ancient concords that radiate happiness, prosperity, and insight. | UserInterface/Placeholder |
+### Tier 1
+| # | Resource Name | Category | Base Cost | Bonuses | Description | Image |
+| - | ------------- | -------- | --------- | ------- | ----------- | ----- |
+| 1 | Meridian Basalt Nodes | Colony Development | 10 | ColonyDevelopment +3% (Colony) | Hexagonal basalt nodules saturated with steady qi currents; settlers hammer them into new foundations to anchor city grids. | UserInterface/Placeholder |
+| 2 | Glowmoss Cartographer | Colony Development | 10 | ColonyDevelopment +2% (Colony) | Bioluminescent moss that maps ley-line contours as it creeps, giving survey crews a living topographical guide. | UserInterface/Placeholder |
+| 3 | Amberfen Spice Resin | Colony Income | 10 | ColonyIncome +3% (Colony) | A fragrant resin tapped from amber marsh reeds; caravans prize it for elevating everything from noodles to nebula tea. | UserInterface/Placeholder |
+| 4 | Stargrazer Jerky Strips | Colony Income | 10 | ColonyIncome +2% (Colony) | Slow-dried slices of migratory stargrazer flank that keep traders lingering—and spending—at frontier waystations. | UserInterface/Placeholder |
+| 5 | Astralseed Millet | Colony Growth | 10 | ColonyPopulationGrowthRate +3% (Colony) | Millet raised in low-gravity paddies so each grain hums with astral vitality, strengthening young families. | UserInterface/Placeholder |
+| 6 | Shellfoam Broth Clams | Colony Growth | 10 | ColonyPopulationGrowthRate +2% (Colony) | Foam-shelled clams gathered from dao reefs; their broth restores exhausted settlers after long shifts. | UserInterface/Placeholder |
+| 7 | Lanternfruit Citrus | Colony Happiness | 10 | ColonyHappiness +3% (Colony) | Citrus gourds that glow like lanterns and brighten communal feasts during protracted frontier nights. | UserInterface/Placeholder |
+| 8 | Songmist Bloom Petals | Colony Happiness | 10 | ColonyHappiness +2% (Colony) | Petals that release chime-soft vapor when steeped, smoothing tempers in even the busiest quarter. | UserInterface/Placeholder |
+| 9 | Skywhorl Ray Fins | Military (ships) | 10 | ShipManeuvering +2% (Empire) | Shed fins from skywhorl rays, bonded to hull canards to let cutters tack cleanly through grav eddies. | UserInterface/Placeholder |
+| 10 | Ironpaw Tusk Fibers | Military (troops) / Research | 10 | TroopRecoveryRate +2% (Empire), ResearchTroops +1% (Empire) | Resilient fibers teased from ironpaw boar tusks; drill sages weave them into wraps that hasten recovery and inspire new formations. | UserInterface/Placeholder |
 
----
+### Tier 2
+| # | Resource Name | Category | Base Cost | Bonuses | Description | Image |
+| - | ------------- | -------- | --------- | ------- | ----------- | ----- |
+| 11 | Skyforge Anchorite | Colony Development | 20 | ColonyDevelopment +6% (Colony) | High-altitude ore that crystallizes along turbine cliffs and locks aerial platforms into precise alignments. | UserInterface/Placeholder |
+| 12 | Leyburrow Heartwoods | Colony Development | 20 | ColonyDevelopment +4% (Colony) | Heartwood roots that tunnel along ley-rivers, knitting entire districts against seismic shocks. | UserInterface/Placeholder |
+| 13 | Meimei's Pork Buns | Colony Income | 20 | ColonyIncome +6% (Colony) | Beloved buns stuffed with lotus-fed pork; gourmet pilgrims queue for hours and flood nearby stalls with coin. | UserInterface/Placeholder |
+| 14 | Sunbraid Pepper Pods | Colony Income | 20 | ColonyIncome +4% (Colony) | Slender peppers ripened in braided sun nets whose aroma alone sparks bidding wars between spice guilds. | UserInterface/Placeholder |
+| 15 | Moonquill Kelp Spores | Colony Growth | 20 | ColonyPopulationGrowthRate +5% (Colony) | Drifting kelp spores that settle in nursery pools and quicken infant qi circulation. | UserInterface/Placeholder |
+| 16 | Glaciant Marrow Pearls | Colony Growth | 20 | ColonyPopulationGrowthRate +4% (Colony) | Frost-born marrow pearls dissolved into restorative tonics that harden constitutions against brutal climates. | UserInterface/Placeholder |
+| 17 | Festival Thunder Plums | Colony Happiness | 20 | ColonyHappiness +6% (Colony) | Plums that crackle with celebratory thunder qi when peeled, igniting laughter across auditing halls. | UserInterface/Placeholder |
+| 18 | Cloudrest Velvetdown | Colony Happiness | 20 | ColonyHappiness +4% (Colony) | Down shed by cloud yaks; plush cushions stuffed with it cradle exhausted clerks in weightless comfort. | UserInterface/Placeholder |
+| 19 | Starstream Rudder Coral | Military (ships) | 20 | ShipSpeed +5% (Empire) | Coral branches that grow along nebula currents; ground to slurry they coat thrusters for sharper acceleration. | UserInterface/Placeholder |
+| 20 | Thunderhorn Vanguard Spurs | Military (troops) / Research | 20 | TroopGroundAttack +5% (Empire), ResearchWeapons +4% (Empire) | Electrified spurs harvested from thunderhorn beasts empower shock troops while weapon scholars reverse-engineer the charge. | UserInterface/Placeholder |
+
+### Tier 3
+| # | Resource Name | Category | Base Cost | Bonuses | Description | Image |
+| - | ------------- | -------- | --------- | ------- | ----------- | ----- |
+| 21 | Heavenforge Quartz Veins | Colony Development | 30 | ColonyDevelopment +10% (Colony) | Prismatic quartz seams that resonate structural fields, letting architects suspend sprawling terraces with confidence. | UserInterface/Placeholder |
+| 22 | Terrashift Magnetite | Colony Development | 30 | ColonyDevelopment +7% (Colony) | Magnetized ore drawn from tectonic shear zones that keeps orbital shipyards balanced atop lift platforms. | UserInterface/Placeholder |
+| 23 | Dragoncloud Tea Sprigs | Colony Income | 30 | ColonyIncome +9% (Colony) | Tea sprigs nurtured in dragoncloud fog whose brewed steam fetches fortunes at celestial auctions. | UserInterface/Placeholder |
+| 24 | Starbrine Salt Lattices | Colony Income | 30 | ColonyIncome +7% (Colony) | Crystalline lattices formed by evaporating comet tides, a culinary marvel chefs chase across the quadrant. | UserInterface/Placeholder |
+| 25 | Auroral Nectar Gourds | Colony Growth | 30 | ColonyPopulationGrowthRate +9% (Colony) | Gourds that absorb auroral light and distill into prenatal tonics for families taming harsh moons. | UserInterface/Placeholder |
+| 26 | Warmspire Broodfish | Colony Growth | 30 | ColonyPopulationGrowthRate +6% (Colony) | River fish raised in steam vents whose roe accelerates recovery throughout mining towns. | UserInterface/Placeholder |
+| 27 | Serenity Cloud Lotus | Colony Happiness | 30 | ColonyHappiness +9% (Colony) | Lotus blooms suspended in perpetual mist that, when steeped, calm entire administrative wards. | UserInterface/Placeholder |
+| 28 | Joyflare Lychee | Colony Happiness | 30 | ColonyHappiness +7% (Colony) | Iridescent lychee bursting with laughter qi that dissolves unrest faster than proclamations. | UserInterface/Placeholder |
+| 29 | Voidwing Spine Feathers | Military (ships) | 30 | WeaponsRange +8% (Empire) | Midnight feathers molted by voidwings and forged into targeting vanes that stretch beam arcs across battles. | UserInterface/Placeholder |
+| 30 | Titanbane Myco Husk | Military (troops) / Research | 30 | TroopGroundDefense +8% (Empire), ResearchBioWarfare +6% (Empire) | Fungal husks gathered from titanbane groves fortify legion armor while researchers decode their anti-bioweapon secrets. | UserInterface/Placeholder |
+
+### Tier 4
+| # | Resource Name | Category | Base Cost | Bonuses | Description | Image |
+| - | ------------- | -------- | --------- | ------- | ----------- | ----- |
+| 31 | Starforge Obsidian Pillars | Colony Development | 40 | ColonyDevelopment +15% (Colony) | Obsidian pillars grown within solar furnaces that brace megacities against orbital shear. | UserInterface/Placeholder |
+| 32 | Leyglow Aragonite | Colony Development | 40 | ColonyDevelopment +12% (Colony) | Iridescent aragonite clusters that absorb geomantic shocks and keep skyscraper districts level. | UserInterface/Placeholder |
+| 33 | Phoenixcrest Saffron | Colony Income | 40 | ColonyIncome +14% (Colony) | Saffron strands plucked from phoenixcrest lilies; imperial chefs bid entire treasuries for a handful. | UserInterface/Placeholder |
+| 34 | Starreef Truffle Coral | Colony Income | 40 | ColonyIncome +11% (Colony) | Reef coral that buds truffle-like pearls coveted by gourmand sects across the spiral. | UserInterface/Placeholder |
+| 35 | Sunwell Terraced Grain | Colony Growth | 40 | ColonyPopulationGrowthRate +14% (Colony) | Terraced grain bathed in mirrored suns that sustains explosive settlement booms. | UserInterface/Placeholder |
+| 36 | Cradlewyrm Bone Marrow | Colony Growth | 40 | ColonyPopulationGrowthRate +11% (Colony) | Gentle cradlewyrms yield nutrient-rich marrow distilled into tonics for overburdened colonies. | UserInterface/Placeholder |
+| 37 | Jade Serenade Resin | Colony Happiness | 40 | ColonyHappiness +14% (Colony) | Aromatic resin that burns with jade-blue fire and blankets public plazas in tranquil harmonics. | UserInterface/Placeholder |
+| 38 | Starlit Opera Pearls | Colony Happiness | 40 | ColonyHappiness +11% (Colony) | Pearls that hum ancient operas when warmed, enchanting festival crowds with shared nostalgia. | UserInterface/Placeholder |
+| 39 | Stormglass Leviathan Scales | Military (ships) | 40 | ShieldRechargeRate +12% (Empire) | Scales flensed from stormglass leviathans and inlaid into hulls to accelerate shield regeneration. | UserInterface/Placeholder |
+| 40 | Dragonbone Ward Shards | Military (troops) / Research | 40 | TroopGroundAttack +13% (Empire), ResearchAncientKnowledge +10% (Empire) | Runic dragonbone shards radiate martial wards while scholars decode the battle doctrine etched within. | UserInterface/Placeholder |
+
+### Tier 5
+| # | Resource Name | Category | Base Cost | Bonuses | Description | Image |
+| - | ------------- | -------- | --------- | ------- | ----------- | ----- |
+| 41 | Celestine Anchor Monoliths | Colony Development | 50 | ColonyDevelopment +20% (Colony) | Towering celestine monoliths that lock megacities into synchronous orbit-stabilized formations. | UserInterface/Placeholder |
+| 42 | Chronotwine Elderwood | Colony Development | 50 | ColonyDevelopment +17% (Colony) | Elderwood vines that twist through time seams to knit entire districts against tectonic drift. | UserInterface/Placeholder |
+| 43 | Sunsilk Tribute Pelts | Colony Income | 50 | ColonyIncome +19% (Colony) | Radiant pelts shed by sunsilk vulpines and traded as ceremonial tributes at staggering premiums. | UserInterface/Placeholder |
+| 44 | Voidcurrant Amberwine | Colony Income | 50 | ColonyIncome +16% (Colony) | Amberwine fermented from vacuum-grown berries; monks guard each vintage like a treasury bond. | UserInterface/Placeholder |
+| 45 | Eonheart Seedstones | Colony Growth | 50 | ColonyPopulationGrowthRate +19% (Colony) | Seedstones that pulse with ancient heartbeats, planted beneath nurseries to hasten communal recovery. | UserInterface/Placeholder |
+| 46 | Heavenfeast Leviathan Roe | Colony Growth | 50 | ColonyPopulationGrowthRate +17% (Colony) | Luminescent roe from heavenfeast leviathans reserved for colonies racing through expansion. | UserInterface/Placeholder |
+| 47 | Aurora Dream Incense | Colony Happiness | 50 | ColonyHappiness +20% (Colony) | Incense cones that project auroral visions overhead and dissolve civic unrest into awe. | UserInterface/Placeholder |
+| 48 | Laughing Moon Petrogems | Colony Happiness | 50 | ColonyHappiness +16% (Colony) | Petrogems that ring with silvery laughter when struck, sealing reconciliation ceremonies with joy. | UserInterface/Placeholder |
+| 49 | Chronosea Leviathan Tendons | Military (ships) | 50 | ShipSpeed +18% (Empire) | Elastic tendons that retain chronosea momentum; engineers braid them into engines for blitz-speed sorties. | UserInterface/Placeholder |
+| 50 | War-Oracle Obsidian Eyes | Military (troops) / Research | 50 | TroopExperienceGain +18% (Empire), ResearchPsychic +15% (Empire) | Obsidian eye-stones carved from war-oracle statues enlighten generals while advancing psychic warfare studies. | UserInterface/Placeholder |
+
+### Tier 6
+| # | Resource Name | Category | Base Cost | Bonuses | Description | Image |
+| - | ------------- | -------- | --------- | ------- | ----------- | ----- |
+| 51 | Empyreal Mandala Geode | Super Luxury | 100 | ColonyDevelopment +26% (Colony), ResearchAll +23% (Empire), TradeIncome +22% (Empire) | Mandala-shaped geodes cracked open to reveal harmonic crystals that uplift infrastructure, scholarship, and trade. | UserInterface/Placeholder |
+| 52 | Phoenixheart Dawn Nectar | Super Luxury | 100 | ColonyHappiness +25% (Colony), ColonyDevelopment +23% (Colony), ColonyPopulationGrowthRate +22% (Colony) | Nectar gathered at sunrise from phoenixheart blossoms; a single draught sparks civic zeal and flourishing families. | UserInterface/Placeholder |
+| 53 | Starwyrm Aurora Heart | Super Luxury | 100 | ShipManeuvering +23% (Empire), WeaponsDamage +24% (Empire), TroopGroundAttack +22% (Empire) | Crystalline starwyrm hearts pulse with aurora fire, syncing fleets and legions into ferocious harmony. | UserInterface/Placeholder |
+| 54 | Chronotidal Empyrean Pearl | Super Luxury | 100 | ColonyIncome +24% (Colony), TradeIncome +23% (Empire), Diplomacy +21% (Empire) | Pearls grown where time tides meet let merchants sense profitable futures and diplomats read the room. | UserInterface/Placeholder |
+| 55 | Eclipsepetal Lotus Crown | Super Luxury | 100 | ColonyDevelopment +23% (Colony), ResearchAncientKnowledge +22% (Empire), ColonyHappiness +21% (Colony) | Lotus crowns that bloom only during eclipses, weaving ancient schematics into urban hearts while enthralling citizens. | UserInterface/Placeholder |
+| 56 | Dragonwhorl Tempest Scale | Super Luxury | 100 | ShieldRechargeRate +23% (Empire), ShipSpeed +24% (Empire), WeaponsRange +21% (Empire) | Tempest scales shed by dragonwhorl leviathans mid-storm supercharge admiralty cores and fleet responses. | UserInterface/Placeholder |
+| 57 | Karmic Aurora Veil | Super Luxury | 100 | ColonyCorruptionReduction +25% (Empire), ColonyHappiness +22% (Colony), Diplomacy +21% (Empire) | Veils spun from auroral silk filter karmic smog, brighten populations, and make every negotiation gleam. | UserInterface/Placeholder |
+| 58 | Voidjade Oracle Husk | Super Luxury | 100 | ResearchPsychic +24% (Empire), CounterEspionage +22% (Empire), Espionage +21% (Empire) | Fossilized voidjade oracle husks sharpen allied clairvoyance while confounding rival agents. | UserInterface/Placeholder |
+| 59 | Heaven's Ember Lychee | Super Luxury | 100 | ColonyPopulationGrowthRate +24% (Colony), TroopRecruitment +23% (Empire), ColonyDevelopment +22% (Colony) | Lychee ripened within volcano monasteries kindle fertile booms, eager recruits, and rapid civic expansion. | UserInterface/Placeholder |
+| 60 | Daoheart Ocean Pearl | Super Luxury | 100 | ColonyIncome +25% (Colony), ResearchHighTech +22% (Empire), TradeIncome +23% (Empire) | Ocean pearls grown around daoheart currents bankroll research foundries and interstellar trade hubs alike. | UserInterface/Placeholder |
+
 
 ### 1) Empyreal Ascension Cycle
 
