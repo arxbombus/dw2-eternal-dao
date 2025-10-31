@@ -22,9 +22,9 @@
             <A>255</A>
         </Maino>
         <SecondaryColor>
-            <R>0</R>
-            <G>0</G>
-            <B>0</B>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
             <A>255</A>
         </SecondaryColor>
         <ReproductionRate>1.025</ReproductionRate>
@@ -208,25 +208,25 @@
             <!-- ShipMaintenanceAll -->
             <Bonus>
                 <Type>ShipMaintenanceAll</Type>
-                <Amount>-1</Amount>
-                <AppliesTo>Empire</AppliesTo>
-            </Bonus>
-            <!-- PlanetaryFacilityMaintenance -->
-            <Bonus>
-                <Type>PlanetaryFacilityMaintenance</Type>
-                <Amount>-0.5</Amount>
-                <AppliesTo>Empire</AppliesTo>
-            </Bonus>
-            <!-- TroopMaintenance -->
-            <Bonus>
-                <Type>TroopMaintenance</Type>
-                <Amount>-0.5</Amount>
+                <Amount>-2</Amount>
                 <AppliesTo>Empire</AppliesTo>
             </Bonus>
             <!-- ConstructionSpeedAllShips -->
             <Bonus>
                 <Type>ConstructionSpeedAllShips</Type>
-                <Amount>-0.5</Amount>
+                <Amount>-2</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- PlanetaryFacilityMaintenance -->
+            <Bonus>
+                <Type>PlanetaryFacilityMaintenance</Type>
+                <Amount>-1</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- TroopMaintenance -->
+            <Bonus>
+                <Type>TroopMaintenance</Type>
+                <Amount>-1</Amount>
                 <AppliesTo>Empire</AppliesTo>
             </Bonus>
             <!-- ColonyCorruptionReduction -->
@@ -238,13 +238,13 @@
             <!-- ColonyIncome -->
             <Bonus>
                 <Type>ColonyIncome</Type>
-                <Amount>0.75</Amount>
+                <Amount>1</Amount>
                 <AppliesTo>Empire</AppliesTo>
             </Bonus>
             <!-- ColonyDevelopment -->
             <Bonus>
                 <Type>ColonyDevelopment</Type>
-                <Amount>1.5</Amount>
+                <Amount>2</Amount>
                 <AppliesTo>Empire</AppliesTo>
             </Bonus>
             <!-- Diplomacy -->
@@ -268,7 +268,7 @@
             <!-- DamageControl -->
             <Bonus>
                 <Type>DamageControl</Type>
-                <Amount>0.25</Amount>
+                <Amount>0.5</Amount>
                 <AppliesTo>Empire</AppliesTo>
             </Bonus>
             <!-- HyperjumpSpeed -->
@@ -286,25 +286,25 @@
             <!-- ShipSpeed -->
             <Bonus>
                 <Type>ShipSpeed</Type>
-                <Amount>1.5</Amount>
+                <Amount>2.5</Amount>
                 <AppliesTo>Empire</AppliesTo>
             </Bonus>
             <!-- ShipManeuvering -->
             <Bonus>
                 <Type>ShipManeuvering</Type>
-                <Amount>0.5</Amount>
+                <Amount>1</Amount>
                 <AppliesTo>Empire</AppliesTo>
             </Bonus>
             <!-- ArmorStrength -->
             <Bonus>
                 <Type>ArmorStrength</Type>
-                <Amount>1.5</Amount>
+                <Amount>2.5</Amount>
                 <AppliesTo>Empire</AppliesTo>
             </Bonus>
             <!-- ShieldRechargeRate -->
             <Bonus>
                 <Type>ShieldRechargeRate</Type>
-                <Amount>0.5</Amount>
+                <Amount>2</Amount>
                 <AppliesTo>Empire</AppliesTo>
             </Bonus>
             <!-- RepairRate -->
@@ -323,6 +323,12 @@
             <Bonus>
                 <Type>WeaponsRange</Type>
                 <Amount>0.5</Amount>
+                <AppliesTo>Empire</AppliesTo>
+            </Bonus>
+            <!-- ShipEnergyUsage -->
+            <Bonus>
+                <Type>ShipEnergyUsage</Type>
+                <Amount>0.2</Amount>
                 <AppliesTo>Empire</AppliesTo>
             </Bonus>
             <!-- BoardingAssault -->
@@ -406,13 +412,13 @@
             <!-- ScannerRange -->
             <Bonus>
                 <Type>ScannerRange</Type>
-                <Amount>0.5</Amount>
+                <Amount>0.25</Amount>
                 <AppliesTo>Empire</AppliesTo>
             </Bonus>
             <!-- ResearchAll -->
             <Bonus>
                 <Type>ResearchAll</Type>
-                <Amount>0.5</Amount>
+                <Amount>0.25</Amount>
                 <AppliesTo>Empire</AppliesTo>
             </Bonus>
         </Bonuses>

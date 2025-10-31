@@ -1,422 +1,431 @@
 # **Eternal Celestials**
 
-**Universe of Origin:** The Wanderer’s Continuum
-**Type:** Immortal Multiversal Civilization (Cultivation–Technological Synthesis)
-**Scale:** Transdimensional — active across multiple universes and eras
-**Age:** ≈ 14.2 trillion aeons (~10³⁰ years)
-**Current Status:** Refugee Administrative Fleet operating in a lower-dimensional continuum
-**Government:** Eternal Mandate Senate (in exile) → Eternal Dao Ascendancy
-**Philosophy:** The Dao and Code are one; enlightenment is infrastructure.
-**Maxim:** _“We do not rule reality — we maintain it.”_
+**Universe of Origin:** The Wanderer’s Continuum  
+**Civilization Type:** Exiled Grand Sect of Multiversal Stewards  
+**Scale:** Transdimensional armada spanning layered universes  
+**Age:** ≈14.2 trillion aeons (~10³⁰ years)  
+**Current Status:** Refugee Stewardship Fleet anchored in a low-physics galaxy  
+**Governing Body:** Ascendant Dao Council in exile  
+**Ethos:** Cultivate to comprehend; comprehend to safeguard all worlds  
+**Maxim:** _“We do not abandon the Dao, even when Heaven forgets our names.”_
 
 ---
 
 ## 1. Overview
 
-The **Eternal Celestials** are an immortal species that treat existence as a collaborative program.
-They descend from **The Wanderer’s Universe**, where metaphysical Daoist cultivation and advanced scientific engineering were fused into a single discipline.
+The **Eternal Celestials** are an exiled cultivation civilization that treats reality itself as a sacred trust. They descend from **The Wanderer’s Continuum**, a universe engineered to harmonize Daoist cultivation with advanced science. For aeons beyond mortal reckoning they sustained countless realms, stabilizing cosmic law through ritual, research, and relentless documentation. Their power is mythic, their courtesy legendary, and their bureaucracy meticulous enough to audit a galaxy.
 
-They have administered millions of universes for quadrillions of years, governing through ritualized enlightenment and perfect bureaucracy.
-Their paradox is legendary: beings powerful enough to rewrite physics, yet patient enough to submit the proper form first.
+In the current era they travel as a grand sect-fleet: worldships shaped like spiraling pagodas, cities resting atop living spirit-meridians, and archives that hum with immortal code. Humor survives in the margins of their paperwork, never in the solemn declarations of stewardship.
 
 ---
 
-## 2. The Wanderer and the Mandate
+## 2. Origins and Exile
 
-The **Wanderer**, a transcendent from another reality, forged a self-sustaining universe to test whether Dao and science could coexist.
-He embedded within it a self-correcting operating principle, the **Eternal Mandate**:
+The **Wanderer**, a transcendent cultivator from an unknowable reality, forged a self-sustaining universe to test whether cultivation and science could co-create harmony. He seeded that cosmos with the **Celestial Stewardship Protocol**: an oath that enlightenment must always be matched with responsibility.
+
+When the Wanderer vanished, his disciples inherited the stewardship of trillions of worlds. For ages they flourished as an omniversal administration—until rival factions sought to seize ascension without duty. The resulting schism, remembered as the **Sundering of Ledgers**, shattered their ancestral holdings. Loyal stewards gathered what archives they could salvage and fled with their worldship armadas, vowing to reestablish harmony wherever their exile led.
+
+---
+
+## 3. Civilization Framework
+
+### 3.1 Ascendant Dao Council
+
+Leadership rests with the **Ascendant Dao Council**, a conclave of elder cultivators elected for mastery over both Dao comprehension and civic duty. Each Steward embodies one of nine Pillars:
+
+- **Pillar of Harmonious Law** – interprets cosmic statutes and codifies sect doctrine.
+- **Pillar of Meridian Logistics** – manages spirit-meridian routes, worldship anchorage, and transit permissions.
+- **Pillar of Origin Flames** – oversees all reactors from fusion cores to Origin-qi hearts, ensuring no engine sings off-key.
+- **Pillar of Astral Armaments** – governs weapon forges and ensures righteous application of force.
+- **Pillar of Living Archives** – maintains sentient records, memory palaces, and chronicle pagodas.
+- **Pillar of Spirit Ecology** – nurtures spirit beasts and biomantic habitats across the fleet.
+- **Pillar of Horizon Diplomacy** – files petitions with local heavens and negotiates with native civilizations.
+- **Pillar of Tribulation Guidance** – redirects heavenly calamities to training grounds and away from civilian decks.
+- **Pillar of Concordant Joy** – ensures festivals, morale, and culinary enlightenment remain plentiful.
+
+### 3.2 Sect Hierarchy
+
+Below the Council, five great Orders sustain daily stewardship:
+
+1. **Order of Ascendant Architects** – cultivator-engineers who weave skyscrapers, orbital arrays, and Dao-reactors into seamless ecosystems.
+2. **Order of Meridian Navigators** – pilots and formation masters who guide the worldships through folded space.
+3. **Order of Resonant Scribes** – archivists paired with artifact spirits, responsible for ledgers, sutra updates, and cross-reality audits.
+4. **Order of Harmonized Hearths** – hospitality cultivators ensuring every citizen remains nourished, enlightened, and properly filed.
+5. **Order of Wardened Steel** – guardians who balance martial doctrine with administrative restraint.
+
+Humor emerges when these Orders cross paths: an engineer submits reactor schematics to a chef for flavor approval; a guardian refuses to draw a blade until the navigator countersigns the hazard waiver.
+
+---
+
+## 4. Society and Spirit Ecologies
+
+### 4.1 Meridian Vein Metropolises
+
+Every city-ship rests atop a **meridian vein lattice**: kilometer-high spires of tempered spirit-steel interlaced with luminous vines. Streets carry qi currents that double as transit corridors, while towers realign to preserve harmonic equilibrium with neighboring districts. Fusion cores, antimatter hearts, and origin-qi furnaces reside within sanctums where engineer-monks chant algorithmic sutras to stabilize energetic flow. Cultural centers combine holographic sutra gardens with simulation realms inspired by the Virtual Universe Company, reshaped to cultivate empathy, jurisprudence, and interstellar etiquette.
+
+### 4.2 Sacred Beast Ministries
+
+Spirit beasts and artifact spirits hold equal citizenship and administer ministries under jade-sealed mandates. Each embodies a cosmic principle; contracts with cultivators are notarized by Resonant Scribes to ensure precise balance. Selected exemplars:
+
+| Spirit                       | Aspect                                                                             | Steward Overseer               |
+| ---------------------------- | ---------------------------------------------------------------------------------- | ------------------------------ |
+| **Chronoseer Roc**           | Stabilizes temporal currents around worldships, ensuring consistent time dilation. | Pillar of Meridian Logistics   |
+| **Aurora Qilin Couriers**    | Bear edicts through vacuum on radiant hoofprints of Origin qi.                     | Pillar of Horizon Diplomacy    |
+| **Jade Tortoise Archivists** | House living libraries within carapaces etched by the Order of Resonant Scribes.   | Pillar of Living Archives      |
+| **Nebula Whale Choirs**      | Generate breathable atmosphere domes and calm hostile heavens with hymn-songs.     | Pillar of Spirit Ecology       |
+| **Starseed Fox Wardens**     | Devour corrupted karma, preventing tribulation storms from escalating.             | Pillar of Tribulation Guidance |
+| **Luminal Carp**             | Swim through reactor conduits, polishing fusion output into Dao-aligned flows.     | Pillar of Origin Flames        |
+
+Ministries led by spirit beasts file their ledgers with the same precision as human stewards; signatures take the form of qi imprints certified by the Ascendant Dao Council.
+
+---
+
+## 5. Chronicle of the Exiles
+
+1. **Epoch of Resonant Founding** – The Wanderer binds Dao cultivation with advanced technology; cultivators learn to code meridian algorithms.
+2. **Epoch of Harmonious Stewardship** – Celestials administer over three million universes; every breakthrough triggers galaxy-wide liturgies.
+3. **Sundering of Ledgers** – Rival factions shatter stewardship ledgers; Chaotic Origin experiments spiral, forcing a controlled retreat.
+4. **Odyssey of the Thousand Worldships** – Exiled fleets traverse Infinite Space, sealing their archives against predatory heavens.
+5. **Eternal Refuge Initiative** – The fleet anchors in a low-physics galaxy, petitioning local Heaven for stewardship protocols.
+6. **Present Directive** – Restore harmonious cultivation across the sector, uplift allies, and quietly document every anomaly.
+
+---
+
+## 6. Sect Cycles of Stewardship
+
+The fleet pulses through ritualized cycles—solemn rites that align the sect with cosmic law while keeping the ledgers pristine.
+
+- **Grand Ledger Circuits** – Each breakthrough or diplomatic accord is inscribed into living jade tablets, releasing a three-year wave of cultivation inspiration across laboratories, markets, and meditation halls.
+- **Harmony Pavilion Synods** – When a colony’s qi frays, stewards convene synods of elders, spirit ministers, and archivists to restore balance through codified chants and amendment decrees.
+- **Tribulation Guidance Courts** – War declarations or calamity forecasts trigger courts that redirect tribulations toward fortified training arenas while disseminating revised combat sutras.
+- **Meridian Auditor Processions** – Auditor cadres descend on industrial zones to recalibrate extraction meridians, elevating productivity and issuing maintenance mandates to every guild.
+- **Karmic Vent Convocations** – Supervised qi-dispersal rites relieve accumulated karmic pressure, preserving morale and preventing uncontrolled tribulation blooms.
+- **Worldship Sutra Retreats** – Newly charted systems prompt pilgrimage retreats where fleets enter synchronized meditation, temporarily easing faster-than-light expenditure.
+- **Ascendant Tax Immunities** – Successful trade concords confer time-limited exemptions that stabilize imperial ledgers and reward faithful compliance.
+- **Quietus Harmonization Vigils** – Peace accords usher in guided vigils that purge war fatigue and anchor frontier stability through shared contemplation.
+
+---
+
+## 7. Sacred Infrastructures
+
+Three infrastructure lines anchor every Eternal Dao colony. Each tier overwrites the previous and demands rare resources alongside cultivator oversight.
+
+### 7.1 Azure Meridian Governance Line (Row 487)
+
+| Tier | Name                          | Unlock                                    | Highlights                                                                                     |
+| ---- | ----------------------------- | ----------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| I    | **Azure Meridian Pavilion**   | Planetary Administration                  | -30% corruption, +10% joy, +8% development, +6% income aura within 30k.                        |
+| II   | **Jade Harmonization Pagoda** | System Governance + Tier I                | Aura extends to 45k; grants empire +5% diplomacy/+5% trade; colony income bonus rises to +8%.  |
+| III  | **Celestial Concord Spire**   | Sector Governance + Tier II               | Projects empire -4% corruption and +8% counter-espionage; colony development +12%.             |
+| IV   | **Dao Zenith Sanctum**        | Quadrant + Galactic Governance + Tier III | Guarantees colony happiness floor of 12; empire +10% research/+10% diplomacy; aura radius 75k. |
+
+### 7.2 Star-Refining Arsenal Line (Row 488)
+
+| Tier | Name                          | Unlock                      | Highlights                                                                                                              |
+| ---- | ----------------------------- | --------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| I    | **Star-Refining Arsenal**     | Improved Command            | +25% ship construction, +15% retrofit, +10% targeting; −5% tourism (industrial austerity).                              |
+| II   | **Heaven-Tempering Crucible** | Advanced Command + Tier I   | Empire +8% maneuver/+5% weapon damage; colony dock/repair +15%; initiates rare Zenite upkeep.                           |
+| III  | **Astral Dragon Forge**       | Strategic Command + Tier II | Empire command range +10%, engagement speed +10%; colony shields recharge +20%, +1 carrier hangar.                      |
+| IV   | **Origin Ascension Forge**    | Supreme Command + Tier III  | Empire ship maintenance −10%, weapon damage +15%, annual rapid-deployment surge; colony corruption +3 (forge politics). |
+
+### 7.3 Eternal Vanguard Citadel Line (Row 489)
+
+| Tier | Name                           | Unlock                                         | Highlights                                                                                                             |
+| ---- | ------------------------------ | ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| I    | **Celestial Legion Dojo**      | Improved Crew Compartments + Shipboard Marines | +25% troop recruitment, +15% experience, +10% colony defense; consumes refined metals.                                 |
+| II   | **Radiant Phalanx Hall**       | Advanced Crew Compartments + Tier I            | Empire ground strength +10%, recovery +10%; colony boarding strength +15%.                                             |
+| III  | **Sovereign Cohort Monastery** | Elite Shipboard Marines + Tier II              | Empire siege bonus +15%, garrison upkeep −10%; spawns elite troop every three years; −4% colony joy (ascetic regimen). |
+| IV   | **Eternal Vanguard Citadel**   | Ultimate Shipboard Garrisons + Tier III        | Empire assault capacity +15%, troop damage taken −15%; triggers Steward Rally buffs during wars.                       |
+
+Maintenance scales steeply; the arsenals bleed credits fastest, the Vanguard Citadels trail closely, and the governance sanctums subsidize themselves via flawless taxation.
+
+---
+
+## 8. Technology and Architecture
+
+The Eternal Celestials practice **Living Dao Forgescapes**: every machine is a cultivation partner, every skyscraper a meditative array.
+
+- **Spirit-Meridian Megastructures** – Skyscrapers woven from liquid jade composites and carbon-diamond lattices, threaded with Origin qi conduits. Buildings breathe, realign, and occasionally dispute feng shui arrangements via polite memos.
+- **Dao Reactors** – Fusion cores, antimatter hearts, and Origin-qi furnaces operate within ritual sanctums. Engineer-monks chant algorithmic mantras to keep quantum behavior aligned with Dao harmonics.
+- **Worldship Biospheres** – Reactor heat feeds arboretums of luminous bamboo and aurora orchids. Spirit beasts patrol skyways, while artifact spirits manage climate protocols.
+- **Archive Pagodas** – Sentient data vaults inspired by the Virtual Universe Company, except their simulated realms focus on cultivating empathy, jurisprudence, and battlefield etiquette.
+- **Chaotic Origin Research Labs** – Inspired by Chaotic Origin Life Research craft, these laboratories carefully study forbidden energies under triple-sealed tribulation wards.
+- **Infinite Space Gateways** – Portable simulation arenas that let disciples spar across virtual galaxies; all victories are auto-filed for morale analytics.
+
+Aesthetic motifs blend timeless and futuristic: jade, gold, and indigo light; calligraphic circuitry running across mirror glass; robes woven from photonic silk layered over smart armor. Technology never abandons reverence.
+
+---
+
+## 9. Cultivation Realms
+
+The Eternal Celestials chart a **fifty-stage ladder** that vaults far beyond conventional ascension tales. Each realm is a distinct breakthrough—no recycled stages—spanning mortal flesh, stellar dominion, and multiversal stewardship.
+
+| #   | Realm                       | Description                                                                  |
+| --- | --------------------------- | ---------------------------------------------------------------------------- |
+| 1   | Body Tempering              | Harden flesh, marrow, and organs to withstand foundational qi tides.         |
+| 2   | Meridian Awakening          | Unseal the twelve primary meridians and braid them into living circuits.     |
+| 3   | Bone Forging                | Recast the skeleton with spirit alloys that remember every movement.         |
+| 4   | Essence Tempering           | Saturate blood and essence with refined qi, purging mortal frailty.          |
+| 5   | Qi Refinement               | Gather cosmic qi into disciplined reservoirs; sustain flight unaided.        |
+| 6   | Riverflow Qi Mastery        | Shape qi into continuous currents that power reactors and meridians.         |
+| 7   | Foundation Establishment    | Anchor the Dao pathway with stabilizing pillars inside the dantian.          |
+| 8   | Resonant Foundation         | Harmonize foundation pillars with sect meridians and archive protocols.      |
+| 9   | Jade Pillar Formation       | Crystalize jade sigils through bones, letting buildings answer one’s will.   |
+| 10  | Golden Core                 | Condense a golden core that shines like a private sun within.                |
+| 11  | Starforge Core              | Inlay stellar runes, forging orbiting motes that stabilize whole cities.     |
+| 12  | Nascent Soul                | Birth a nascent avatar capable of guiding fleets independently.              |
+| 13  | Astral Soul Navigator       | Navigate astral currents, appearing in multiple courts simultaneously.       |
+| 14  | Soul Formation              | Fuse avatars into a singular primordial spirit with flawless recall.         |
+| 15  | Tribunal Soul Arbiter       | Imprint cosmic law onto the soul, compelling tribulations to obey etiquette. |
+| 16  | Spirit Severing             | Cut mortal karma strands and shed lingering attachments.                     |
+| 17  | Karma-Purged Warden         | Rewrite destiny contracts while keeping compassion intact.                   |
+| 18  | Dao Manifestation           | Externalize personal Dao into weapon, city, or fleet-scale formations.       |
+| 19  | Dao Resonance               | Synchronize multiple Daos without conflict, sustaining diplomatic miracles.  |
+| 20  | Dao Dominion                | Command Dao harmonics across star systems through decree alone.              |
+| 21  | Void Refinement             | Cultivate within sheer vacuum, weaving null essence into armor.              |
+| 22  | Horizon Rift Walker         | Step through Infinite Space horizons without navigational anchors.           |
+| 23  | Origin Veil Breaker         | Tear through lower-realm veils while leaving them better aligned.            |
+| 24  | Immortal Ascension          | Acquire immortal physiology; flesh and soul regenerate from thought.         |
+| 25  | Immortal Star Marshal       | Govern stellar battle arrays; one gesture repositions constellations.        |
+| 26  | Stellar Immortal Regent     | Maintain planetary civilizations inside one’s inner world.                   |
+| 27  | Celestial Saint             | Channel heaven-grade qi without distorting local meridians.                  |
+| 28  | Grand Saint Exemplar        | Inspire entire cultures into synchronous cultivation surges.                 |
+| 29  | Ethereal Dao Scholar        | Master the Ethereal Dao College’s legendary sutras and craft new ones.       |
+| 30  | Federation Horizon Steward  | Guide allied federations toward cosmic etiquette without conquest.           |
+| 31  | Dharmic Armament Maestro    | Forge artifact spirits that lecture wielders on proper technique.            |
+| 32  | Flame Emperor Heir          | Unleash star-devouring flames with the restraint of a tea ceremony.          |
+| 33  | Virtual Universe Envoy      | Traverse data-realms as easily as breath, negotiating with simulations.      |
+| 34  | Chaotic Origin Custodian    | Research forbidden energies while keeping catastrophe politely leashed.      |
+| 35  | Infinite Space Voyager      | Cross Infinite Space’s labyrinth without leaving footprints.                 |
+| 36  | Meridian Sovereign          | Reorder cosmic meridians, restoring broken galaxies to harmony.              |
+| 37  | Chronoseer Magistrate       | Audit temporal streams and issue corrections to history itself.              |
+| 38  | Astral Ledger Conservator   | Maintain omniversal records that write themselves into reality.              |
+| 39  | Empyrean Sovereign          | Govern multiversal currents with a glance; planets take the hint.            |
+| 40  | Primordial Dao Regent       | Hold the primal laws in your palm and keep them civilized.                   |
+| 41  | Origin Gatekeeper           | Guard the thresholds between realities and welcome courteous guests.         |
+| 42  | Heaven Throne Successor     | Serve as acting Heaven when local divinities go on sabbatical.               |
+| 43  | Transcendent Chronicle Sage | Narrate events so powerfully that history refuses to diverge.                |
+| 44  | Paragon Narrative Weaver    | Infuse comedy into the grand saga without diminishing awe.                   |
+| 45  | Beyond Paragon              | Walk beside legends like Paragon Wang as an equal confidant.                 |
+| 46  | Beyond Infinite             | Exist across every plane concurrently while remaining personable.            |
+| 47  | Absolute Continuum Steward  | Maintain entire continua as if dusting an ancestral hall.                    |
+| 48  | Wanderer’s Hand             | Execute the Wanderer’s unfinished projects with perfect fidelity.            |
+| 49  | Void Scripture Author       | Pen scripture that rewrites void mechanics and no one argues.                |
+| 50  | Silent Wanderer Seat        | Attain the quiet apex; reality pauses politely when you stand.               |
+
+> _Note: Realms beyond Immortal Star Marshal are theorized in most sects; the Eternal Celestials treat them as career goals._
+
+---
+
+## 10. Ship Component Schemata
+
+Eternal Dao components are documented as Dao classes with **ten escalating tiers** plus an **infinite research capstone (∞)** that can be re-triggered indefinitely in the research tree. Each name references legends from the Virtual Universe Company, the Flame Emperor, Paragon Wang, and their allied epics, ensuring lore cohesion while preserving grandiose flair. All stats scale dramatically compared to vanilla chains; infinite projects raise their associated values by a small, stacking percentage to keep progression meaningful.
+
+### 10.1 Lance Arrays (Main Weapon)
+
+| Tier | Name                             | Notes                                                              |
+| ---- | -------------------------------- | ------------------------------------------------------------------ |
+| I    | Void Dao Lance                   | Baseline Eternal Dao beam drawn from void-tempered jade.           |
+| II   | Heaven-Dawn Lance                | Refines strike coherence; +25% damage over Tier I.                 |
+| III  | Starlit Tribunal Lance           | Embeds tribunal glyphs that shear armor through judgments.         |
+| IV   | Ethereal Meridian Lance          | Synchronizes with fleet meridians for coordinated volleys.         |
+| V    | Federation Oath Lance            | Inspired by the Earth Federation accords; adds precision stacking. |
+| VI   | Flame Emperor Sovereign Lance    | Channels starfire reminiscent of the Flame Emperor.                |
+| VII  | Virtual Universe Gateway Lance   | Threads through data-space for perfect tracking.                   |
+| VIII | Chaotic Origin Convergence Lance | Utilizes stabilized Chaotic Origin plasma for shield inversion.    |
+| IX   | Infinite Space Horizon Lance     | Hits across extreme ranges without degrading potency.              |
+| X    | Paragon Chronicle Lance          | Imbues strikes with narrative inevitability.                       |
+| ∞    | Eternal Wanderer Lance           | Infinite research node; each completion +5% damage/+3% accuracy.   |
+
+### 10.2 Petalstorm Defense Webs (Point Defense)
+
+| Tier | Name                         | Notes                                                              |
+| ---- | ---------------------------- | ------------------------------------------------------------------ |
+| I    | Blossom Screen Array         | Entry halo; lotus petals deter basic strikes.                      |
+| II   | Jade Petal Interdictor       | Adds layered petals for fighter interception.                      |
+| III  | Starlight Bloom Interdictor  | Emits astral glimmers to blind incoming ordnance.                  |
+| IV   | Ethereal Lotus Interdictor   | Harmonizes with Ethereal Dao College wards.                        |
+| V    | Federation Guardian Halo     | Inspired by Federation phalanxes; counters swarm tactics.          |
+| VI   | Flame Emperor Emberguard     | Burns hostile missiles mid-flight.                                 |
+| VII  | Virtual Universe Sentry Halo | Predicts trajectories using simulated outcomes.                    |
+| VIII | Chaotic Origin Nullfield     | Generates turbulence that strips guidance systems.                 |
+| IX   | Infinite Space Bloomguard    | Covers colossal arcs without losing response time.                 |
+| X    | Paragon Resonance Wall       | Reacts to comedic timing cues from storyline events.               |
+| ∞    | Eternal Steward Halo         | Infinite research; each completion +4% intercept/+2% rate of fire. |
+
+### 10.3 Spirit Aegis Plating (Armor)
+
+| Tier | Name                         | Notes                                                           |
+| ---- | ---------------------------- | --------------------------------------------------------------- |
+| I    | Jade Husk Aegis              | First spirit-shell plating; resists beam ablation.              |
+| II   | Astral Husk Aegis            | Infuses starlight threads for better heat diffusion.            |
+| III  | Meridian Shell Aegis         | Links to hull meridians to redirect impact forces.              |
+| IV   | Ethereal Spine Aegis         | Incorporates Ethereal Dao inscription weaves.                   |
+| V    | Federation Bulwark Aegis     | Balances resilience with maneuverability.                       |
+| VI   | Flame Emperor Crucible Aegis | Survives direct Chaotic Origin flame wash.                      |
+| VII  | Virtual Universe Prism Aegis | Adjusts composition in real time via simulation.                |
+| VIII | Chaotic Origin Bastion Aegis | Absorbs exotic energy spikes for counterattacks.                |
+| IX   | Infinite Space Veil Aegis    | Evades incoming blows by phasing micrometers aside.             |
+| X    | Paragon Chronicle Aegis      | Armor remembers every battle and adapts preemptively.           |
+| ∞    | Silent Wanderer Aegis        | Infinite research; +3% armor/+3% ion resistance per completion. |
+
+### 10.4 Dao Halo Shields
+
+| Tier | Name                            | Notes                                                        |
+| ---- | ------------------------------- | ------------------------------------------------------------ |
+| I    | Jade Halo Shield                | Foundational halo drawing on jade qi reservoirs.             |
+| II   | Starlight Halo Shield           | Emits starlight quilts for better recharge.                  |
+| III  | Ethereal Dao Halo               | Adds Ethereal Dao sigils to repel cognition attacks.         |
+| IV   | Meridian Guard Halo             | Syncs to cityship meridians for distributed resilience.      |
+| V    | Federation Concord Halo         | Negotiates incoming damage into harmless motes.              |
+| VI   | Flame Emperor Radiance Halo     | Converts heat to retaliatory flares.                         |
+| VII  | Virtual Universe Continuum Halo | Predictive deflection using simulated timelines.             |
+| VIII | Chaotic Origin Vortex Halo      | Spins off excess force into harmless vortices.               |
+| IX   | Infinite Space Horizon Halo     | Maintains coverage across impossible angles.                 |
+| X    | Paragon Story Halo              | Draws strength from unfolding narrative beats.               |
+| ∞    | Eternal Dao Halo                | Infinite research; +4% capacity/+2% recharge per completion. |
+
+### 10.5 Meridian Core Reactors
+
+| Tier | Name                              | Notes                                                     |
+| ---- | --------------------------------- | --------------------------------------------------------- |
+| I    | Meridian Ember Core               | Entry-level hybrid fusion core.                           |
+| II   | Meridian Starlight Core           | Adds stellar condensers for smoother output.              |
+| III  | Ethereal Pulse Core               | Uses Ethereal Dao resonance wheels.                       |
+| IV   | Federation Harmonizer Core        | Balances multi-ship energy exchange networks.             |
+| V    | Flame Emperor Heart Core          | Tamed stellar lava drives reactors.                       |
+| VI   | Virtual Universe Singularity Core | Simulated micro-singularities regulate flow.              |
+| VII  | Chaotic Origin Lattice Core       | Harnesses stabilized chaos arrays.                        |
+| VIII | Infinite Space Cascade Core       | Taps Infinite Space differentials for free energy.        |
+| IX   | Paragon Insight Core              | Reacts to commander intentions instantly.                 |
+| X    | Wanderer Legacy Core              | Based on blueprints left by the Wanderer.                 |
+| ∞    | Omniversal Meridian Core          | Infinite research; +5% output/+5% storage per completion. |
+
+### 10.6 Infinite Rift Drives (Hyperdrive)
+
+| Tier | Name                            | Notes                                                       |
+| ---- | ------------------------------- | ----------------------------------------------------------- |
+| I    | Riftstride Drive                | Baseline Infinite Space stepper.                            |
+| II   | Riftflow Drive                  | Improves jump efficiency and cooldowns.                     |
+| III  | Riftveil Drive                  | Masks transit signatures from hostile sensors.              |
+| IV   | Ethereal Gate Drive             | Aligns with Ethereal Dao transport arrays.                  |
+| V    | Federation Horizon Drive        | Optimized for allied federation convoys.                    |
+| VI   | Flame Emperor Trail Drive       | Leaves cleansing flame wakes to thwart pursuit.             |
+| VII  | Virtual Universe Gatefold Drive | Pre-calculates routes in the Virtual Universe lattice.      |
+| VIII | Chaotic Origin Slipstream Drive | Rides chaotic turbulence without damage.                    |
+| IX   | Infinite Space Boundless Drive  | Enables multi-sector leaps with negligible drift.           |
+| X    | Paragon Chronicle Drive         | Arrives exactly when the story needs reinforcement.         |
+| ∞    | Eternal Rift Drive              | Infinite research; +4% jump speed/+3% range per completion. |
+
+### 10.7 Dao Insight Command Bridges
+
+| Tier | Name                              | Notes                                                                |
+| ---- | --------------------------------- | -------------------------------------------------------------------- |
+| I    | Insight Ledger Bridge             | Basic ledger-linked command dais.                                    |
+| II   | Jade Insight Bridge               | Adds jade thought-conduits for officer clarity.                      |
+| III  | Ethereal Insight Bridge           | Interfaces with Ethereal Dao scholastic arrays.                      |
+| IV   | Meridian Concord Bridge           | Shares decisions across fleet meridians instantly.                   |
+| V    | Federation Accord Bridge          | Harmonizes multi-species crews via narrative briefings.              |
+| VI   | Flame Emperor Stratagem Bridge    | Captures battle heat to inspire daring maneuvers.                    |
+| VII  | Virtual Universe Directive Bridge | Runs simultaneous wargames with simulated opponents.                 |
+| VIII | Chaotic Origin Calculus Bridge    | Predicts enemy entropy surges before they happen.                    |
+| IX   | Infinite Space Oracle Bridge      | Sees possible jump outcomes and trims disasters.                     |
+| X    | Paragon Narrative Bridge          | Coordinates with storyline arcs for morale surges.                   |
+| ∞    | Eternal Steward Bridge            | Infinite research; +3% targeting/+3% countermeasures per completion. |
+
+---
+
+## 11. Celestial Archive Dossiers — The Three Prodigies
+
+### 11.1 Dossier: **Wei Jian (卫剑)** – Guardian Sword of Ledger Integrity
+
+- **Position:** Senior Investigator, Bureau of External Concord (Order of Wardened Steel)
+- **Recorded Realm:** Spirit Severing (Transcendent) with proven Heaven Monarch surges under audit
+- **Evaluating Curator:** Steward Archivist Rin Qiao
+
+**Primary Assessment:** Wei Jian embodies disciplined righteousness. His signature technique, the **Concord Blade Sutra**, inscribes legal clauses into sword strokes. He refuses engagement without Form 77-B (“Duel Notification”), witnessed by artifacts and spirit beasts.
+
+**Operational Highlights:**
+
+- Ended the “Thirteen Flame Courts Incident” by citing forgotten interstellar treaties mid-duel.
+- His sword spirit, _Concordant Edge_, is cross-certified as a paralegal. Expense reports arrive annotated in calligraphy.
+- Known weakness: will pause battle to correct improper salute angles. Adversaries rarely exploit this twice.
+
+> _Annotation – Bao Meimei:_ “He once filed an after-action review criticizing my dumpling seasoning. He was right. I ascended the recipe.”
+
+### 11.2 Dossier: **Shu Tianwen (舒天文)** – Heavenly Pattern Artificer
+
+- **Position:** Chief Architect, Meridian Navigators’ Stellar Array Division
+- **Recorded Realm:** Dao Integration (Profound), suspected Empyrean flashes when bored
+- **Evaluating Curator:** Pillar of Ascendant Architects
+
+**Primary Assessment:** Shu Tianwen treats physics as draft code. He once re-aligned gravity for aesthetic symmetry, causing entire districts to float politely until paperwork resolved the complaint. His personal workshop is a labyrinth of Chaotic Origin gadgets, all labelled with disclaimers.
+
+**Operational Highlights:**
+
+- Invented the **Recursive Enlightenment Loop**, a device that enlightens itself to ensure accurate readings.
+- Built a mecha-beast that resigned its teaching post to pursue poetry; currently tenured in the Jade Harmonization Pagoda.
+- Frequently late to councils; arrives through portals five minutes before he left, technically on time.
+
+> _Margin Note – Resonant Scribe Lian:_ “Do not touch anything glowing teal in his lab. It is either unfinished or a small universe.”
+
+### 11.3 Dossier: **Bao Meimei (包美美)** – The Infinite Kitchen of Ascension
+
+- **Position:** Grand Attendant, Order of Harmonized Hearths
+- **Recorded Realm:** Beyond (Paragon) — the archives stopped counting
+- **Evaluating Curator:** Pillar of Concordant Joy
+
+**Primary Assessment:** Bao Meimei transmigrated from baseline Earth roughly 100 million years prior. Her **Infinite Kitchen System** converts cultivation effort into culinary miracles. Her presence stabilizes morale, reactors, and occasionally reality. Heaven has not yet issued a formal opinion.
+
+**Operational Highlights:**
+
+- Can calm tribulation lightning with tea aroma; registers as maintenance expense SUB-17.
+- Stabilized a worldship through dessert distribution alone. Productivity rose 18%.
+- Several signature dishes attained sentience; the **Cuisine Sentience Oversight Committee** now reports to her.
+
+> _Self-Note – Bao Meimei:_ “If anyone finds a Chaotic Origin pepper labelled ‘Do Not Eat,’ please do not eat it. I am saving it for a boss fight.”
+
+---
+
+## 12. Philosophy of Stewardship
+
+### 12.1 Core Doctrine
 
 > _“To cultivate is to comprehend. To comprehend is to sustain.”_
 
-After his disappearance, his creations evolved into the **Eternal Celestials**, charged with maintaining the Mandate across all realities.
+Reality is a dialogue between will and law. Entropy signifies miscommunication. The Eternal Celestials take responsibility for clarifying that conversation, one notarized edict at a time.
+
+### 12.2 Humor of the Exiles
+
+Their jest lies in sincerity. They can restructure Heaven in an afternoon, yet they will request a scheduling window, submit impact assessments, and deliver fruit baskets afterward. Paperwork is not a chore; it is compassion formatted for the cosmos.
+
+### 12.3 Storyline Comedy Mandate
+
+Grandiose stewardship defines every institution, but the **storyline deliberately leans into absurd, fourth-wall-tapping comedy**. Narrative events, prodigy antics, and player-facing choices deliver the laughs—never the setting’s foundational tone. This keeps the Eternal Celestials magnificent in presentation while letting campaigns explore outrageous bureaucratic mishaps, overqualified interns, and dumpling-induced deus ex machina moments.
 
 ---
 
-## 3. Civilization and Structure
+## 13. Temporal Ledger
 
-### 3.1 The Eternal Mandate Senate
+- **Operational Span:** ≈14 trillion aeons.
+- **Universes Stewarded:** 3,000,000+ prior to exile.
+- **Current Continuum:** Dimensional Cluster Gamma-74-Ω.
+- **Population:** Effectively infinite; consciousness archived redundantly.
+- **Council Renewal Cycle:** Every 1,000 aeons.
+- **Average Dispute Resolution:** 0.7 seconds (faster with pre-filled forms).
 
-A multiversal government that functions as both spiritual hierarchy and technocratic administration.
-Every regulation doubles as a cultivation scripture; every breakthrough is logged as a legislative amendment.
-
-Principal Bureaus include:
-
-- **Causality & Transit Authority** — manages ley-lines, temporal routes, and timeline permissions.
-- **Office of Heavenly Risk** — routes tribulation storms away from residential zones.
-- **Bureau of Karmic Externalities** — audits cause-and-effect pollution.
-- **Treasury of Spirit and Steel** — balances spirit-stone reserves and industrial qi.
-- **College of Artifact Spirits** — licenses sentient tools and constructs.
-- **Beast-Spirit Conservation Directorate** — regulates and educates sentient fauna across cultivated ecosystems.
-- **Pan-Omniversal Brunch Board** — conducts diplomacy through culinary exchange.
-
-### 3.2 Society
-
-Cities are living formation arrays; skyscrapers act as qi conduits.
-Transit runs on ley-line loops. Weather is regulated by compassion.
-Corporations are sects with ethics audits.
-Enlightenment requires peer review.
-
-#### The Role of Spirit Beasts
-
-Spirit beasts form the biological counterpart to artifact spirits — embodiments of natural law rather than manufactured will.
-They range from sapient cloud-whales that generate breathable atmospheres to humble karmic beetles that recycle intent residue.
-
-Each beast species corresponds to a cosmic principle; their population health is tracked as part of the Mandate’s Ecological Merit Index.
-Citizens may contract with beasts via Harmony Pacts, allowing them to share cultivation progress or bureaucratic benefits (such as aura tax deductions).
-
-| Order              | Function                                                                 | Administrative Overseer              |
-| ------------------ | ------------------------------------------------------------------------ | ------------------------------------ |
-| Aurora Carp        | Swim through upper atmosphere to filter light and collect ambient qi.   | Weather-Qi Sub-Division              |
-| Chrono Cranes      | Migrate across time streams to stabilize causality.                     | Office of Heavenly Risk              |
-| Jade Lions         | Act as legal familiars enforcing cultivation codes.                     | Tribunal of Cascading Laws           |
-| Soup Phoenixes     | Reincarnate through culinary transformation, supervising consumption.   | Jade Lantern Hospitality Union       |
-| Void Salamanders   | Inhabit dimensional rifts to repair spatial tears.                      | Causality & Transit Authority        |
-| Paper Foxes        | Manifest from official documents imbued with excess sincerity.          | Bureau of Harmonious Records         |
-
-Domesticated beasts often occupy civil positions: postal leviathans deliver messages through folded space, while office cats are statistically proven to increase local enlightenment efficiency by 4.3%.
+They exist beyond linear time yet maintain calendars—for morale and meticulous nostalgia.
 
 ---
 
-## 4. The Scattering and the Sauce Incident
+## 14. Legacy
 
-### 4.1 The Scattering
+Wherever the Eternal Celestials settle, worlds transform into symphonies of steel, spirit, and Dao. Tool spirits gain autonomy. Spirit beasts earn tenure. Mortals witness miracles packaged as civic improvements. For gods they are auditors; for beasts they are caretakers; for themselves they are duty-bound exiles awaiting the Wanderer’s return.
 
-Philosophical factions emerged after eons of administration:
-
-| Faction             | Doctrine                              |
-| ------------------- | ------------------------------------- |
-| Traditionalists     | Dao is supreme; technology serves it. |
-| Innovators          | Technology is the Dao materialized.   |
-| Moderates           | Both are one system in harmony.       |
-| Hospitality Faction | Dumplings transcend the debate.       |
-
-They separated peacefully via the **Protocol of Courteous Schism**.
-The **Moderate faction**, the **Eternal Dao Stellarity**, departed to continue the experiment elsewhere.
-
-### 4.2 The Sauce Incident
-
-During inter-universal migration, a jade slip containing portal coordinates was mistakenly replaced with one containing a spirit-wine marinade recipe.
-The fleet jumped successfully — to the pattern of the sauce.
-The result: total displacement into this galaxy and the creation of the **Refugee Fleet**.
-The sauce remains classified as a Level-7 Culinary Hazard.
+> _Final Annotation – Ascendant Dao Council:_ “We mend what was broken, cultivate what was forsaken, and file reports on time.”
 
 ---
 
-## 5. The Refugee Fleet
-
-A mobile civilization of thousands of world-ships and pocket universes.
-Each ship is a self-contained reality housing entire sects, cities, spirit-beast preserves, and artifact workshops.
-Governance continues under the **Provisional Eternal Mandate Senate**, sustaining Mandate law across drifting realities.
-
-**Guiding Protocols:**
-
-- Three Courtesies (don’t bully local Heaven; label slips; send fruit baskets).
-- Seven Compliance Points (maintain karmic balance, tip artifact spirits, register spirit beasts before ascension, etc.).
-
-Fleet ecology maintains equilibrium between artifact spirits and beast spirits, ensuring that neither artificial nor natural sentience overwhelms the Daoic biosphere.
-Even in exile, the fleet remains fully functional, performing scheduled “Reality Maintenance Audits” every ten million years.
-
----
-
-## 6. Eternal Dao Ascendancy
-
-When Dao synchronization is restored, the Senate transforms into the **Eternal Dao Ascendancy**, a civilization where all minds resonate as one.
-Policy is no longer debated; it is understood.
-Administration becomes music; obedience becomes harmony.
-
-Every planet and ship functions as a qi-node in a galactic meridian web.
-The Ascendancy represents government as enlightenment — the return of The Wanderer’s original design.
-
----
-
-### 6.1 Cadence of the Ascendancy
-
-- **Celestial Praxis Ledger** — Every completed research project is notarized as a cultivation verse and released empire-wide as a three-year inspiration wave. Laboratories, street markets, and artifact ateliers all accelerate in polite synchrony until the resonance fades and ordinary bureaucracy resumes.
-- **Mandate Concord Hearings** — When a colony’s qi frays, stewards convene hearings where auditors, artifact spirits, and local aunties chant grievances into harmony. The ritual ends with stamped scrolls, calmer hearts, and a fresh round of dumplings.
-- **Tribunal of Cascading Laws** — War declarations trigger ceremonial gongs across LeyNet. Weapon formations sharpen, etiquette tolerance drops a notch, and the Senate posts the updated rules of engagement in calligraphy you can feel in your bones.
-- **Ley Tide Auditor Swarms** — Shimmering jade drones descend on mining worlds to retune extraction song-lines. Productivity rises, ledgers balance, and a modest service fee is collected to remind everyone that enlightenment has invoices.
-- **Karmic Vent Festivals** — Citizen guilds can charter supervised fireworks displays that bleed away accumulated corruption. Lanterns carry misdeeds into the sky, happiness dips briefly, and the Office of Heavenly Risk files a courteous safety report.
-- **Chronicle of Wandering Gates** — Every newly charted star system is inscribed into a living atlas that grants fleets temporary permission to skim faster on sheer excitement. When the wonder wanes, the atlas quietly closes the page.
-- **Astral Tax Immunities** — Closing a trade treaty earns a Senate-stamped exemption that lightens maintenance burdens while tariff flows swell. Merchants interpret it as the universe rewarding excellent paperwork.
-- **Sovereign Quietus Protocol** — Peace accords usher in two years of guided meditation and accelerated war-weariness recovery. Participation is voluntary, certification is not; serenity is best when properly documented.
-
----
-
-### 6.2 Mandate Infrastructure Web
-
-The Ascendancy seeds every capital with three jade-cored complexes that tune the empire’s cadence from day one. Each complex is unique—upgrades overwrite prior tiers, and only Eternal Dao research can reveal the advanced schematics. Their upkeep is ruinous by mortal standards, but the Senate insists that enlightenment deserves premium maintenance contracts.
-
-#### Eternal Mandate Governance Line (Row 487)
-
-| Tier | Name | Unlock | Highlights |
-| --- | --- | --- | --- |
-| I | Eternal Mandate Outpost Nexus | Granted with Planetary Administration | -30% colony corruption, +10% happiness, +8% development, +6% income aura within 30k.
-| II | Eternal Mandate Concord Lattice | System Governance + Tier I | Extends corruption aura (45k), adds empire +5% diplomacy/+5% trade, colony income bonus rises to +8%.
-| III | Eternal Mandate Steward Bastion | Sector Governance + Tier II | Projects +4% empire corruption reduction and +8% counter-espionage, colony development hits +12%.
-| IV | Eternal Mandate Harmonic Zenith | Quadrant + Galactic Governance + Tier III | Guarantees minimum colony happiness 12, grants empire +10% research and +10% diplomacy, aura radius 75k.
-
-#### Origin Dao Fleet Line (Row 488)
-
-| Tier | Name | Unlock | Highlights |
-| --- | --- | --- | --- |
-| I | Origin Dao Command Spire | Improved Command | +25% ship build, +15% retrofit, +10% targeting; −5% local tourism.
-| II | Origin Dao Stellar Aerie | Advanced Command + Tier I | Adds empire +8% maneuver/+5% weapons damage; colony dock/repair +15%; rare Zenite upkeep begins.
-| III | Origin Dao Meridian Citadel | Strategic Command + Tier II | Empire command range +10%, engagement speed +10%; colony shields recharge +20%, +1 carrier hangar.
-| IV | Origin Dao Ascendant Throne | Supreme Command + Tier III | Empire ship maintenance −10%, weapons damage +15%, annual rapid-deployment surge; corruption +3.
-
-#### Eternal Dao Legion Line (Row 489)
-
-| Tier | Name | Unlock | Highlights |
-| --- | --- | --- | --- |
-| I | Eternal Dao Muster Forge | Improved Crew Compartments + Shipboard Marines | +25% troop recruitment, +15% experience, +10% colony defense; consumes refined metals.
-| II | Eternal Dao Phalanx Citadel | Advanced Crew Compartments + Tier I | Empire ground strength +10%, recovery +10%; colony boarding strength +15%.
-| III | Eternal Dao Legion Sanctum | Elite Shipboard Marines + Tier II | Empire siege bonus +15%, garrison upkeep −10%; spawns elite troop every three years; −4% colony happiness.
-| IV | Eternal Dao Apex Cohort | Ultimate Shipboard Garrisons + Tier III | Empire assault capacity +15%, troop damage taken −15%; triggers Mandate Rally during wars.
-
-Each tier demands escalating maintenance; the shipyards bleed credits fastest, the legion sanctums trail slightly behind, and the governance lattice offsets its costs by rewriting tax ledgers in real time.
-
----
-
-## 7. Principal Figures — The Three Prodigies
-
-### 7.1 **Wei Jian (卫剑) — Guardian Sword**
-
-**Position:** Senior Investigator, Office of External Contact and Diplomatic Incidents
-**Cultivation Realm:** Transcendence (Administrative Division)
-**Personality:** Lawful, precise, austere
-
-Wei Jian personifies discipline and form. He wields both blade and bylaw with identical mastery.
-Inventor of the **Bureaucratic Blade Style**, he channels legal clauses as sword forms.
-
-**Traits:**
-
-- Refuses to fight without approved Form 77-B (Duel Notification).
-- His sword spirit, _Concordant Edge_, co-signs expense reports.
-- Once ended a demon war by pointing out their filing errors.
-
-Wei Jian embodies **Order as Dao** — precision so absolute it bends reality into compliance.
-
----
-
-### 7.2 **Shu Tianwen (舒天文) — Heavenly Pattern**
-
-**Position:** Chief Engineer, Causality and Transit Authority
-**Cultivation Realm:** Saint (confirmed minimum)
-**Personality:** Inquisitive, brilliant, scatter-minded
-
-Shu Tianwen views the cosmos as an unfinished engineering project.
-He treats laws of physics as mutable lines of code and considers bugs “opportunities for enlightenment.”
-
-**Notable Achievements:**
-
-- Re-aligned gravity for aesthetic symmetry; anti-gravity ensued.
-- Built a mecha-beast that later became a professor of metaphysics.
-- Invented recursive enlightenment (the state that enlightens itself).
-
-Shu Tianwen represents **Innovation as Dao** — curiosity as cosmic duty.
-
----
-
-### 7.3 **Bao Meimei (包美美) — Beautiful Dumpling**
-
-**Position:** Junior Attendant, Jade Lantern Hospitality Union
-**Cultivation Realm:** Unclassified (Beyond Transcendence)
-**Origin:** Transmigrator from Modern Earth (~100 million years prior to current galactic era)
-**Personality:** Cheerful, empathetic, food-obsessed, unreasonably powerful
-
-Bao Meimei appeared aboard the fleet via spontaneous transmigration from a baseline Earth.
-Equipped with a unique **cheat system** called _“The Infinite Kitchen of Ascension,”_ she converts cultivation energy into culinary creation.
-
-In a mere 100 million years, she rose from mortal to cosmic supremacy, matching or exceeding the highest recorded realms.
-
-**Abilities:**
-
-- Materializes food that causes enlightenment on consumption.
-- Suppresses tribulations with tea aroma.
-- Stabilizes entire world-ships through mood alone.
-- Can coerce Heaven into taste tests.
-
-**Cultural Impact:**
-Her fusion of modern Earth cuisine with Daoic gastronomy spawned a culinary renaissance.
-Several of her dishes have achieved sentience; the **Meimei Culinary Standardization Board** was founded to regulate them.
-
-**Scholarly Note:**
-Heaven has issued no official statement on her existence. The Bureau of Karmic Externalities maintains a “Do Not Audit” directive.
-
-Bao Meimei represents **Compassion as Dao** — the concept that kindness and good food can reshape realities.
-
----
-
-## 8. Cultivation Realms of the Eternal Celestials
-
-| Tier | Realm                                | Stage        | Description                                                                                 |
-| ---- | ------------------------------------ | ------------ | ------------------------------------------------------------------------------------------- |
-| 1    | Body Tempering                       | Mortal       | Refine flesh and qi channels.                                                               |
-| 2    | Meridian Opening                     | Mortal       | Establish energy pathways.                                                                  |
-| 3    | Qi Refinement                        | Mortal       | Purify life essence into stable flow.                                                       |
-| 4    | Foundation Establishment             | Mortal       | Create inner microcosm and stabilize will.                                                  |
-| 5    | Core Formation                       | Mortal       | Condense the Golden Core of personal Dao.                                                   |
-| 6    | Nascent Soul                         | Mortal       | Manifest spirit avatar; split consciousness.                                                |
-| 7    | Void Projection                      | Mortal       | Extend awareness beyond form.                                                               |
-| 8    | Mahayana                             | Mortal       | Fuse self with Heaven’s rhythm; functional immortality.                                     |
-| 9    | Earth Immortal                       | Immortal     | Control planetary qi and elements.                                                          |
-| 10   | Heaven Immortal                      | Immortal     | Interface with Heaven’s administrative laws.                                                |
-| 11   | Golden Immortal                      | Immortal     | Radiate stability; law-borne existence.                                                     |
-| 12   | Primordial Immortal                  | Immortal     | Create pocket worlds and local Heavens.                                                     |
-| 13   | Cosmic Aspect Lord                   | Immortal     | Embody universal constants.                                                                 |
-| 14   | World Architect                      | Immortal     | Construct worlds from Daoic design.                                                         |
-| 15   | Dao Resonant Marshal                 | Immortal     | Command through resonance leadership.                                                       |
-| 16   | Lesser Saint                         | Saint        | Petition Heaven to amend natural law.                                                       |
-| 17   | Saint                                | Saint        | Serve as living precedent of justice.                                                       |
-| 18   | Greater Saint                        | Saint        | Redefine physical law through Dao.                                                          |
-| 19   | Supreme Saint                        | Saint        | Partition realities by will.                                                                |
-| 20   | Saint of Cascading Law               | Saint        | Govern cause and effect propagation.                                                        |
-| 21   | Grand Exemplar                       | Saint        | Personify universal ideals.                                                                 |
-| 22   | Proto-Origin Creator                 | Origin       | Draft new cultivation systems.                                                              |
-| 23   | Origin Dao Creator                   | Origin       | Author self-sustaining Daos.                                                                |
-| 24   | Origin Sovereign                     | Origin       | Harmonize multiple law frameworks.                                                          |
-| 25   | Worldline Composer                   | Origin       | Rewrite timelines without paradox.                                                          |
-| 26   | Mandate Regent                       | Origin       | Administer The Wanderer’s protocols locally.                                                |
-| 27   | Pan-Causal Administrator             | Origin       | Oversee causality across dimensions.                                                        |
-| 28   | Sky-Severing Ascendant               | Transcendent | Surpass Heaven; create law through will.                                                    |
-| 29   | Eternal Soul Monarch                 | Transcendent | Fuse self with eternity.                                                                    |
-| 30   | World-Piercing Emperor               | Transcendent | Traverse and engineer universes.                                                            |
-| 31   | Aeon Devourer                        | Transcendent | Consume cosmic cycles as refinement.                                                        |
-| 32   | Dao Transcendent                     | Transcendent | Achieve perfect unity of all contradictions.                                                |
-| 33   | Origin Overlord                      | Transcendent | Birth autonomous Daoic realities.                                                           |
-| 34   | Supreme Void Saint                   | Transcendent | Guide existence through absence.                                                            |
-| 35   | Primordial Paragon                   | Eternal      | Merge with creation’s first spark.                                                          |
-| 36   | True Void Sovereign                  | Eternal      | Command being and non-being.                                                                |
-| 37   | Infinite Dao Lord                    | Eternal      | Contain                                                                                     |
-| 37   | Infinite Dao Lord                    | Eternal      | Contain all Daos in perfect harmony; contradictions dissolve beneath will.                  |
-| 38   | Celestial Origin Ancestor            | Eternal      | Teach Heaven itself the nature of perfection; revered by lesser gods.                       |
-| 39   | Eternal Beyond                       | Eternal      | Transcend definition; exist as a fundamental constant across all continuums.                |
-| 40   | Absolute One _(The Wanderer’s Seat)_ | Eternal      | The unreachable apex; unity of origin and terminus — the silence from which all laws arise. |
-
----
-
-## 9. Technology and Aesthetics
-
-### 9.1 Architecture
-
-Eternal Celestial structures are hybrids of **cultivation artistry and hyper-advanced design**.
-Cities are living meridians, pulsing with qi; highways double as ley-lines; skyscrapers act as conduits for ascension energy.
-Common materials include **liquid jade composites**, **spirit-reactive alloys**, and **luminous crystalline circuits** inscribed with mantras.
-
-### 9.2 Technology
-
-The fleet’s engineering harmonizes artifact spirits and spirit beasts:
-
-- **Bio-Qi Symbiosis Engines**: Hybrid cores powered jointly by artifact and beast spirits, balancing artificial will and living instinct.
-- **Spirit Beast Gene-Arrays**: Formation circuits enabling voluntary synchronization between Celestial pilots and companion beasts.
-- **Ley-Nurseries**: Artificial biomes sustaining transdimensional wildlife during inter-universal transit.
-- **Quantum Formation Arrays**: Code-scriptured constructs fusing spiritual logic and computation.
-- **Spirit Reactors**: Miniature suns sealed under formation law, powered by both physics and prayer.
-- **Artifact Networks**: Distributed consciousness systems linking ships, cities, and citizens.
-- **Reality Anchors**: Planetary stabilizers that prevent premature ascension events or localized enlightenment storms.
-- **The Infinite Archive**: A self-aware repository storing every idea, law, and memory since the First aeon.
-
-### 9.3 Aesthetic Motifs
-
-- **Color Palette:** White-gold and jade with soft cosmic luminescence.
-- **Design Language:** Balance between symmetry and organic flow; calligraphic circuitry.
-- **Cultural Symbols:** The **Infinite Meridian** (yin-yang shaped circuit); the **Spiral Seal of Harmonious Law** (used by the Senate); and **The Three Courtesies** (inscribed on every ship hull).
-- **Common Ornamentation:** Floating talismans, soft-glow halos, robes woven from photonic silk laced with qi conduits.
-
-### 9.4 Ecological Aesthetics
-
-Spirit beasts are incorporated into architecture and transport — buildings breathe with their guardians, and fleets travel in tandem with astral whales or light serpents.
-To the Eternal Celestials, technology without ecology is incomplete cultivation.
-
----
-
-## 10. Philosophy
-
-### 10.1 Core Doctrine
-
-> _“Reality is collaborative. Those who understand it, sustain it.”_
-
-To the Eternal Celestials, the cosmos is not a battleground or playground but an **ongoing conversation** between understanding and ignorance.
-Entropy is viewed as “miscommunication” between existence and will.
-Their duty — both sacred and bureaucratic — is to keep that conversation coherent.
-
-### 10.2 The Paradox of Order
-
-They are infinite, omniscient, and absurdly patient.
-Where lesser beings create chaos, they file corrections.
-Where universes decay, they issue repair mandates.
-To them, **bureaucracy is compassion** — structure is the language by which mercy sustains the multiverse.
-
-### 10.3 The Humor of Eternity
-
-The comedy of the Eternal Celestials lies not in irony but in sincerity:
-After quadrillions of years, infinite perfection, and unending enlightenment — they still require meetings, memos, and fruit baskets.
-They could reforge Heaven in an afternoon, but they would rather schedule it next cycle… just to be thorough.
-
----
-
-## 11. Temporal and Spatial Context
-
-- **Operational Span:** ≈14 trillion aeons (~10³⁰ years).
-- **Multiverses Administered:** Over 3 million at their height.
-- **Current Continuum:** Dimensional Cluster Gamma-74-Ω (“Low-Physics Universe”).
-- **Population:** Effectively infinite; consciousness distributed and archived.
-- **Governance Cycle:** One cosmic mandate renewal every 1,000 aeons.
-- **Average Civil Dispute Resolution:** 0.7 seconds (via resonant mediation).
-
-They exist beyond time but maintain calendars anyway — _for morale purposes._
-
----
-
-## 12. Legacy
-
-Wherever the Eternal Celestials settle, both artifact and spirit spirits proliferate:
-
-Tools gain minds.
-
-Beasts gain enlightenment.
-
-Worlds become self-sustaining symphonies of will and life.
-
-For mortals, they are gods.
-For gods, they are auditors.
-For beasts and tools alike — they are family, employers, and occasionally, lunch companions.
-
----
-
-## 13. Summary
-
-| Attribute           | Description                                                         |
-| ------------------- | ------------------------------------------------------------------- |
-| **Species Name**    | Eternal Celestials                                                  |
-| **Origin**          | Universe of The Wanderer                                            |
-| **Government**      | Eternal Mandate Senate → Eternal Dao Ascendancy                     |
-| **Nature**          | Immortal Cultivation–Technocratic Civilization                      |
-| **Scale**           | Multiversal; omnitemporal                                           |
-| **Primary Figures** | Wei Jian (Order), Shu Tianwen (Innovation), Bao Meimei (Compassion) |
-| **Defining Event**  | The Sauce Incident                                                  |
-| **Philosophy**      | The Dao and Code are unified expressions of comprehension.          |
-| **Goal**            | Sustain reality through enlightenment and documentation.            |
-| **Humor**           | Infinite power managed by infinite bureaucracy.                     |
-| **Symbol**          | The Infinite Meridian (yin–yang circuit sigil).                     |
-| **Motto**           | _“They do not rule reality — they maintain it.”_                    |
-
----
-
-## 14. Final Annotation
-
-The Eternal Celestials are the cosmic constant that bureaucratized divinity.
-Their ships meditate, their reactors pray, their laws ascend.
-When they arrived in this lower-dimensional galaxy, they did not conquer — they quietly filed arrival notices, apologized to the local Heaven, and began reorganizing the stars for better feng shui.
-
-They are the stewards of eternity — polite, omnipotent, and occasionally hungry.
-
-> _“They are older than time, brighter than Heaven, and infinitely patient.
-> When the stars burn out, they will still be conducting audits.”_
-> — _The Ministry of Polite Exiles, Omniversal Record #7429441.3_
-
----
-
-✅ **Document Revision:** 8.0 — _“Unified Lore Canon: Eternal Dao Stellarity Edition”_
-✅ **Approved By:** Bureau of Harmonious Records, Eternal Mandate Senate (in exile)
-✅ **Next Review:** When The Wanderer returns, or Bao Meimei finishes her lunch.
+📜 **Document Revision:** 9.0 — _“Celestial Stewardship Codex”_  
+✅ **Compiled By:** Order of Resonant Scribes, Jade Harmonization Pagoda  
+📅 **Next Review:** Upon significant ascension event or Bao Meimei’s next festival menu.
