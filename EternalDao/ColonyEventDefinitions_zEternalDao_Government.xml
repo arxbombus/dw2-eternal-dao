@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ArrayOfColonyEventDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <!-- Order of Ascendant Architects Audit (Ascendant Dao Council) -->
+    <!-- Order of Ascendant Architects Audit (Transcendent Dao Council) -->
     <ColonyEventDefinition>
         <ColonyEventDefinitionId>32000</ColonyEventDefinitionId>
         <Type>Undefined</Type>
-        <Name>Order of Ascendant Architects Audit (Ascendant Dao Council)</Name>
-        <Description>Insert description here for our [B]Ascendant Dao Council[/B] government</Description>
+        <Name>Order of Ascendant Architects Audit (Transcendent Dao Council)</Name>
+        <Description>Insert description here for our [B]Transcendent Dao Council[/B] government</Description>
         <ImageFilename>UserInterface/Placeholder</ImageFilename>
         <DurationMinimum>5</DurationMinimum>
         <DurationMaximum>5</DurationMaximum>
@@ -14,7 +14,7 @@
         <ValuesDecayGradually>false</ValuesDecayGradually>
         <ManualInitiationCost>100000</ManualInitiationCost>
         <GovernmentFilterIds>
-            <!-- Ascendant Dao Council -->
+            <!-- Transcendent Dao Council -->
             <short>32000</short>
         </GovernmentFilterIds>
         <Bonuses>
@@ -35,12 +35,12 @@
             </Bonus>
         </Bonuses>
     </ColonyEventDefinition>
-    <!-- Order of Meridian Navigators Audit (Ascendant Dao Council) -->
+    <!-- Order of Meridian Navigators Audit (Transcendent Dao Council) -->
     <ColonyEventDefinition>
         <ColonyEventDefinitionId>32001</ColonyEventDefinitionId>
         <Type>Undefined</Type>
-        <Name>Order of Meridian Navigators Audit (Ascendant Dao Council)</Name>
-        <Description>Insert description here for our [B]Ascendant Dao Council[/B] government</Description>
+        <Name>Order of Meridian Navigators Audit (Transcendent Dao Council)</Name>
+        <Description>Insert description here for our [B]Transcendent Dao Council[/B] government</Description>
         <ImageFilename>UserInterface/Placeholder</ImageFilename>
         <DurationMinimum>5</DurationMinimum>
         <DurationMaximum>5</DurationMaximum>
@@ -49,7 +49,7 @@
         <ValuesDecayGradually>false</ValuesDecayGradually>
         <ManualInitiationCost>100000</ManualInitiationCost>
         <GovernmentFilterIds>
-            <!-- Ascendant Dao Council -->
+            <!-- Transcendent Dao Council -->
             <short>32000</short>
         </GovernmentFilterIds>
         <Bonuses>
@@ -90,12 +90,12 @@
             </Bonus>
         </Bonuses>
     </ColonyEventDefinition>
-    <!-- Order of Resonant Scribes Audit (Ascendant Dao Council) -->
+    <!-- Order of Resonant Scribes Audit (Transcendent Dao Council) -->
     <ColonyEventDefinition>
         <ColonyEventDefinitionId>32002</ColonyEventDefinitionId>
         <Type>Undefined</Type>
-        <Name>Order of Resonant Scribes Audit (Ascendant Dao Council)</Name>
-        <Description>Insert description here for our [B]Ascendant Dao Council[/B] government</Description>
+        <Name>Order of Resonant Scribes Audit (Transcendent Dao Council)</Name>
+        <Description>Insert description here for our [B]Transcendent Dao Council[/B] government</Description>
         <ImageFilename>UserInterface/Placeholder</ImageFilename>
         <DurationMinimum>5</DurationMinimum>
         <DurationMaximum>5</DurationMaximum>
@@ -104,7 +104,7 @@
         <ValuesDecayGradually>false</ValuesDecayGradually>
         <ManualInitiationCost>500000</ManualInitiationCost>
         <GovernmentFilterIds>
-            <!-- Ascendant Dao Council -->
+            <!-- Transcendent Dao Council -->
             <short>32000</short>
         </GovernmentFilterIds>
         <Bonuses>
@@ -140,12 +140,12 @@
             </Bonus>
         </Bonuses>
     </ColonyEventDefinition>
-    <!-- Order of Harmonized Hearths Audit (Ascendant Dao Council) -->
+    <!-- Order of Harmonized Hearths Audit (Transcendent Dao Council) -->
     <ColonyEventDefinition>
         <ColonyEventDefinitionId>32003</ColonyEventDefinitionId>
         <Type>Undefined</Type>
-        <Name>Order of Harmonized Hearths Audit (Ascendant Dao Council)</Name>
-        <Description>Insert description here for our [B]Ascendant Dao Council[/B] government</Description>
+        <Name>Order of Harmonized Hearths Audit (Transcendent Dao Council)</Name>
+        <Description>Insert description here for our [B]Transcendent Dao Council[/B] government</Description>
         <ImageFilename>UserInterface/Placeholder</ImageFilename>
         <DurationMinimum>5</DurationMinimum>
         <DurationMaximum>5</DurationMaximum>
@@ -154,7 +154,7 @@
         <ValuesDecayGradually>false</ValuesDecayGradually>
         <ManualInitiationCost>1800000</ManualInitiationCost>
         <GovernmentFilterIds>
-            <!-- Ascendant Dao Council -->
+            <!-- Transcendent Dao Council -->
             <short>32000</short>
         </GovernmentFilterIds>
         <Bonuses>
@@ -190,12 +190,12 @@
             </Bonus>
         </Bonuses>
     </ColonyEventDefinition>
-    <!-- Order of Wardened Steel Audit (Ascendant Dao Council) -->
+    <!-- Order of Wardened Steel Audit (Transcendent Dao Council) -->
     <ColonyEventDefinition>
         <ColonyEventDefinitionId>32004</ColonyEventDefinitionId>
         <Type>Undefined</Type>
-        <Name>Order of Wardened Steel Audit (Ascendant Dao Council)</Name>
-        <Description>Insert description here for our [B]Ascendant Dao Council[/B] government</Description>
+        <Name>Order of Wardened Steel Audit (Transcendent Dao Council)</Name>
+        <Description>Insert description here for our [B]Transcendent Dao Council[/B] government</Description>
         <ImageFilename>UserInterface/Placeholder</ImageFilename>
         <DurationMinimum>5</DurationMinimum>
         <DurationMaximum>5</DurationMaximum>
@@ -204,7 +204,7 @@
         <ValuesDecayGradually>false</ValuesDecayGradually>
         <ManualInitiationCost>100000</ManualInitiationCost>
         <GovernmentFilterIds>
-            <!-- Ascendant Dao Council -->
+            <!-- Transcendent Dao Council -->
             <short>32000</short>
         </GovernmentFilterIds>
         <Bonuses>

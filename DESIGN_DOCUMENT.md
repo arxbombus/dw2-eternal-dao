@@ -21,7 +21,7 @@
 | Species          | Cultivating humans adopting the title “Eternal Celestials” while in exile               |
 | Empire Type      | Authoritarian-bureaucratic sect with benevolent stewardship ethos                       |
 | Home Context     | Mobile worldship fleet anchored in Dimensional Cluster Gamma-74-Ω                       |
-| Government       | Ascendant Dao Council (nine Pillars, five Orders)                                       |
+| Government       | Transcendent Dao Council (nine Pillars, five Orders)                                    |
 | Cultural Tone    | Grandiose, ritualistic, sincerely courteous                                             |
 | Narrative Tone   | Story-driven comedy layered on top of solemn obligations                                |
 | Playstyle        | Tall-wide hybrid; strong defensive lattices, overwhelming strikes, intense upkeep       |
@@ -119,7 +119,7 @@
 - **Cooldown:** `StartColonyEvent Id = CE_ChronicleCooldown` (2 years; gate only) begins after either choice resolves.
 - **Overload Failsafe:** _Chronicle Overwhelm Warning_ starts `CE_Chronicle_Overwhelm` (180 days; `ColonyHappiness -8%`, `ResearchAll -5%`) and automatically queues the Secure option once the warning ends.
 
-## 6. Government Features (9) - Ascendant Dao Council
+## 6. Government Features (9) - Transcendent Dao Council
 
 Government features are game events and colony events split into 4 tiers, each with increasing bonuses but also increasing costs. Each one should last 5 years with a cooldown of 10 years.
 
@@ -129,7 +129,7 @@ Government features are game events and colony events split into 4 tiers, each w
 | III | 60% | 1,800,000 |
 | III | 75% | 3,500,000 |
 
-### 6.1 Order of Ascendant Architects Audit (Ascendant Dao Council)
+### 6.1 Order of Ascendant Architects Audit (Transcendent Dao Council)
 
 Tier I
 Cost: 100,000 credits
@@ -139,7 +139,7 @@ Cost: 100,000 credits
 | ConstructionSpeedFacility | 10% |
 | ConstructionSpeedCivilian | 10% |
 
-### 6.2 Order of Meridian Navigators Audit (Ascendant Dao Council)
+### 6.2 Order of Meridian Navigators Audit (Transcendent Dao Council)
 
 Tier I
 Cost: 100,000 credits
@@ -153,7 +153,7 @@ Cost: 100,000 credits
 | ScanFocusing | 10% |
 | TradeIncome | 5% |
 
-### 6.3 Order of Resonant Scribes Audit (Ascendant Dao Council)
+### 6.3 Order of Resonant Scribes Audit (Transcendent Dao Council)
 
 Tier II
 Cost: 500,000 credits
@@ -166,7 +166,7 @@ Cost: 500,000 credits
 | PlanetaryFacilityMaintenance | 10% |
 | ResearchAll | 5% |
 
-### 6.5 Order of Harmonized Hearths Audit (Ascendant Dao Council)
+### 6.5 Order of Harmonized Hearths Audit (Transcendent Dao Council)
 
 Tier III
 Cost: 1,800,000 credits
@@ -179,7 +179,7 @@ Cost: 1,800,000 credits
 | PlagueCuring | 100% |
 | PlagueContainment | 100% |
 
-### 6.5 Order of Wardened Steel Audit (Ascendant Dao Council)
+### 6.5 Order of Wardened Steel Audit (Transcendent Dao Council)
 
 Tier IV
 Cost: 3,500,000 credits

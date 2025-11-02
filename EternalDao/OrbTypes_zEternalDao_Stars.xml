@@ -39,7 +39,7 @@
             <R>192</R>
             <A>255</A>
         </StarLightColor>
-        <AmbientLightIntensity>0.1</AmbientLightIntensity>
+        <AmbientLightIntensity>0.05</AmbientLightIntensity>
         <StarColorVariationFactor>0.1</StarColorVariationFactor>
         <StarBrightnessFactor>1</StarBrightnessFactor>
         <StarColorGradient/>
@@ -48,7 +48,7 @@
             <string>Sounds/Ambient/Star_Surging2</string>
             <string>Sounds/Ambient/Star_Mid1</string>
         </AmbientSoundEffectFilenames>
-        <EnergyOutputMinimum>1</EnergyOutputMinimum>
+        <EnergyOutputMinimum>0.8</EnergyOutputMinimum>
         <EnergyOutputMaximum>1</EnergyOutputMaximum>
         <LocationEffectId>0</LocationEffectId>
         <CommonBonuses>
@@ -186,7 +186,7 @@
             <R>255</R>
             <A>255</A>
         </StarLightColor>
-        <AmbientLightIntensity>0.1</AmbientLightIntensity>
+        <AmbientLightIntensity>0.05</AmbientLightIntensity>
         <StarColorVariationFactor>0.1</StarColorVariationFactor>
         <StarBrightnessFactor>1</StarBrightnessFactor>
         <StarColorGradient>CoreEffects/ShaderGradients/MainSequence</StarColorGradient>
@@ -195,7 +195,7 @@
             <string>Sounds/Ambient/Star_Surging2</string>
             <string>Sounds/Ambient/Star_Mid1</string>
         </AmbientSoundEffectFilenames>
-        <EnergyOutputMinimum>1</EnergyOutputMinimum>
+        <EnergyOutputMinimum>0.8</EnergyOutputMinimum>
         <EnergyOutputMaximum>1</EnergyOutputMaximum>
         <LocationEffectId>0</LocationEffectId>
         <CommonBonuses>
@@ -413,7 +413,7 @@
             <R>131</R>
             <A>255</A>
         </StarLightColor>
-        <AmbientLightIntensity>0.1</AmbientLightIntensity>
+        <AmbientLightIntensity>0.05</AmbientLightIntensity>
         <StarColorVariationFactor>0.1</StarColorVariationFactor>
         <StarBrightnessFactor>1</StarBrightnessFactor>
         <StarColorGradient>CoreEffects/ShaderGradients/MainSequence</StarColorGradient>
@@ -422,7 +422,7 @@
             <string>Sounds/Ambient/Star_Soft2</string>
             <string>Sounds/Ambient/Star_Soft3</string>
         </AmbientSoundEffectFilenames>
-        <EnergyOutputMinimum>1</EnergyOutputMinimum>
+        <EnergyOutputMinimum>0.8</EnergyOutputMinimum>
         <EnergyOutputMaximum>1</EnergyOutputMaximum>
         <LocationEffectId>0</LocationEffectId>
         <CommonBonuses>

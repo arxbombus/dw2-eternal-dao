@@ -5,7 +5,7 @@
 **Scale:** Transdimensional armada spanning layered universes  
 **Age:** ≈14.2 trillion aeons (~10³⁰ years)  
 **Current Status:** Refugee Stewardship Fleet anchored in a low-physics galaxy  
-**Governing Body:** Ascendant Dao Council in exile  
+**Governing Body:** Transcendent Dao Council in exile  
 **Ethos:** Cultivate to comprehend; comprehend to safeguard all worlds  
 **Maxim:** _“We do not abandon the Dao, even when Heaven forgets our names.”_
 
@@ -29,9 +29,9 @@ When the Wanderer vanished, his disciples inherited the stewardship of trillions
 
 ## 3. Civilization Framework
 
-### 3.1 Ascendant Dao Council
+### 3.1 Transcendent Dao Council
 
-Leadership rests with the **Ascendant Dao Council**, a conclave of elder cultivators elected for mastery over both Dao comprehension and civic duty. Each Steward embodies one of nine Pillars:
+Leadership rests with the **Transcendent Dao Council**, a conclave of elder cultivators elected for mastery over both Dao comprehension and civic duty. Each Steward embodies one of nine Pillars:
 
 - **Pillar of Harmonious Law** – interprets cosmic statutes and codifies sect doctrine.
 - **Pillar of Meridian Logistics** – manages spirit-meridian routes, worldship anchorage, and transit permissions.
@@ -76,7 +76,7 @@ Spirit beasts and artifact spirits hold equal citizenship and administer ministr
 | **Starseed Fox Wardens**     | Devour corrupted karma, preventing tribulation storms from escalating.             | Pillar of Tribulation Guidance |
 | **Luminal Carp**             | Swim through reactor conduits, polishing fusion output into Dao-aligned flows.     | Pillar of Origin Flames        |
 
-Ministries led by spirit beasts file their ledgers with the same precision as human stewards; signatures take the form of qi imprints certified by the Ascendant Dao Council.
+Ministries led by spirit beasts file their ledgers with the same precision as human stewards; signatures take the form of qi imprints certified by the Transcendent Dao Council.
 
 ---
 
@@ -422,7 +422,7 @@ They exist beyond linear time yet maintain calendars—for morale and meticulous
 
 Wherever the Eternal Celestials settle, worlds transform into symphonies of steel, spirit, and Dao. Tool spirits gain autonomy. Spirit beasts earn tenure. Mortals witness miracles packaged as civic improvements. For gods they are auditors; for beasts they are caretakers; for themselves they are duty-bound exiles awaiting the Wanderer’s return.
 
-> _Final Annotation – Ascendant Dao Council:_ “We mend what was broken, cultivate what was forsaken, and file reports on time.”
+> _Final Annotation – Transcendent Dao Council:_ “We mend what was broken, cultivate what was forsaken, and file reports on time.”
 
 ---
 

@@ -16,9 +16,9 @@
             <string>UserInterface/Flags/Human_6</string>
         </AlternateFlagFilenames>
         <Maino>
-            <R>149</R>
-            <G>6</G>
-            <B>6</B>
+            <R>21</R>
+            <G>83</G>
+            <B>191</B>
             <A>255</A>
         </Maino>
         <SecondaryColor>
@@ -56,7 +56,7 @@
             <short>50</short>
             <!-- Refugee Fleet -->
             <short>32759</short>
-            <!-- Eternal Dao Ascendancy -->
+            <!-- Transcendent Dao Council -->
             <short>32000</short>
         </AllowableGovernmentIds>
         <ColonizationSuitabilityModifiers>
@@ -208,7 +208,7 @@
             <!-- ShipMaintenanceAll -->
             <Bonus>
                 <Type>ShipMaintenanceAll</Type>
-                <Amount>-2</Amount>
+                <Amount>-4</Amount>
                 <AppliesTo>Empire</AppliesTo>
             </Bonus>
             <!-- ConstructionSpeedAllShips -->
@@ -220,7 +220,7 @@
             <!-- PlanetaryFacilityMaintenance -->
             <Bonus>
                 <Type>PlanetaryFacilityMaintenance</Type>
-                <Amount>-1</Amount>
+                <Amount>-0.25</Amount>
                 <AppliesTo>Empire</AppliesTo>
             </Bonus>
             <!-- TroopMaintenance -->

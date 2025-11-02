@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ArrayOfColonyEventDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <ColonyEventDefinition>
+        <ColonyEventDefinitionId>32500</ColonyEventDefinitionId>
+        <Type>Undefined</Type>
+        <Name>DEBUG: Eternal Celestials Interval ColonyEvent</Name>
+        <Description>Debug Event for my mod</Description>
+        <ImageFilename>UserInterface/Placeholder</ImageFilename>
+        <DurationMinimum>0.1</DurationMinimum>
+        <DurationMaximum>0.1</DurationMaximum>
+        <MinimumIntervalPerEmpireYears>0.1</MinimumIntervalPerEmpireYears>
+        <GovernmentFilterIds>
+            <!-- Transcendent Dao Council -->
+            <short>32000</short>
+        </GovernmentFilterIds>
+        <GameEventName>DEBUG: Eternal Celestials Interval GameEvent</GameEventName>
+    </ColonyEventDefinition>
+</ArrayOfColonyEventDefinition>
