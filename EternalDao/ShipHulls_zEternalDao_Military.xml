@@ -2,7 +2,7 @@
 <ArrayOfShipHull xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <!--Gunship-->
     <ShipHull>
-        <ShipHullId>4854</ShipHullId>
+        <ShipHullId>4861</ShipHullId>
         <Name>Gunship</Name>
         <ImageFilename>Ships/Mortalen/Images/escort</ImageFilename>
         <RaceId>99</RaceId>
@@ -198,18 +198,18 @@
     </ShipHull>
     <!--Dao Gunship I-->
     <ShipHull>
-        <ShipHullId>4855</ShipHullId>
+        <ShipHullId>4862</ShipHullId>
         <Name>Dao Gunship I</Name>
         <ImageFilename>Ships/Mortalen/Images/escort</ImageFilename>
         <RaceId>99</RaceId>
         <Role>Escort</Role>
         <Level>1</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>250</Size>
-        <MaximumSize>625</MaximumSize>
-        <DisplaySize>196</DisplaySize>
+        <Size>255</Size>
+        <MaximumSize>750</MaximumSize>
+        <DisplaySize>215</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Escort</ModelName>
-        <BaseCost>1875</BaseCost>
+        <BaseCost>2625</BaseCost>
         <BuildSpeedFactor>1</BuildSpeedFactor>
         <ArmorReactiveRating>3</ArmorReactiveRating>
         <IonDefense>4</IonDefense>
@@ -394,18 +394,18 @@
     </ShipHull>
     <!--Dao Gunship II-->
     <ShipHull>
-        <ShipHullId>4856</ShipHullId>
+        <ShipHullId>4863</ShipHullId>
         <Name>Dao Gunship II</Name>
         <ImageFilename>Ships/Mortalen/Images/escort</ImageFilename>
         <RaceId>99</RaceId>
         <Role>Escort</Role>
         <Level>2</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>250</Size>
-        <MaximumSize>781</MaximumSize>
-        <DisplaySize>206</DisplaySize>
+        <Size>260</Size>
+        <MaximumSize>938</MaximumSize>
+        <DisplaySize>226</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Escort</ModelName>
-        <BaseCost>2344</BaseCost>
+        <BaseCost>3938</BaseCost>
         <BuildSpeedFactor>1</BuildSpeedFactor>
         <ArmorReactiveRating>5</ArmorReactiveRating>
         <IonDefense>6</IonDefense>
@@ -588,9 +588,401 @@
             </ResourceQuantity>
         </ResourcesRequired>
     </ShipHull>
+    <!--Dao Gunship III-->
+    <ShipHull>
+        <ShipHullId>4864</ShipHullId>
+        <Name>Dao Gunship III</Name>
+        <ImageFilename>Ships/Mortalen/Images/escort</ImageFilename>
+        <RaceId>99</RaceId>
+        <Role>Escort</Role>
+        <Level>3</Level>
+        <DesignTemplateId>-1</DesignTemplateId>
+        <Size>265</Size>
+        <MaximumSize>1173</MaximumSize>
+        <DisplaySize>237</DisplaySize>
+        <ModelName>Ships/Mortalen/Mortalen_Escort</ModelName>
+        <BaseCost>5907</BaseCost>
+        <BuildSpeedFactor>1</BuildSpeedFactor>
+        <ArmorReactiveRating>6</ArmorReactiveRating>
+        <IonDefense>7</IonDefense>
+        <EngineLimit>-1</EngineLimit>
+        <CountermeasuresBonus>0.2</CountermeasuresBonus>
+        <TargetingBonus>0</TargetingBonus>
+        <TurnRollRate>0.25</TurnRollRate>
+        <MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
+        <Bonuses>
+            <Bonus>
+                <Type>ShipManeuvering</Type>
+                <Amount>0.3</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+            <Bonus>
+                <Type>ShipSpeed</Type>
+                <Amount>0.3</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+        <ComponentBays>
+            <ComponentBay>
+                <ComponentBayId>0</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon0</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>1</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>40</MaximumComponentSize>
+                <MeshName>#weapon1</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>2</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>40</MaximumComponentSize>
+                <MeshName>#weapon2</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>3</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine0</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>4</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine1</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>5</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine2</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>6</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine3</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>7</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine4</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>8</ComponentBayId>
+                <Type>Sensor</Type>
+                <MaximumComponentSize>24</MaximumComponentSize>
+                <MeshName>#sensor0</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>9</ComponentBayId>
+                <Type>Sensor</Type>
+                <MaximumComponentSize>12</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>10</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>16</MaximumComponentSize>
+                <MeshName>#defense0</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>11</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>16</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>12</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>16</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>13</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>14</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>15</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>16</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>17</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>18</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>19</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>20</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>21</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>22</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+        </ComponentBays>
+        <ResourcesRequired>
+            <ResourceQuantity>
+                <ResourceId>8</ResourceId>
+                <Amount>62</Amount>
+            </ResourceQuantity>
+        </ResourcesRequired>
+    </ShipHull>
+    <!--Dao Gunship IV-->
+    <ShipHull>
+        <ShipHullId>4865</ShipHullId>
+        <Name>Dao Gunship IV</Name>
+        <ImageFilename>Ships/Mortalen/Images/escort</ImageFilename>
+        <RaceId>99</RaceId>
+        <Role>Escort</Role>
+        <Level>3</Level>
+        <DesignTemplateId>-1</DesignTemplateId>
+        <Size>270</Size>
+        <MaximumSize>1466</MaximumSize>
+        <DisplaySize>249</DisplaySize>
+        <ModelName>Ships/Mortalen/Mortalen_Escort</ModelName>
+        <BaseCost>8861</BaseCost>
+        <BuildSpeedFactor>1</BuildSpeedFactor>
+        <ArmorReactiveRating>6</ArmorReactiveRating>
+        <IonDefense>7</IonDefense>
+        <EngineLimit>-1</EngineLimit>
+        <CountermeasuresBonus>0.2</CountermeasuresBonus>
+        <TargetingBonus>0</TargetingBonus>
+        <TurnRollRate>0.25</TurnRollRate>
+        <MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
+        <Bonuses>
+            <Bonus>
+                <Type>ShipManeuvering</Type>
+                <Amount>0.3</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+            <Bonus>
+                <Type>ShipSpeed</Type>
+                <Amount>0.3</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+        <ComponentBays>
+            <ComponentBay>
+                <ComponentBayId>0</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon0</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>1</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>40</MaximumComponentSize>
+                <MeshName>#weapon1</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>2</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>40</MaximumComponentSize>
+                <MeshName>#weapon2</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>3</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine0</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>4</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine1</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>5</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine2</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>6</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine3</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>7</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine4</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>8</ComponentBayId>
+                <Type>Sensor</Type>
+                <MaximumComponentSize>24</MaximumComponentSize>
+                <MeshName>#sensor0</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>9</ComponentBayId>
+                <Type>Sensor</Type>
+                <MaximumComponentSize>12</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>10</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>16</MaximumComponentSize>
+                <MeshName>#defense0</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>11</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>16</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>12</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>16</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>13</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>14</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>15</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>16</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>17</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>18</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>19</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>20</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>21</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>22</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+        </ComponentBays>
+        <ResourcesRequired>
+            <ResourceQuantity>
+                <ResourceId>8</ResourceId>
+                <Amount>62</Amount>
+            </ResourceQuantity>
+        </ResourcesRequired>
+    </ShipHull>
     <!--Frigate-->
     <ShipHull>
-        <ShipHullId>4857</ShipHullId>
+        <ShipHullId>4866</ShipHullId>
         <Name>Frigate</Name>
         <ImageFilename>Ships/Mortalen/Images/frigate</ImageFilename>
         <RaceId>99</RaceId>
@@ -833,18 +1225,18 @@
     </ShipHull>
     <!--Dao Frigate I-->
     <ShipHull>
-        <ShipHullId>4858</ShipHullId>
+        <ShipHullId>4867</ShipHullId>
         <Name>Dao Frigate I</Name>
         <ImageFilename>Ships/Mortalen/Images/frigate</ImageFilename>
         <RaceId>99</RaceId>
         <Role>Frigate</Role>
         <Level>1</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>300</Size>
-        <MaximumSize>750</MaximumSize>
-        <DisplaySize>225</DisplaySize>
+        <Size>306</Size>
+        <MaximumSize>900</MaximumSize>
+        <DisplaySize>259</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Frigate</ModelName>
-        <BaseCost>3375</BaseCost>
+        <BaseCost>4725</BaseCost>
         <BuildSpeedFactor>0.95</BuildSpeedFactor>
         <ArmorReactiveRating>5</ArmorReactiveRating>
         <IonDefense>4</IonDefense>
@@ -1076,18 +1468,18 @@
     </ShipHull>
     <!--Dao Frigate II-->
     <ShipHull>
-        <ShipHullId>4859</ShipHullId>
+        <ShipHullId>4868</ShipHullId>
         <Name>Dao Frigate II</Name>
         <ImageFilename>Ships/Mortalen/Images/frigate</ImageFilename>
         <RaceId>99</RaceId>
         <Role>Frigate</Role>
         <Level>2</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>300</Size>
-        <MaximumSize>938</MaximumSize>
-        <DisplaySize>225</DisplaySize>
+        <Size>312</Size>
+        <MaximumSize>1125</MaximumSize>
+        <DisplaySize>272</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Frigate</ModelName>
-        <BaseCost>4219</BaseCost>
+        <BaseCost>7088</BaseCost>
         <BuildSpeedFactor>0.95</BuildSpeedFactor>
         <ArmorReactiveRating>7</ArmorReactiveRating>
         <IonDefense>5</IonDefense>
@@ -1317,20 +1709,20 @@
             </ResourceQuantity>
         </ResourcesRequired>
     </ShipHull>
-    <!--Dao Assault Frigate I-->
+    <!--Great Dao Assault Frigate I-->
     <ShipHull>
-        <ShipHullId>4860</ShipHullId>
-        <Name>Dao Assault Frigate I</Name>
+        <ShipHullId>4869</ShipHullId>
+        <Name>Great Dao Assault Frigate I</Name>
         <ImageFilename>Ships/Mortalen/Images/frigate</ImageFilename>
         <RaceId>99</RaceId>
         <Role>Frigate</Role>
         <Level>3</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>300</Size>
-        <MaximumSize>1173</MaximumSize>
-        <DisplaySize>236</DisplaySize>
+        <Size>318</Size>
+        <MaximumSize>1688</MaximumSize>
+        <DisplaySize>313</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Frigate</ModelName>
-        <BaseCost>5274</BaseCost>
+        <BaseCost>14176</BaseCost>
         <BuildSpeedFactor>0.95</BuildSpeedFactor>
         <ArmorReactiveRating>9</ArmorReactiveRating>
         <IonDefense>7</IonDefense>
@@ -1560,20 +1952,20 @@
             </ResourceQuantity>
         </ResourcesRequired>
     </ShipHull>
-    <!--Dao Assault Frigate II-->
+    <!--Great Dao Assault Frigate II-->
     <ShipHull>
-        <ShipHullId>4861</ShipHullId>
-        <Name>Dao Assault Frigate II</Name>
+        <ShipHullId>4870</ShipHullId>
+        <Name>Great Dao Assault Frigate II</Name>
         <ImageFilename>Ships/Mortalen/Images/frigate</ImageFilename>
         <RaceId>99</RaceId>
         <Role>Frigate</Role>
         <Level>4</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>300</Size>
-        <MaximumSize>1466</MaximumSize>
-        <DisplaySize>248</DisplaySize>
+        <Size>324</Size>
+        <MaximumSize>2110</MaximumSize>
+        <DisplaySize>329</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Frigate</ModelName>
-        <BaseCost>6593</BaseCost>
+        <BaseCost>21264</BaseCost>
         <BuildSpeedFactor>0.95</BuildSpeedFactor>
         <ArmorReactiveRating>11</ArmorReactiveRating>
         <IonDefense>9</IonDefense>
@@ -1805,7 +2197,7 @@
     </ShipHull>
     <!--Destroyer-->
     <ShipHull>
-        <ShipHullId>4862</ShipHullId>
+        <ShipHullId>4871</ShipHullId>
         <Name>Destroyer</Name>
         <ImageFilename>Ships/Mortalen/Images/destroyer</ImageFilename>
         <RaceId>99</RaceId>
@@ -2189,18 +2581,18 @@
     </ShipHull>
     <!--Dao Destroyer I-->
     <ShipHull>
-        <ShipHullId>4863</ShipHullId>
+        <ShipHullId>4872</ShipHullId>
         <Name>Dao Destroyer I</Name>
         <ImageFilename>Ships/Mortalen/Images/destroyer</ImageFilename>
         <RaceId>99</RaceId>
         <Role>Destroyer</Role>
         <Level>1</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>400</Size>
-        <MaximumSize>1000</MaximumSize>
-        <DisplaySize>315</DisplaySize>
+        <Size>408</Size>
+        <MaximumSize>1200</MaximumSize>
+        <DisplaySize>345</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Destroyer</ModelName>
-        <BaseCost>6000</BaseCost>
+        <BaseCost>8400</BaseCost>
         <BuildSpeedFactor>0.9</BuildSpeedFactor>
         <ArmorReactiveRating>7</ArmorReactiveRating>
         <IonDefense>5</IonDefense>
@@ -2573,18 +2965,18 @@
     </ShipHull>
     <!--Dao Destroyer II-->
     <ShipHull>
-        <ShipHullId>4864</ShipHullId>
+        <ShipHullId>4873</ShipHullId>
         <Name>Dao Destroyer II</Name>
         <ImageFilename>Ships/Mortalen/Images/destroyer</ImageFilename>
         <RaceId>99</RaceId>
         <Role>Destroyer</Role>
         <Level>2</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>400</Size>
-        <MaximumSize>1250</MaximumSize>
-        <DisplaySize>331</DisplaySize>
+        <Size>416</Size>
+        <MaximumSize>1500</MaximumSize>
+        <DisplaySize>362</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Destroyer</ModelName>
-        <BaseCost>7500</BaseCost>
+        <BaseCost>12600</BaseCost>
         <BuildSpeedFactor>0.9</BuildSpeedFactor>
         <ArmorReactiveRating>9</ArmorReactiveRating>
         <IonDefense>6</IonDefense>
@@ -2955,20 +3347,20 @@
             </RunningLight>
         </RunningLights>
     </ShipHull>
-    <!--Dao Command Destroyer I-->
+    <!--Great Dao Command Destroyer I-->
     <ShipHull>
-        <ShipHullId>4865</ShipHullId>
-        <Name>Dao Command Destroyer I</Name>
+        <ShipHullId>4874</ShipHullId>
+        <Name>Great Dao Command Destroyer I</Name>
         <ImageFilename>Ships/Mortalen/Images/destroyer</ImageFilename>
         <RaceId>99</RaceId>
         <Role>Destroyer</Role>
         <Level>3</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>400</Size>
-        <MaximumSize>1563</MaximumSize>
-        <DisplaySize>348</DisplaySize>
+        <Size>424</Size>
+        <MaximumSize>2250</MaximumSize>
+        <DisplaySize>416</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Destroyer</ModelName>
-        <BaseCost>9375</BaseCost>
+        <BaseCost>25200</BaseCost>
         <BuildSpeedFactor>0.9</BuildSpeedFactor>
         <ArmorReactiveRating>11</ArmorReactiveRating>
         <IonDefense>8</IonDefense>
@@ -3339,20 +3731,20 @@
             </RunningLight>
         </RunningLights>
     </ShipHull>
-    <!--Dao Command Destroyer II-->
+    <!--Great Dao Command Destroyer II-->
     <ShipHull>
-        <ShipHullId>4866</ShipHullId>
-        <Name>Dao Command Destroyer II</Name>
+        <ShipHullId>4875</ShipHullId>
+        <Name>Great Dao Command Destroyer II</Name>
         <ImageFilename>Ships/Mortalen/Images/destroyer</ImageFilename>
         <RaceId>99</RaceId>
         <Role>Destroyer</Role>
         <Level>4</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>400</Size>
-        <MaximumSize>1954</MaximumSize>
-        <DisplaySize>365</DisplaySize>
+        <Size>432</Size>
+        <MaximumSize>2813</MaximumSize>
+        <DisplaySize>437</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Destroyer</ModelName>
-        <BaseCost>11719</BaseCost>
+        <BaseCost>37800</BaseCost>
         <BuildSpeedFactor>0.9</BuildSpeedFactor>
         <ArmorReactiveRating>13</ArmorReactiveRating>
         <IonDefense>10</IonDefense>
@@ -3725,7 +4117,7 @@
     </ShipHull>
     <!--Cruiser-->
     <ShipHull>
-        <ShipHullId>4867</ShipHullId>
+        <ShipHullId>4876</ShipHullId>
         <Name>Cruiser</Name>
         <ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
         <RaceId>99</RaceId>
@@ -4168,18 +4560,18 @@
     </ShipHull>
     <!--Dao Cruiser I-->
     <ShipHull>
-        <ShipHullId>4868</ShipHullId>
+        <ShipHullId>4877</ShipHullId>
         <Name>Dao Cruiser I</Name>
         <ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
         <RaceId>99</RaceId>
         <Role>Cruiser</Role>
         <Level>1</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>534</Size>
-        <MaximumSize>1334</MaximumSize>
-        <DisplaySize>408</DisplaySize>
+        <Size>545</Size>
+        <MaximumSize>1601</MaximumSize>
+        <DisplaySize>460</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Cruiser</ModelName>
-        <BaseCost>10000</BaseCost>
+        <BaseCost>14000</BaseCost>
         <BuildSpeedFactor>0.85</BuildSpeedFactor>
         <ArmorReactiveRating>9</ArmorReactiveRating>
         <IonDefense>6</IonDefense>
@@ -4611,18 +5003,18 @@
     </ShipHull>
     <!--Dao Cruiser II-->
     <ShipHull>
-        <ShipHullId>4869</ShipHullId>
+        <ShipHullId>4878</ShipHullId>
         <Name>Dao Cruiser II</Name>
         <ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
         <RaceId>99</RaceId>
         <Role>Cruiser</Role>
         <Level>2</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>534</Size>
-        <MaximumSize>1668</MaximumSize>
-        <DisplaySize>416</DisplaySize>
+        <Size>556</Size>
+        <MaximumSize>1841</MaximumSize>
+        <DisplaySize>483</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Cruiser</ModelName>
-        <BaseCost>12500</BaseCost>
+        <BaseCost>21000</BaseCost>
         <BuildSpeedFactor>0.85</BuildSpeedFactor>
         <ArmorReactiveRating>11</ArmorReactiveRating>
         <IonDefense>7</IonDefense>
@@ -5054,18 +5446,18 @@
     </ShipHull>
     <!--Dao Heavy Assault Cruiser I-->
     <ShipHull>
-        <ShipHullId>4870</ShipHullId>
+        <ShipHullId>4879</ShipHullId>
         <Name>Dao Heavy Assault Cruiser I</Name>
         <ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
         <RaceId>99</RaceId>
         <Role>Cruiser</Role>
         <Level>3</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>534</Size>
-        <MaximumSize>2085</MaximumSize>
-        <DisplaySize>424</DisplaySize>
+        <Size>567</Size>
+        <MaximumSize>2117</MaximumSize>
+        <DisplaySize>507</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Cruiser</ModelName>
-        <BaseCost>15625</BaseCost>
+        <BaseCost>31500</BaseCost>
         <BuildSpeedFactor>0.85</BuildSpeedFactor>
         <ArmorReactiveRating>12</ArmorReactiveRating>
         <IonDefense>9</IonDefense>
@@ -5497,18 +5889,18 @@
     </ShipHull>
     <!--Dao Heavy Assault Cruiser II-->
     <ShipHull>
-        <ShipHullId>4871</ShipHullId>
+        <ShipHullId>4880</ShipHullId>
         <Name>Dao Heavy Assault Cruiser II</Name>
         <ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
         <RaceId>99</RaceId>
         <Role>Cruiser</Role>
         <Level>4</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>534</Size>
-        <MaximumSize>2606</MaximumSize>
-        <DisplaySize>432</DisplaySize>
+        <Size>578</Size>
+        <MaximumSize>2435</MaximumSize>
+        <DisplaySize>532</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Cruiser</ModelName>
-        <BaseCost>19531</BaseCost>
+        <BaseCost>47250</BaseCost>
         <BuildSpeedFactor>0.85</BuildSpeedFactor>
         <ArmorReactiveRating>13</ArmorReactiveRating>
         <IonDefense>11</IonDefense>
@@ -5940,18 +6332,18 @@
     </ShipHull>
     <!--Dao Strategic Cruiser I-->
     <ShipHull>
-        <ShipHullId>4872</ShipHullId>
+        <ShipHullId>4881</ShipHullId>
         <Name>Dao Strategic Cruiser I</Name>
         <ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
         <RaceId>99</RaceId>
         <Role>Cruiser</Role>
         <Level>5</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>534</Size>
-        <MaximumSize>3909</MaximumSize>
-        <DisplaySize>441</DisplaySize>
+        <Size>590</Size>
+        <MaximumSize>2800</MaximumSize>
+        <DisplaySize>559</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Cruiser</ModelName>
-        <BaseCost>29297</BaseCost>
+        <BaseCost>70875</BaseCost>
         <BuildSpeedFactor>0.85</BuildSpeedFactor>
         <ArmorReactiveRating>16</ArmorReactiveRating>
         <IonDefense>14</IonDefense>
@@ -6383,18 +6775,18 @@
     </ShipHull>
     <!--Dao Strategic Cruiser II-->
     <ShipHull>
-        <ShipHullId>4873</ShipHullId>
+        <ShipHullId>4882</ShipHullId>
         <Name>Dao Strategic Cruiser II</Name>
         <ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
         <RaceId>99</RaceId>
         <Role>Cruiser</Role>
         <Level>6</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>534</Size>
-        <MaximumSize>4886</MaximumSize>
-        <DisplaySize>450</DisplaySize>
+        <Size>602</Size>
+        <MaximumSize>3220</MaximumSize>
+        <DisplaySize>587</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Cruiser</ModelName>
-        <BaseCost>43946</BaseCost>
+        <BaseCost>106313</BaseCost>
         <BuildSpeedFactor>0.85</BuildSpeedFactor>
         <ArmorReactiveRating>18</ArmorReactiveRating>
         <IonDefense>15</IonDefense>
@@ -6826,18 +7218,18 @@
     </ShipHull>
     <!--Great Dao Strategic Cruiser I-->
     <ShipHull>
-        <ShipHullId>4874</ShipHullId>
+        <ShipHullId>4883</ShipHullId>
         <Name>Great Dao Strategic Cruiser I</Name>
         <ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
         <RaceId>99</RaceId>
         <Role>Cruiser</Role>
         <Level>7</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>534</Size>
-        <MaximumSize>6108</MaximumSize>
-        <DisplaySize>459</DisplaySize>
+        <Size>614</Size>
+        <MaximumSize>4830</MaximumSize>
+        <DisplaySize>675</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Cruiser</ModelName>
-        <BaseCost>65919</BaseCost>
+        <BaseCost>212626</BaseCost>
         <BuildSpeedFactor>0.85</BuildSpeedFactor>
         <ArmorReactiveRating>21</ArmorReactiveRating>
         <IonDefense>17</IonDefense>
@@ -7269,18 +7661,18 @@
     </ShipHull>
     <!--Great Dao Strategic Cruiser II-->
     <ShipHull>
-        <ShipHullId>4875</ShipHullId>
+        <ShipHullId>4884</ShipHullId>
         <Name>Great Dao Strategic Cruiser II</Name>
         <ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
         <RaceId>99</RaceId>
         <Role>Cruiser</Role>
         <Level>8</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>534</Size>
-        <MaximumSize>7635</MaximumSize>
-        <DisplaySize>468</DisplaySize>
+        <Size>626</Size>
+        <MaximumSize>5555</MaximumSize>
+        <DisplaySize>709</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Cruiser</ModelName>
-        <BaseCost>98879</BaseCost>
+        <BaseCost>318939</BaseCost>
         <BuildSpeedFactor>0.85</BuildSpeedFactor>
         <ArmorReactiveRating>24</ArmorReactiveRating>
         <IonDefense>18</IonDefense>
@@ -7710,20 +8102,20 @@
             <Z>1</Z>
         </ModelSize>
     </ShipHull>
-    <!--Origin Dao Eternal Cruiser-->
+    <!--Origin Dao Eternal Cruiser I-->
     <ShipHull>
-        <ShipHullId>4876</ShipHullId>
-        <Name>Origin Dao Eternal Cruiser</Name>
+        <ShipHullId>4885</ShipHullId>
+        <Name>Origin Dao Eternal Cruiser I</Name>
         <ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
         <RaceId>99</RaceId>
         <Role>Cruiser</Role>
         <Level>9</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>534</Size>
-        <MaximumSize>15270</MaximumSize>
-        <DisplaySize>477</DisplaySize>
+        <Size>783</Size>
+        <MaximumSize>11110</MaximumSize>
+        <DisplaySize>886</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Cruiser</ModelName>
-        <BaseCost>197758</BaseCost>
+        <BaseCost>797348</BaseCost>
         <BuildSpeedFactor>0.85</BuildSpeedFactor>
         <ArmorReactiveRating>30</ArmorReactiveRating>
         <IonDefense>20</IonDefense>
@@ -8153,9 +8545,452 @@
             <Z>1</Z>
         </ModelSize>
     </ShipHull>
+    <!--Origin Dao Eternal Cruiser II-->
+    <ShipHull>
+        <ShipHullId>4886</ShipHullId>
+        <Name>Origin Dao Eternal Cruiser II</Name>
+        <ImageFilename>Ships/Mortalen/Images/cruiser</ImageFilename>
+        <RaceId>99</RaceId>
+        <Role>Cruiser</Role>
+        <Level>10</Level>
+        <DesignTemplateId>-1</DesignTemplateId>
+        <Size>799</Size>
+        <MaximumSize>12777</MaximumSize>
+        <DisplaySize>930</DisplaySize>
+        <ModelName>Ships/Mortalen/Mortalen_Cruiser</ModelName>
+        <BaseCost>1196022</BaseCost>
+        <BuildSpeedFactor>0.85</BuildSpeedFactor>
+        <ArmorReactiveRating>36</ArmorReactiveRating>
+        <IonDefense>22</IonDefense>
+        <EngineLimit>-1</EngineLimit>
+        <CountermeasuresBonus>-0.1</CountermeasuresBonus>
+        <TargetingBonus>0.1</TargetingBonus>
+        <TurnRollRate>0.45</TurnRollRate>
+        <MaximumTurnRollAngle>0.65</MaximumTurnRollAngle>
+        <Bonuses>
+            <Bonus>
+                <Type>ShieldRechargeRate</Type>
+                <Amount>0.05</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+            <Bonus>
+                <Type>WeaponsDamage</Type>
+                <Amount>0.05</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+            <Bonus>
+                <Type>WeaponsRange</Type>
+                <Amount>0.1</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+        <ComponentBays>
+            <ComponentBay>
+                <ComponentBayId>0</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon2</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>1</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon5</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>2</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon7</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>3</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon8</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>4</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon9</MeshName>
+                <RotationHalfArcRange>3.142</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>5</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon11</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>6</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon12</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>7</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon0</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>8</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon1</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>9</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon3</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>10</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon4</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>11</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon6</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>12</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon10</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>13</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine0</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>0.7</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>14</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine1</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>0.7</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>15</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine2</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>0.7</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>16</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine3</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>17</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine4</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>18</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine5</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>19</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine6</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>20</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine7</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>21</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine8</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>22</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine5</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>23</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine6</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>24</ComponentBayId>
+                <Type>Hangar</Type>
+                <MaximumComponentSize>25</MaximumComponentSize>
+                <MeshName>#hangar0</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>25</ComponentBayId>
+                <Type>Sensor</Type>
+                <MaximumComponentSize>24</MaximumComponentSize>
+                <MeshName>#sensor0</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>26</ComponentBayId>
+                <Type>Sensor</Type>
+                <MaximumComponentSize>24</MaximumComponentSize>
+                <MeshName>#sensor1</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>27</ComponentBayId>
+                <Type>Sensor</Type>
+                <MaximumComponentSize>12</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>28</ComponentBayId>
+                <Type>Sensor</Type>
+                <MaximumComponentSize>12</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>29</ComponentBayId>
+                <Type>Sensor</Type>
+                <MaximumComponentSize>12</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>30</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>16</MaximumComponentSize>
+                <MeshName>#defense0</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>31</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>16</MaximumComponentSize>
+                <MeshName>#defense1</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>32</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>16</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>33</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>16</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>34</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>16</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>35</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>16</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>36</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>16</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>37</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>38</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>39</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>40</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>41</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>42</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>43</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>44</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>45</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>46</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>47</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>48</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>49</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>50</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+        </ComponentBays>
+        <ResourcesRequired>
+            <ResourceQuantity>
+                <ResourceId>8</ResourceId>
+                <Amount>350</Amount>
+            </ResourceQuantity>
+            <ResourceQuantity>
+                <ResourceId>10</ResourceId>
+                <Amount>175</Amount>
+            </ResourceQuantity>
+            <ResourceQuantity>
+                <ResourceId>12</ResourceId>
+                <Amount>175</Amount>
+            </ResourceQuantity>
+        </ResourcesRequired>
+        <ModelSize>
+            <X>1</X>
+            <Y>1</Y>
+            <Z>1</Z>
+        </ModelSize>
+    </ShipHull>
     <!--Battleship-->
     <ShipHull>
-        <ShipHullId>4877</ShipHullId>
+        <ShipHullId>4887</ShipHullId>
         <Name>Battleship</Name>
         <ImageFilename>Ships/Mortalen/Images/Mortalen_Battleship</ImageFilename>
         <RaceId>99</RaceId>
@@ -8692,18 +9527,18 @@
     </ShipHull>
     <!--Dao Battleship I-->
     <ShipHull>
-        <ShipHullId>4878</ShipHullId>
+        <ShipHullId>4888</ShipHullId>
         <Name>Dao Battleship I</Name>
         <ImageFilename>Ships/Mortalen/Images/Mortalen_Battleship</ImageFilename>
         <RaceId>99</RaceId>
         <Role>CapitalShip</Role>
         <Level>1</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>800</Size>
-        <MaximumSize>2000</MaximumSize>
-        <DisplaySize>612</DisplaySize>
+        <Size>840</Size>
+        <MaximumSize>2400</MaximumSize>
+        <DisplaySize>900</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Battleship</ModelName>
-        <BaseCost>18000</BaseCost>
+        <BaseCost>25200</BaseCost>
         <BuildSpeedFactor>0.8</BuildSpeedFactor>
         <ArmorReactiveRating>13</ArmorReactiveRating>
         <IonDefense>7</IonDefense>
@@ -9229,18 +10064,18 @@
     </ShipHull>
     <!--Dao Battleship II-->
     <ShipHull>
-        <ShipHullId>4879</ShipHullId>
+        <ShipHullId>4889</ShipHullId>
         <Name>Dao Battleship II</Name>
         <ImageFilename>Ships/Mortalen/Images/Mortalen_Battleship</ImageFilename>
         <RaceId>99</RaceId>
         <Role>CapitalShip</Role>
         <Level>2</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>800</Size>
-        <MaximumSize>2500</MaximumSize>
-        <DisplaySize>624</DisplaySize>
+        <Size>882</Size>
+        <MaximumSize>2760</MaximumSize>
+        <DisplaySize>1125</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Battleship</ModelName>
-        <BaseCost>22500</BaseCost>
+        <BaseCost>37800</BaseCost>
         <BuildSpeedFactor>0.8</BuildSpeedFactor>
         <ArmorReactiveRating>14</ArmorReactiveRating>
         <IonDefense>8</IonDefense>
@@ -9766,18 +10601,18 @@
     </ShipHull>
     <!--Dao Marauder I-->
     <ShipHull>
-        <ShipHullId>4880</ShipHullId>
+        <ShipHullId>4890</ShipHullId>
         <Name>Dao Marauder I</Name>
         <ImageFilename>Ships/Mortalen/Images/Mortalen_Battleship</ImageFilename>
         <RaceId>99</RaceId>
         <Role>CapitalShip</Role>
         <Level>3</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>800</Size>
-        <MaximumSize>3750</MaximumSize>
-        <DisplaySize>655</DisplaySize>
+        <Size>926</Size>
+        <MaximumSize>3174</MaximumSize>
+        <DisplaySize>1406</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Battleship</ModelName>
-        <BaseCost>33750</BaseCost>
+        <BaseCost>56700</BaseCost>
         <BuildSpeedFactor>0.8</BuildSpeedFactor>
         <ArmorReactiveRating>16</ArmorReactiveRating>
         <IonDefense>10</IonDefense>
@@ -10303,18 +11138,18 @@
     </ShipHull>
     <!--Dao Marauder II-->
     <ShipHull>
-        <ShipHullId>4881</ShipHullId>
+        <ShipHullId>4891</ShipHullId>
         <Name>Dao Marauder II</Name>
         <ImageFilename>Ships/Mortalen/Images/Mortalen_Battleship</ImageFilename>
         <RaceId>99</RaceId>
         <Role>CapitalShip</Role>
         <Level>4</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>800</Size>
-        <MaximumSize>4688</MaximumSize>
-        <DisplaySize>688</DisplaySize>
+        <Size>972</Size>
+        <MaximumSize>3650</MaximumSize>
+        <DisplaySize>1758</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Battleship</ModelName>
-        <BaseCost>42188</BaseCost>
+        <BaseCost>85050</BaseCost>
         <BuildSpeedFactor>0.8</BuildSpeedFactor>
         <ArmorReactiveRating>17</ArmorReactiveRating>
         <IonDefense>11</IonDefense>
@@ -10840,18 +11675,18 @@
     </ShipHull>
     <!--Dao Dreadnought I-->
     <ShipHull>
-        <ShipHullId>4882</ShipHullId>
+        <ShipHullId>4892</ShipHullId>
         <Name>Dao Dreadnought I</Name>
         <ImageFilename>Ships/Mortalen/Images/Mortalen_Battleship</ImageFilename>
         <RaceId>99</RaceId>
         <Role>CapitalShip</Role>
         <Level>5</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>800</Size>
-        <MaximumSize>7032</MaximumSize>
-        <DisplaySize>1376</DisplaySize>
+        <Size>1215</Size>
+        <MaximumSize>4198</MaximumSize>
+        <DisplaySize>2198</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Battleship</ModelName>
-        <BaseCost>63282</BaseCost>
+        <BaseCost>127575</BaseCost>
         <BuildSpeedFactor>0.8</BuildSpeedFactor>
         <ArmorReactiveRating>19</ArmorReactiveRating>
         <IonDefense>14</IonDefense>
@@ -11377,18 +12212,18 @@
     </ShipHull>
     <!--Dao Dreadnought II-->
     <ShipHull>
-        <ShipHullId>4883</ShipHullId>
+        <ShipHullId>4893</ShipHullId>
         <Name>Dao Dreadnought II</Name>
         <ImageFilename>Ships/Mortalen/Images/Mortalen_Battleship</ImageFilename>
         <RaceId>99</RaceId>
         <Role>CapitalShip</Role>
         <Level>6</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>800</Size>
-        <MaximumSize>8790</MaximumSize>
-        <DisplaySize>1720</DisplaySize>
+        <Size>1276</Size>
+        <MaximumSize>4828</MaximumSize>
+        <DisplaySize>2748</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Battleship</ModelName>
-        <BaseCost>79103</BaseCost>
+        <BaseCost>191363</BaseCost>
         <BuildSpeedFactor>0.8</BuildSpeedFactor>
         <ArmorReactiveRating>20</ArmorReactiveRating>
         <IonDefense>15</IonDefense>
@@ -11914,18 +12749,18 @@
     </ShipHull>
     <!--Great Dao Dreadnought I-->
     <ShipHull>
-        <ShipHullId>4884</ShipHullId>
+        <ShipHullId>4894</ShipHullId>
         <Name>Great Dao Dreadnought I</Name>
         <ImageFilename>Ships/Mortalen/Images/Mortalen_Battleship</ImageFilename>
         <RaceId>99</RaceId>
         <Role>CapitalShip</Role>
         <Level>7</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>800</Size>
-        <MaximumSize>10988</MaximumSize>
-        <DisplaySize>2150</DisplaySize>
+        <Size>1595</Size>
+        <MaximumSize>7242</MaximumSize>
+        <DisplaySize>4122</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Battleship</ModelName>
-        <BaseCost>98879</BaseCost>
+        <BaseCost>382726</BaseCost>
         <BuildSpeedFactor>0.8</BuildSpeedFactor>
         <ArmorReactiveRating>21</ArmorReactiveRating>
         <IonDefense>17</IonDefense>
@@ -12451,18 +13286,1092 @@
     </ShipHull>
     <!--Great Dao Dreadnought II-->
     <ShipHull>
-        <ShipHullId>4885</ShipHullId>
+        <ShipHullId>4895</ShipHullId>
         <Name>Great Dao Dreadnought II</Name>
         <ImageFilename>Ships/Mortalen/Images/Mortalen_Battleship</ImageFilename>
         <RaceId>99</RaceId>
         <Role>CapitalShip</Role>
         <Level>8</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>800</Size>
-        <MaximumSize>13735</MaximumSize>
-        <DisplaySize>2688</DisplaySize>
+        <Size>1675</Size>
+        <MaximumSize>8328</MaximumSize>
+        <DisplaySize>5153</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Battleship</ModelName>
-        <BaseCost>123599</BaseCost>
+        <BaseCost>574089</BaseCost>
+        <BuildSpeedFactor>0.8</BuildSpeedFactor>
+        <ArmorReactiveRating>22</ArmorReactiveRating>
+        <IonDefense>18</IonDefense>
+        <EngineLimit>-1</EngineLimit>
+        <CountermeasuresBonus>-0.2</CountermeasuresBonus>
+        <TargetingBonus>0.2</TargetingBonus>
+        <TurnRollRate>0.25</TurnRollRate>
+        <MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
+        <Bonuses>
+            <Bonus>
+                <Type>ShieldRechargeRate</Type>
+                <Amount>0.3</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+            <Bonus>
+                <Type>ShipManeuvering</Type>
+                <Amount>-0.1</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+            <Bonus>
+                <Type>ShipSpeed</Type>
+                <Amount>-0.1</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+            <Bonus>
+                <Type>WeaponsDamage</Type>
+                <Amount>0.1</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+            <Bonus>
+                <Type>WeaponsRange</Type>
+                <Amount>0.3</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+        <ComponentBays>
+            <ComponentBay>
+                <ComponentBayId>0</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon0</MeshName>
+                <RotationHalfArcRange>0.873</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>1</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon8</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>2</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon9</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>3</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon11</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>4</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon12</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>5</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon13</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>6</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon14</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>7</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon16</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>8</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon17</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>9</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon18</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>10</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon19</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>11</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon20</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>12</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon1</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>13</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon2</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>14</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon3</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>15</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon4</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>16</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon5</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>17</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon6</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>18</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon7</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>19</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon10</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>20</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon15</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>21</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon21</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>22</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine0</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>0.7</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>23</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine1</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>0.7</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>24</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine2</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>0.7</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>25</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine3</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>26</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine4</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>27</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine5</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>28</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine6</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>29</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine7</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>30</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine8</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>31</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine9</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>32</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine10</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>33</ComponentBayId>
+                <Type>Hangar</Type>
+                <MaximumComponentSize>25</MaximumComponentSize>
+                <MeshName>#hangar0</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>34</ComponentBayId>
+                <Type>Sensor</Type>
+                <MaximumComponentSize>24</MaximumComponentSize>
+                <MeshName>#sensor0</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>35</ComponentBayId>
+                <Type>Sensor</Type>
+                <MaximumComponentSize>24</MaximumComponentSize>
+                <MeshName>#sensor1</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>36</ComponentBayId>
+                <Type>Sensor</Type>
+                <MaximumComponentSize>24</MaximumComponentSize>
+                <MeshName>#sensor2</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>37</ComponentBayId>
+                <Type>Sensor</Type>
+                <MaximumComponentSize>12</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>38</ComponentBayId>
+                <Type>Sensor</Type>
+                <MaximumComponentSize>12</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>39</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>32</MaximumComponentSize>
+                <MeshName>#defense0</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>40</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>32</MaximumComponentSize>
+                <MeshName>#defense1</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>41</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>32</MaximumComponentSize>
+                <MeshName>#defense2</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>42</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>32</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>43</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>32</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>44</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>32</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>45</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>32</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>46</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>47</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>48</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>49</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>50</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>51</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>52</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>53</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>54</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>55</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>56</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>57</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>58</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>59</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>60</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>61</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+        </ComponentBays>
+        <ResourcesRequired>
+            <ResourceQuantity>
+                <ResourceId>8</ResourceId>
+                <Amount>280</Amount>
+            </ResourceQuantity>
+            <ResourceQuantity>
+                <ResourceId>10</ResourceId>
+                <Amount>560</Amount>
+            </ResourceQuantity>
+            <ResourceQuantity>
+                <ResourceId>12</ResourceId>
+                <Amount>280</Amount>
+            </ResourceQuantity>
+            <ResourceQuantity>
+                <ResourceId>78</ResourceId>
+                <Amount>560</Amount>
+            </ResourceQuantity>
+        </ResourcesRequired>
+    </ShipHull>
+    <!--Origin Dao Super Dreadnought I-->
+    <ShipHull>
+        <ShipHullId>4896</ShipHullId>
+        <Name>Origin Dao Super Dreadnought I</Name>
+        <ImageFilename>Ships/Mortalen/Images/Mortalen_Battleship</ImageFilename>
+        <RaceId>99</RaceId>
+        <Role>CapitalShip</Role>
+        <Level>9</Level>
+        <DesignTemplateId>-1</DesignTemplateId>
+        <Size>2094</Size>
+        <MaximumSize>16656</MaximumSize>
+        <DisplaySize>7730</DisplaySize>
+        <ModelName>Ships/Mortalen/Mortalen_Battleship</ModelName>
+        <BaseCost>1435223</BaseCost>
+        <BuildSpeedFactor>0.8</BuildSpeedFactor>
+        <ArmorReactiveRating>22</ArmorReactiveRating>
+        <IonDefense>18</IonDefense>
+        <EngineLimit>-1</EngineLimit>
+        <CountermeasuresBonus>-0.2</CountermeasuresBonus>
+        <TargetingBonus>0.2</TargetingBonus>
+        <TurnRollRate>0.25</TurnRollRate>
+        <MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
+        <Bonuses>
+            <Bonus>
+                <Type>ShieldRechargeRate</Type>
+                <Amount>0.3</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+            <Bonus>
+                <Type>ShipManeuvering</Type>
+                <Amount>-0.1</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+            <Bonus>
+                <Type>ShipSpeed</Type>
+                <Amount>-0.1</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+            <Bonus>
+                <Type>WeaponsDamage</Type>
+                <Amount>0.1</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+            <Bonus>
+                <Type>WeaponsRange</Type>
+                <Amount>0.3</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+        <ComponentBays>
+            <ComponentBay>
+                <ComponentBayId>0</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon0</MeshName>
+                <RotationHalfArcRange>0.873</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>1</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon8</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>2</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon9</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>3</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon11</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>4</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon12</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>5</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon13</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>6</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon14</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>7</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon16</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>8</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon17</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>9</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon18</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>10</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon19</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>11</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon20</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>12</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon1</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>13</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon2</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>14</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon3</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>15</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon4</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>16</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon5</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>17</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon6</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>18</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon7</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>19</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon10</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>20</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon15</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>21</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon21</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>22</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine0</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>0.7</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>23</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine1</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>0.7</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>24</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine2</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>0.7</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>25</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine3</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>26</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine4</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>27</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine5</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>28</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine6</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>29</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine7</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>30</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine8</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>31</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine9</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>32</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine10</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>33</ComponentBayId>
+                <Type>Hangar</Type>
+                <MaximumComponentSize>25</MaximumComponentSize>
+                <MeshName>#hangar0</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>34</ComponentBayId>
+                <Type>Sensor</Type>
+                <MaximumComponentSize>24</MaximumComponentSize>
+                <MeshName>#sensor0</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>35</ComponentBayId>
+                <Type>Sensor</Type>
+                <MaximumComponentSize>24</MaximumComponentSize>
+                <MeshName>#sensor1</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>36</ComponentBayId>
+                <Type>Sensor</Type>
+                <MaximumComponentSize>24</MaximumComponentSize>
+                <MeshName>#sensor2</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>37</ComponentBayId>
+                <Type>Sensor</Type>
+                <MaximumComponentSize>12</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>38</ComponentBayId>
+                <Type>Sensor</Type>
+                <MaximumComponentSize>12</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>39</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>32</MaximumComponentSize>
+                <MeshName>#defense0</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>40</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>32</MaximumComponentSize>
+                <MeshName>#defense1</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>41</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>32</MaximumComponentSize>
+                <MeshName>#defense2</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>42</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>32</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>43</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>32</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>44</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>32</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>45</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>32</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>46</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>47</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>48</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>49</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>50</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>51</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>52</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>53</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>54</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>55</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>56</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>57</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>58</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>59</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>60</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>61</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+        </ComponentBays>
+        <ResourcesRequired>
+            <ResourceQuantity>
+                <ResourceId>8</ResourceId>
+                <Amount>280</Amount>
+            </ResourceQuantity>
+            <ResourceQuantity>
+                <ResourceId>10</ResourceId>
+                <Amount>560</Amount>
+            </ResourceQuantity>
+            <ResourceQuantity>
+                <ResourceId>12</ResourceId>
+                <Amount>280</Amount>
+            </ResourceQuantity>
+            <ResourceQuantity>
+                <ResourceId>78</ResourceId>
+                <Amount>560</Amount>
+            </ResourceQuantity>
+        </ResourcesRequired>
+    </ShipHull>
+    <!--Origin Dao Super Dreadnought II-->
+    <ShipHull>
+        <ShipHullId>4897</ShipHullId>
+        <Name>Origin Dao Super Dreadnought II</Name>
+        <ImageFilename>Ships/Mortalen/Images/Mortalen_Battleship</ImageFilename>
+        <RaceId>99</RaceId>
+        <Role>CapitalShip</Role>
+        <Level>10</Level>
+        <DesignTemplateId>-1</DesignTemplateId>
+        <Size>2199</Size>
+        <MaximumSize>19154</MaximumSize>
+        <DisplaySize>9663</DisplaySize>
+        <ModelName>Ships/Mortalen/Mortalen_Battleship</ModelName>
+        <BaseCost>2152835</BaseCost>
         <BuildSpeedFactor>0.8</BuildSpeedFactor>
         <ArmorReactiveRating>22</ArmorReactiveRating>
         <IonDefense>18</IonDefense>
@@ -12988,7 +14897,7 @@
     </ShipHull>
     <!--Carrier-->
     <ShipHull>
-        <ShipHullId>4886</ShipHullId>
+        <ShipHullId>4898</ShipHullId>
         <Name>Carrier</Name>
         <ImageFilename>Ships/Mortalen/Images/carrier</ImageFilename>
         <RaceId>99</RaceId>
@@ -13492,18 +15401,18 @@
     </ShipHull>
     <!--Dao Carrier I-->
     <ShipHull>
-        <ShipHullId>4887</ShipHullId>
+        <ShipHullId>4899</ShipHullId>
         <Name>Dao Carrier I</Name>
         <ImageFilename>Ships/Mortalen/Images/carrier</ImageFilename>
         <RaceId>99</RaceId>
         <Role>Carrier</Role>
         <Level>1</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>800</Size>
+        <Size>1000</Size>
         <MaximumSize>2400</MaximumSize>
-        <DisplaySize>750</DisplaySize>
+        <DisplaySize>1050</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Carrier</ModelName>
-        <BaseCost>18000</BaseCost>
+        <BaseCost>30960</BaseCost>
         <BuildSpeedFactor>0.8</BuildSpeedFactor>
         <ArmorReactiveRating>11</ArmorReactiveRating>
         <IonDefense>7</IonDefense>
@@ -13996,18 +15905,18 @@
     </ShipHull>
     <!--Dao Carrier II-->
     <ShipHull>
-        <ShipHullId>4888</ShipHullId>
+        <ShipHullId>4900</ShipHullId>
         <Name>Dao Carrier II</Name>
         <ImageFilename>Ships/Mortalen/Images/carrier</ImageFilename>
         <RaceId>99</RaceId>
         <Role>Carrier</Role>
         <Level>2</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>800</Size>
+        <Size>1050</Size>
         <MaximumSize>3000</MaximumSize>
-        <DisplaySize>938</DisplaySize>
+        <DisplaySize>1418</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Carrier</ModelName>
-        <BaseCost>22500</BaseCost>
+        <BaseCost>54180</BaseCost>
         <BuildSpeedFactor>0.8</BuildSpeedFactor>
         <ArmorReactiveRating>13</ArmorReactiveRating>
         <IonDefense>8</IonDefense>
@@ -14500,18 +16409,18 @@
     </ShipHull>
     <!--Dao Supercarrier I-->
     <ShipHull>
-        <ShipHullId>4889</ShipHullId>
+        <ShipHullId>4901</ShipHullId>
         <Name>Dao Supercarrier I</Name>
         <ImageFilename>Ships/Mortalen/Images/carrier</ImageFilename>
         <RaceId>99</RaceId>
         <Role>Carrier</Role>
         <Level>3</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>800</Size>
-        <MaximumSize>4500</MaximumSize>
-        <DisplaySize>1876</DisplaySize>
+        <Size>1313</Size>
+        <MaximumSize>3750</MaximumSize>
+        <DisplaySize>1914</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Carrier</ModelName>
-        <BaseCost>33750</BaseCost>
+        <BaseCost>94815</BaseCost>
         <BuildSpeedFactor>0.8</BuildSpeedFactor>
         <ArmorReactiveRating>16</ArmorReactiveRating>
         <IonDefense>10</IonDefense>
@@ -15004,18 +16913,18 @@
     </ShipHull>
     <!--Dao Supercarrier II-->
     <ShipHull>
-        <ShipHullId>4890</ShipHullId>
+        <ShipHullId>4902</ShipHullId>
         <Name>Dao Supercarrier II</Name>
         <ImageFilename>Ships/Mortalen/Images/carrier</ImageFilename>
         <RaceId>99</RaceId>
         <Role>Carrier</Role>
         <Level>4</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>800</Size>
-        <MaximumSize>5625</MaximumSize>
-        <DisplaySize>2345</DisplaySize>
+        <Size>1379</Size>
+        <MaximumSize>4688</MaximumSize>
+        <DisplaySize>2584</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Carrier</ModelName>
-        <BaseCost>50625</BaseCost>
+        <BaseCost>165926</BaseCost>
         <BuildSpeedFactor>0.8</BuildSpeedFactor>
         <ArmorReactiveRating>18</ArmorReactiveRating>
         <IonDefense>11</IonDefense>
@@ -15508,18 +17417,18 @@
     </ShipHull>
     <!--Great Dao Supercarrier I-->
     <ShipHull>
-        <ShipHullId>4891</ShipHullId>
+        <ShipHullId>4903</ShipHullId>
         <Name>Great Dao Supercarrier I</Name>
         <ImageFilename>Ships/Mortalen/Images/carrier</ImageFilename>
         <RaceId>99</RaceId>
         <Role>Carrier</Role>
         <Level>5</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>800</Size>
-        <MaximumSize>8438</MaximumSize>
-        <DisplaySize>2931</DisplaySize>
+        <Size>1724</Size>
+        <MaximumSize>7032</MaximumSize>
+        <DisplaySize>4522</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Carrier</ModelName>
-        <BaseCost>75938</BaseCost>
+        <BaseCost>414815</BaseCost>
         <BuildSpeedFactor>0.8</BuildSpeedFactor>
         <ArmorReactiveRating>20</ArmorReactiveRating>
         <IonDefense>14</IonDefense>
@@ -16012,18 +17921,18 @@
     </ShipHull>
     <!--Great Dao Supercarrier II-->
     <ShipHull>
-        <ShipHullId>4892</ShipHullId>
+        <ShipHullId>4904</ShipHullId>
         <Name>Great Dao Supercarrier II</Name>
         <ImageFilename>Ships/Mortalen/Images/carrier</ImageFilename>
         <RaceId>99</RaceId>
         <Role>Carrier</Role>
         <Level>6</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>800</Size>
-        <MaximumSize>10548</MaximumSize>
-        <DisplaySize>3664</DisplaySize>
+        <Size>1810</Size>
+        <MaximumSize>8790</MaximumSize>
+        <DisplaySize>6105</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Carrier</ModelName>
-        <BaseCost>113907</BaseCost>
+        <BaseCost>725926</BaseCost>
         <BuildSpeedFactor>0.8</BuildSpeedFactor>
         <ArmorReactiveRating>22</ArmorReactiveRating>
         <IonDefense>16</IonDefense>
@@ -16514,20 +18423,524 @@
             <Z>1</Z>
         </ModelSize>
     </ShipHull>
-    <!--Great Dao Supercarrier II-->
+    <!--Origin Dao Worldship I-->
     <ShipHull>
-        <ShipHullId>4893</ShipHullId>
-        <Name>Great Dao Supercarrier II</Name>
+        <ShipHullId>4905</ShipHullId>
+        <Name>Origin Dao Worldship I</Name>
         <ImageFilename>Ships/Mortalen/Images/carrier</ImageFilename>
         <RaceId>99</RaceId>
         <Role>Carrier</Role>
-        <Level>6</Level>
+        <Level>7</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>800</Size>
-        <MaximumSize>15822</MaximumSize>
-        <DisplaySize>4580</DisplaySize>
+        <Size>2263</Size>
+        <MaximumSize>17580</MaximumSize>
+        <DisplaySize>10684</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Carrier</ModelName>
-        <BaseCost>170861</BaseCost>
+        <BaseCost>2177778</BaseCost>
+        <BuildSpeedFactor>0.8</BuildSpeedFactor>
+        <ArmorReactiveRating>24</ArmorReactiveRating>
+        <IonDefense>18</IonDefense>
+        <EngineLimit>-1</EngineLimit>
+        <CountermeasuresBonus>-0.2</CountermeasuresBonus>
+        <TargetingBonus>0.2</TargetingBonus>
+        <TurnRollRate>0.25</TurnRollRate>
+        <MaximumTurnRollAngle>0.35</MaximumTurnRollAngle>
+        <Bonuses>
+            <Bonus>
+                <Type>ShieldRechargeRate</Type>
+                <Amount>0.3</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+            <Bonus>
+                <Type>ShipManeuvering</Type>
+                <Amount>-0.2</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+            <Bonus>
+                <Type>ShipSpeed</Type>
+                <Amount>-0.2</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+            <Bonus>
+                <Type>WeaponsDamage</Type>
+                <Amount>0.1</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+            <Bonus>
+                <Type>WeaponsRange</Type>
+                <Amount>0.3</Amount>
+                <AppliesTo>Item</AppliesTo>
+            </Bonus>
+        </Bonuses>
+        <ComponentBays>
+            <ComponentBay>
+                <ComponentBayId>0</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon0</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>1</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon2</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>2</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon4</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>3</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon7</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>4</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon8</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>5</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon10</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>6</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#weapon11</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>7</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon1</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>8</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon3</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>9</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon5</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>10</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon6</MeshName>
+                <RotationHalfArcRange>1.571</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>11</ComponentBayId>
+                <Type>Weapon</Type>
+                <MaximumComponentSize>80</MaximumComponentSize>
+                <MeshName>#weapon9</MeshName>
+                <RotationHalfArcRange>2.356</RotationHalfArcRange>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>12</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine0</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>0.7</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>13</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine1</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>0.7</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>14</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine2</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>0.7</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>15</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine3</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>16</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine4</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>17</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine5</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>18</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine6</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>19</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine7</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>20</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine8</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>21</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine9</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>22</ComponentBayId>
+                <Type>Engine</Type>
+                <MaximumComponentSize>20</MaximumComponentSize>
+                <MeshName>#engine10</MeshName>
+                <DisplayEffectRescaleFactor>
+                    <X>1</X>
+                    <Y>0.4</Y>
+                    <Z>1</Z>
+                </DisplayEffectRescaleFactor>
+                <DisplayEffectOffset>
+                    <X>0</X>
+                    <Y>-0.05</Y>
+                    <Z>0</Z>
+                </DisplayEffectOffset>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>23</ComponentBayId>
+                <Type>Hangar</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+                <MeshName>#hangar0</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>24</ComponentBayId>
+                <Type>Hangar</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+                <MeshName>#hangar1</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>25</ComponentBayId>
+                <Type>Hangar</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+                <MeshName>#hangar2</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>26</ComponentBayId>
+                <Type>Hangar</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+                <MeshName>#hangar3</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>27</ComponentBayId>
+                <Type>Hangar</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>28</ComponentBayId>
+                <Type>Hangar</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>29</ComponentBayId>
+                <Type>Sensor</Type>
+                <MaximumComponentSize>24</MaximumComponentSize>
+                <MeshName>#sensor0</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>30</ComponentBayId>
+                <Type>Sensor</Type>
+                <MaximumComponentSize>24</MaximumComponentSize>
+                <MeshName>#sensor1</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>31</ComponentBayId>
+                <Type>Sensor</Type>
+                <MaximumComponentSize>12</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>32</ComponentBayId>
+                <Type>Sensor</Type>
+                <MaximumComponentSize>12</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>33</ComponentBayId>
+                <Type>Sensor</Type>
+                <MaximumComponentSize>12</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>34</ComponentBayId>
+                <Type>Sensor</Type>
+                <MaximumComponentSize>12</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>35</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>32</MaximumComponentSize>
+                <MeshName>#defense0</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>36</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>32</MaximumComponentSize>
+                <MeshName>#defense1</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>37</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>32</MaximumComponentSize>
+                <MeshName>#defense2</MeshName>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>38</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>32</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>39</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>32</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>40</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>32</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>41</ComponentBayId>
+                <Type>Defense</Type>
+                <MaximumComponentSize>32</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>42</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>43</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>44</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>45</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>46</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>47</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>48</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>49</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>50</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>51</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>52</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>53</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>54</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>55</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>56</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+            <ComponentBay>
+                <ComponentBayId>57</ComponentBayId>
+                <Type>General</Type>
+                <MaximumComponentSize>50</MaximumComponentSize>
+            </ComponentBay>
+        </ComponentBays>
+        <ResourcesRequired>
+            <ResourceQuantity>
+                <ResourceId>8</ResourceId>
+                <Amount>280</Amount>
+            </ResourceQuantity>
+            <ResourceQuantity>
+                <ResourceId>10</ResourceId>
+                <Amount>560</Amount>
+            </ResourceQuantity>
+            <ResourceQuantity>
+                <ResourceId>12</ResourceId>
+                <Amount>280</Amount>
+            </ResourceQuantity>
+            <ResourceQuantity>
+                <ResourceId>78</ResourceId>
+                <Amount>560</Amount>
+            </ResourceQuantity>
+        </ResourcesRequired>
+        <ModelSize>
+            <X>1</X>
+            <Y>1</Y>
+            <Z>1</Z>
+        </ModelSize>
+    </ShipHull>
+    <!--Origin Dao Worldship II-->
+    <ShipHull>
+        <ShipHullId>4906</ShipHullId>
+        <Name>Origin Dao Worldship II</Name>
+        <ImageFilename>Ships/Mortalen/Images/carrier</ImageFilename>
+        <RaceId>99</RaceId>
+        <Role>Carrier</Role>
+        <Level>8</Level>
+        <DesignTemplateId>-1</DesignTemplateId>
+        <Size>2376</Size>
+        <MaximumSize>21975</MaximumSize>
+        <DisplaySize>14423</DisplaySize>
+        <ModelName>Ships/Mortalen/Mortalen_Carrier</ModelName>
+        <BaseCost>3811112</BaseCost>
         <BuildSpeedFactor>0.8</BuildSpeedFactor>
         <ArmorReactiveRating>24</ArmorReactiveRating>
         <IonDefense>18</IonDefense>
@@ -17020,7 +19433,7 @@
     </ShipHull>
     <!--Refueler, Small-->
     <ShipHull>
-        <ShipHullId>4894</ShipHullId>
+        <ShipHullId>4907</ShipHullId>
         <Name>Refueler, Small</Name>
         <ImageFilename>Ships/Mortalen/Images/fuel</ImageFilename>
         <RaceId>99</RaceId>
@@ -17423,7 +19836,7 @@
     </ShipHull>
     <!--Refueler, Medium-->
     <ShipHull>
-        <ShipHullId>4895</ShipHullId>
+        <ShipHullId>4908</ShipHullId>
         <Name>Refueler, Medium</Name>
         <ImageFilename>Ships/Mortalen/Images/fuel</ImageFilename>
         <RaceId>99</RaceId>
@@ -17669,7 +20082,7 @@
     </ShipHull>
     <!--Refueler, Large-->
     <ShipHull>
-        <ShipHullId>4896</ShipHullId>
+        <ShipHullId>4909</ShipHullId>
         <Name>Refueler, Large</Name>
         <ImageFilename>Ships/Mortalen/Images/fuel</ImageFilename>
         <RaceId>99</RaceId>
@@ -17932,18 +20345,18 @@
     </ShipHull>
     <!--Dao Refueler I-->
     <ShipHull>
-        <ShipHullId>4897</ShipHullId>
+        <ShipHullId>4910</ShipHullId>
         <Name>Dao Refueler I</Name>
         <ImageFilename>Ships/Mortalen/Images/fuel</ImageFilename>
         <RaceId>99</RaceId>
         <Role>FuelTanker</Role>
         <Level>3</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>450</Size>
+        <Size>473</Size>
         <MaximumSize>1350</MaximumSize>
-        <DisplaySize>421</DisplaySize>
+        <DisplaySize>506</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Fuel</ModelName>
-        <BaseCost>1625</BaseCost>
+        <BaseCost>2275</BaseCost>
         <ArmorReactiveRating>2</ArmorReactiveRating>
         <IonDefense>1</IonDefense>
         <EngineLimit>-1</EngineLimit>
@@ -18195,18 +20608,18 @@
     </ShipHull>
     <!--Dao Refueler II-->
     <ShipHull>
-        <ShipHullId>4898</ShipHullId>
+        <ShipHullId>4911</ShipHullId>
         <Name>Dao Refueler II</Name>
         <ImageFilename>Ships/Mortalen/Images/fuel</ImageFilename>
         <RaceId>99</RaceId>
         <Role>FuelTanker</Role>
         <Level>4</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>450</Size>
-        <MaximumSize>2025</MaximumSize>
-        <DisplaySize>526</DisplaySize>
+        <Size>497</Size>
+        <MaximumSize>1553</MaximumSize>
+        <DisplaySize>633</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Fuel</ModelName>
-        <BaseCost>2031</BaseCost>
+        <BaseCost>3413</BaseCost>
         <ArmorReactiveRating>2</ArmorReactiveRating>
         <IonDefense>2</IonDefense>
         <EngineLimit>-1</EngineLimit>
@@ -18458,18 +20871,18 @@
     </ShipHull>
     <!--Dao Refueler III-->
     <ShipHull>
-        <ShipHullId>4899</ShipHullId>
+        <ShipHullId>4912</ShipHullId>
         <Name>Dao Refueler III</Name>
         <ImageFilename>Ships/Mortalen/Images/fuel</ImageFilename>
         <RaceId>99</RaceId>
         <Role>FuelTanker</Role>
         <Level>4</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>450</Size>
-        <MaximumSize>3038</MaximumSize>
-        <DisplaySize>658</DisplaySize>
+        <Size>522</Size>
+        <MaximumSize>1786</MaximumSize>
+        <DisplaySize>791</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Fuel</ModelName>
-        <BaseCost>2539</BaseCost>
+        <BaseCost>5120</BaseCost>
         <ArmorReactiveRating>2</ArmorReactiveRating>
         <IonDefense>3</IonDefense>
         <EngineLimit>-1</EngineLimit>
@@ -18721,7 +21134,7 @@
     </ShipHull>
     <!--Troop Transport, Small-->
     <ShipHull>
-        <ShipHullId>4900</ShipHullId>
+        <ShipHullId>4913</ShipHullId>
         <Name>Troop Transport, Small</Name>
         <ImageFilename>Ships/Mortalen/Images/trooptansport</ImageFilename>
         <RaceId>99</RaceId>
@@ -19106,7 +21519,7 @@
     </ShipHull>
     <!--Troop Transport, Standard-->
     <ShipHull>
-        <ShipHullId>4901</ShipHullId>
+        <ShipHullId>4914</ShipHullId>
         <Name>Troop Transport, Standard</Name>
         <ImageFilename>Ships/Mortalen/Images/trooptansportmedium</ImageFilename>
         <RaceId>99</RaceId>
@@ -19354,7 +21767,7 @@
     </ShipHull>
     <!--Troop Transport, Heavy-->
     <ShipHull>
-        <ShipHullId>4902</ShipHullId>
+        <ShipHullId>4915</ShipHullId>
         <Name>Troop Transport, Heavy</Name>
         <ImageFilename>Ships/Mortalen/Images/trooptansportlarge</ImageFilename>
         <RaceId>99</RaceId>
@@ -19633,7 +22046,7 @@
     </ShipHull>
     <!--Troop Transport, Huge-->
     <ShipHull>
-        <ShipHullId>4903</ShipHullId>
+        <ShipHullId>4916</ShipHullId>
         <Name>Troop Transport, Huge</Name>
         <ImageFilename>Ships/Mortalen/Images/trooptansportlarge</ImageFilename>
         <RaceId>99</RaceId>
@@ -19981,7 +22394,7 @@
     </ShipHull>
     <!--Troop Transport, Massive-->
     <ShipHull>
-        <ShipHullId>4904</ShipHullId>
+        <ShipHullId>4917</ShipHullId>
         <Name>Troop Transport, Massive</Name>
         <ImageFilename>Ships/Mortalen/Images/trooptansportlarge</ImageFilename>
         <RaceId>99</RaceId>
@@ -20356,7 +22769,7 @@
     </ShipHull>
     <!--Troop Transport, Colossal-->
     <ShipHull>
-        <ShipHullId>4905</ShipHullId>
+        <ShipHullId>4918</ShipHullId>
         <Name>Troop Transport, Colossal</Name>
         <ImageFilename>Ships/Mortalen/Images/trooptansportlarge</ImageFilename>
         <RaceId>99</RaceId>
@@ -20747,18 +23160,18 @@
     </ShipHull>
     <!--Dao Troop Transport I-->
     <ShipHull>
-        <ShipHullId>4906</ShipHullId>
+        <ShipHullId>4919</ShipHullId>
         <Name>Dao Troop Transport I</Name>
         <ImageFilename>Ships/Mortalen/Images/trooptansportlarge</ImageFilename>
         <RaceId>99</RaceId>
         <Role>TroopTransport</Role>
         <Level>6</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>1000</Size>
+        <Size>1050</Size>
         <MaximumSize>3075</MaximumSize>
-        <DisplaySize>969</DisplaySize>
+        <DisplaySize>1163</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Troop_TransportLarge</ModelName>
-        <BaseCost>10000</BaseCost>
+        <BaseCost>14000</BaseCost>
         <BuildSpeedFactor>0.33</BuildSpeedFactor>
         <ArmorReactiveRating>12</ArmorReactiveRating>
         <IonDefense>10</IonDefense>
@@ -21138,18 +23551,18 @@
     </ShipHull>
     <!--Dao Troop Transport II-->
     <ShipHull>
-        <ShipHullId>4907</ShipHullId>
+        <ShipHullId>4920</ShipHullId>
         <Name>Dao Troop Transport II</Name>
         <ImageFilename>Ships/Mortalen/Images/trooptansportlarge</ImageFilename>
         <RaceId>99</RaceId>
         <Role>TroopTransport</Role>
         <Level>7</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>1000</Size>
-        <MaximumSize>4613</MaximumSize>
-        <DisplaySize>1211</DisplaySize>
+        <Size>1103</Size>
+        <MaximumSize>3536</MaximumSize>
+        <DisplaySize>1454</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Troop_TransportLarge</ModelName>
-        <BaseCost>12500</BaseCost>
+        <BaseCost>21000</BaseCost>
         <BuildSpeedFactor>0.33</BuildSpeedFactor>
         <ArmorReactiveRating>12</ArmorReactiveRating>
         <IonDefense>11</IonDefense>
@@ -21529,18 +23942,18 @@
     </ShipHull>
     <!--Dao Troop Transport III-->
     <ShipHull>
-        <ShipHullId>4908</ShipHullId>
+        <ShipHullId>4921</ShipHullId>
         <Name>Dao Troop Transport III</Name>
         <ImageFilename>Ships/Mortalen/Images/trooptansportlarge</ImageFilename>
         <RaceId>99</RaceId>
         <Role>TroopTransport</Role>
-        <Level>7</Level>
+        <Level>8</Level>
         <DesignTemplateId>-1</DesignTemplateId>
-        <Size>1000</Size>
-        <MaximumSize>6920</MaximumSize>
-        <DisplaySize>1514</DisplaySize>
+        <Size>1158</Size>
+        <MaximumSize>4066</MaximumSize>
+        <DisplaySize>1818</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Troop_TransportLarge</ModelName>
-        <BaseCost>15625</BaseCost>
+        <BaseCost>31500</BaseCost>
         <BuildSpeedFactor>0.33</BuildSpeedFactor>
         <ArmorReactiveRating>12</ArmorReactiveRating>
         <IonDefense>12</IonDefense>

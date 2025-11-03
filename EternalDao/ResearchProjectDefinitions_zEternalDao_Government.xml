@@ -444,44 +444,4 @@
 			<short>32023</short>
 		</PlanetaryFacilityIds>
 	</ResearchProjectDefinition>
-	<ResearchProjectDefinition>
-		<ResearchProjectId>32083</ResearchProjectId>
-		<Name>DEBUG: All Eternal Celestials Ships</Name>
-		<Description>Debug research for all Eternal Celestial ships.</Description>
-		<ImageFilename>UserInterface/Placeholder</ImageFilename>
-		<Size>12800</Size>
-		<InitiationCost>
-			<Money>18000</Money>
-		</InitiationCost>
-		<AdditionalRequirements>
-			<GovernmentId>32000</GovernmentId>
-		</AdditionalRequirements>
-		<EnabledByDefault>true</EnabledByDefault>
-		<ProjectAppearanceProbability>1</ProjectAppearanceProbability>
-		<Column>0</Column>
-		<Row>490</Row>
-		<PrerequisiteProjectsMinimumPathCount>0</PrerequisiteProjectsMinimumPathCount>
-		<ShipHulls>
-			<ShipHullReference>
-				<Role>Cruiser</Role>
-				<Level>0</Level>
-			</ShipHullReference>
-			<ShipHullReference>
-				<Role>Cruiser</Role>
-				<Level>1</Level>
-			</ShipHullReference>
-			<ShipHullReference>
-				<Role>Cruiser</Role>
-				<Level>2</Level>
-			</ShipHullReference>
-			<ShipHullReference>
-				<Role>Cruiser</Role>
-				<Level>3</Level>
-			</ShipHullReference>
-			<ShipHullReference>
-				<Role>Cruiser</Role>
-				<Level>4</Level>
-			</ShipHullReference>
-		</ShipHulls>
-	</ResearchProjectDefinition>
 </ArrayOfResearchProjectDefinition>

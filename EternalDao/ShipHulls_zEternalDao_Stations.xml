@@ -2,7 +2,7 @@
 <ArrayOfShipHull xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <!--Monitoring Station I-->
     <ShipHull>
-        <ShipHullId>4909</ShipHullId>
+        <ShipHullId>4922</ShipHullId>
         <Name>Monitoring Station I</Name>
         <ImageFilename>Ships/Mortalen/Images/researchstation</ImageFilename>
         <RaceId>99</RaceId>
@@ -227,7 +227,7 @@
     </ShipHull>
     <!--Dao Monitoring Station I-->
     <ShipHull>
-        <ShipHullId>4910</ShipHullId>
+        <ShipHullId>4923</ShipHullId>
         <Name>Dao Monitoring Station I</Name>
         <ImageFilename>Ships/Mortalen/Images/researchstation</ImageFilename>
         <RaceId>99</RaceId>
@@ -235,10 +235,10 @@
         <Level>1</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>800</Size>
-        <MaximumSize>2400</MaximumSize>
-        <DisplaySize>1680</DisplaySize>
+        <MaximumSize>3200</MaximumSize>
+        <DisplaySize>2800</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Research_Station</ModelName>
-        <BaseCost>18000</BaseCost>
+        <BaseCost>25800</BaseCost>
         <ArmorReactiveRating>5</ArmorReactiveRating>
         <IonDefense>1</IonDefense>
         <EngineLimit>-1</EngineLimit>
@@ -452,7 +452,7 @@
     </ShipHull>
     <!--Dao Monitoring Station II-->
     <ShipHull>
-        <ShipHullId>4911</ShipHullId>
+        <ShipHullId>4924</ShipHullId>
         <Name>Dao Monitoring Station II</Name>
         <ImageFilename>Ships/Mortalen/Images/researchstation</ImageFilename>
         <RaceId>99</RaceId>
@@ -460,10 +460,10 @@
         <Level>2</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>800</Size>
-        <MaximumSize>3600</MaximumSize>
-        <DisplaySize>1764</DisplaySize>
+        <MaximumSize>4800</MaximumSize>
+        <DisplaySize>3780</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Research_Station</ModelName>
-        <BaseCost>27000</BaseCost>
+        <BaseCost>45150</BaseCost>
         <ArmorReactiveRating>7</ArmorReactiveRating>
         <IonDefense>1</IonDefense>
         <EngineLimit>-1</EngineLimit>
@@ -677,7 +677,7 @@
     </ShipHull>
     <!--Dao Monitoring Station III-->
     <ShipHull>
-        <ShipHullId>4912</ShipHullId>
+        <ShipHullId>4925</ShipHullId>
         <Name>Dao Monitoring Station III</Name>
         <ImageFilename>Ships/Mortalen/Images/researchstation</ImageFilename>
         <RaceId>99</RaceId>
@@ -685,10 +685,10 @@
         <Level>3</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>800</Size>
-        <MaximumSize>5400</MaximumSize>
-        <DisplaySize>1852</DisplaySize>
+        <MaximumSize>7200</MaximumSize>
+        <DisplaySize>5103</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Research_Station</ModelName>
-        <BaseCost>40500</BaseCost>
+        <BaseCost>79013</BaseCost>
         <ArmorReactiveRating>9</ArmorReactiveRating>
         <IonDefense>1</IonDefense>
         <EngineLimit>-1</EngineLimit>
@@ -902,7 +902,7 @@
     </ShipHull>
     <!--Mining Station-->
     <ShipHull>
-        <ShipHullId>4913</ShipHullId>
+        <ShipHullId>4926</ShipHullId>
         <Name>Mining Station</Name>
         <ImageFilename>Ships/Mortalen/Images/miningstation</ImageFilename>
         <RaceId>99</RaceId>
@@ -1102,7 +1102,7 @@
     </ShipHull>
     <!--Mining Station, Large-->
     <ShipHull>
-        <ShipHullId>4914</ShipHullId>
+        <ShipHullId>4927</ShipHullId>
         <Name>Mining Station, Large</Name>
         <ImageFilename>Ships/Mortalen/Images/miningstation</ImageFilename>
         <RaceId>99</RaceId>
@@ -1316,7 +1316,7 @@
     </ShipHull>
     <!--Dao Mining Station I-->
     <ShipHull>
-        <ShipHullId>4915</ShipHullId>
+        <ShipHullId>4928</ShipHullId>
         <Name>Dao Mining Station I</Name>
         <ImageFilename>Ships/Mortalen/Images/miningstation</ImageFilename>
         <RaceId>99</RaceId>
@@ -1324,10 +1324,10 @@
         <Level>2</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>350</Size>
-        <MaximumSize>1575</MaximumSize>
-        <DisplaySize>1575</DisplaySize>
+        <MaximumSize>2100</MaximumSize>
+        <DisplaySize>1838</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Mining_Station</ModelName>
-        <BaseCost>6750</BaseCost>
+        <BaseCost>9675</BaseCost>
         <ArmorReactiveRating>5</ArmorReactiveRating>
         <IonDefense>1</IonDefense>
         <EngineLimit>-1</EngineLimit>
@@ -1530,7 +1530,7 @@
     </ShipHull>
     <!--Dao Mining Station II-->
     <ShipHull>
-        <ShipHullId>4916</ShipHullId>
+        <ShipHullId>4929</ShipHullId>
         <Name>Dao Mining Station II</Name>
         <ImageFilename>Ships/Mortalen/Images/miningstation</ImageFilename>
         <RaceId>99</RaceId>
@@ -1538,10 +1538,10 @@
         <Level>3</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>350</Size>
-        <MaximumSize>2363</MaximumSize>
-        <DisplaySize>2363</DisplaySize>
+        <MaximumSize>3150</MaximumSize>
+        <DisplaySize>2481</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Mining_Station</ModelName>
-        <BaseCost>10125</BaseCost>
+        <BaseCost>16931</BaseCost>
         <ArmorReactiveRating>7</ArmorReactiveRating>
         <IonDefense>2</IonDefense>
         <EngineLimit>-1</EngineLimit>
@@ -1744,7 +1744,7 @@
     </ShipHull>
     <!--Dao Mining Station III-->
     <ShipHull>
-        <ShipHullId>4917</ShipHullId>
+        <ShipHullId>4930</ShipHullId>
         <Name>Dao Mining Station III</Name>
         <ImageFilename>Ships/Mortalen/Images/miningstation</ImageFilename>
         <RaceId>99</RaceId>
@@ -1752,10 +1752,10 @@
         <Level>4</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>350</Size>
-        <MaximumSize>3545</MaximumSize>
-        <DisplaySize>3545</DisplaySize>
+        <MaximumSize>4725</MaximumSize>
+        <DisplaySize>3349</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Mining_Station</ModelName>
-        <BaseCost>15188</BaseCost>
+        <BaseCost>29629</BaseCost>
         <ArmorReactiveRating>9</ArmorReactiveRating>
         <IonDefense>3</IonDefense>
         <EngineLimit>-1</EngineLimit>
@@ -1958,7 +1958,7 @@
     </ShipHull>
     <!--Research Station-->
     <ShipHull>
-        <ShipHullId>4918</ShipHullId>
+        <ShipHullId>4931</ShipHullId>
         <Name>Research Station</Name>
         <ImageFilename>Ships/Mortalen/Images/researchstation</ImageFilename>
         <RaceId>99</RaceId>
@@ -2181,7 +2181,7 @@
     </ShipHull>
     <!--Dao Research Station I-->
     <ShipHull>
-        <ShipHullId>4919</ShipHullId>
+        <ShipHullId>4932</ShipHullId>
         <Name>Dao Research Station I</Name>
         <ImageFilename>Ships/Mortalen/Images/researchstation</ImageFilename>
         <RaceId>99</RaceId>
@@ -2189,10 +2189,10 @@
         <Level>1</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>225</Size>
-        <MaximumSize>1388</MaximumSize>
-        <DisplaySize>1388</DisplaySize>
+        <MaximumSize>1850</MaximumSize>
+        <DisplaySize>1619</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Research_Station</ModelName>
-        <BaseCost>6000</BaseCost>
+        <BaseCost>8600</BaseCost>
         <BuildSpeedFactor>0.5</BuildSpeedFactor>
         <ArmorReactiveRating>3</ArmorReactiveRating>
         <IonDefense>2</IonDefense>
@@ -2404,7 +2404,7 @@
     </ShipHull>
     <!--Dao Research Station II-->
     <ShipHull>
-        <ShipHullId>4920</ShipHullId>
+        <ShipHullId>4933</ShipHullId>
         <Name>Dao Research Station II</Name>
         <ImageFilename>Ships/Mortalen/Images/researchstation</ImageFilename>
         <RaceId>99</RaceId>
@@ -2412,10 +2412,10 @@
         <Level>2</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>225</Size>
-        <MaximumSize>2082</MaximumSize>
-        <DisplaySize>2082</DisplaySize>
+        <MaximumSize>2775</MaximumSize>
+        <DisplaySize>2186</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Research_Station</ModelName>
-        <BaseCost>9000</BaseCost>
+        <BaseCost>15050</BaseCost>
         <BuildSpeedFactor>0.5</BuildSpeedFactor>
         <ArmorReactiveRating>4</ArmorReactiveRating>
         <IonDefense>3</IonDefense>
@@ -2627,7 +2627,7 @@
     </ShipHull>
     <!--Dao Research Station III-->
     <ShipHull>
-        <ShipHullId>4921</ShipHullId>
+        <ShipHullId>4934</ShipHullId>
         <Name>Dao Research Station III</Name>
         <ImageFilename>Ships/Mortalen/Images/researchstation</ImageFilename>
         <RaceId>99</RaceId>
@@ -2635,10 +2635,10 @@
         <Level>3</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>225</Size>
-        <MaximumSize>3123</MaximumSize>
-        <DisplaySize>3123</DisplaySize>
+        <MaximumSize>4163</MaximumSize>
+        <DisplaySize>2951</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Research_Station</ModelName>
-        <BaseCost>13500</BaseCost>
+        <BaseCost>26338</BaseCost>
         <BuildSpeedFactor>0.5</BuildSpeedFactor>
         <ArmorReactiveRating>5</ArmorReactiveRating>
         <IonDefense>4</IonDefense>
@@ -2850,7 +2850,7 @@
     </ShipHull>
     <!--Resort Station-->
     <ShipHull>
-        <ShipHullId>4922</ShipHullId>
+        <ShipHullId>4935</ShipHullId>
         <Name>Resort Station</Name>
         <ImageFilename>Ships/Mortalen/Images/researchstation</ImageFilename>
         <RaceId>99</RaceId>
@@ -3072,7 +3072,7 @@
     </ShipHull>
     <!--Dao Resort Station I-->
     <ShipHull>
-        <ShipHullId>4923</ShipHullId>
+        <ShipHullId>4936</ShipHullId>
         <Name>Dao Resort Station I</Name>
         <ImageFilename>Ships/Mortalen/Images/researchstation</ImageFilename>
         <RaceId>99</RaceId>
@@ -3080,10 +3080,10 @@
         <Level>1</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>325</Size>
-        <MaximumSize>1493</MaximumSize>
-        <DisplaySize>1493</DisplaySize>
+        <MaximumSize>1990</MaximumSize>
+        <DisplaySize>1741</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Research_Station</ModelName>
-        <BaseCost>6750</BaseCost>
+        <BaseCost>9675</BaseCost>
         <BuildSpeedFactor>0.67</BuildSpeedFactor>
         <ArmorReactiveRating>4</ArmorReactiveRating>
         <IonDefense>1</IonDefense>
@@ -3294,7 +3294,7 @@
     </ShipHull>
     <!--Dao Resort Station II-->
     <ShipHull>
-        <ShipHullId>4924</ShipHullId>
+        <ShipHullId>4937</ShipHullId>
         <Name>Dao Resort Station II</Name>
         <ImageFilename>Ships/Mortalen/Images/researchstation</ImageFilename>
         <RaceId>99</RaceId>
@@ -3302,10 +3302,10 @@
         <Level>2</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>325</Size>
-        <MaximumSize>2240</MaximumSize>
-        <DisplaySize>2240</DisplaySize>
+        <MaximumSize>2985</MaximumSize>
+        <DisplaySize>2350</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Research_Station</ModelName>
-        <BaseCost>10125</BaseCost>
+        <BaseCost>16931</BaseCost>
         <BuildSpeedFactor>0.67</BuildSpeedFactor>
         <ArmorReactiveRating>5</ArmorReactiveRating>
         <IonDefense>2</IonDefense>
@@ -3516,7 +3516,7 @@
     </ShipHull>
     <!--Dao Resort Station III-->
     <ShipHull>
-        <ShipHullId>4925</ShipHullId>
+        <ShipHullId>4938</ShipHullId>
         <Name>Dao Resort Station III</Name>
         <ImageFilename>Ships/Mortalen/Images/researchstation</ImageFilename>
         <RaceId>99</RaceId>
@@ -3524,10 +3524,10 @@
         <Level>3</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>325</Size>
-        <MaximumSize>3360</MaximumSize>
-        <DisplaySize>3360</DisplaySize>
+        <MaximumSize>4478</MaximumSize>
+        <DisplaySize>3173</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Research_Station</ModelName>
-        <BaseCost>15188</BaseCost>
+        <BaseCost>29629</BaseCost>
         <BuildSpeedFactor>0.67</BuildSpeedFactor>
         <ArmorReactiveRating>6</ArmorReactiveRating>
         <IonDefense>3</IonDefense>
@@ -3738,7 +3738,7 @@
     </ShipHull>
     <!--Star Port-->
     <ShipHull>
-        <ShipHullId>4926</ShipHullId>
+        <ShipHullId>4939</ShipHullId>
         <Name>Star Port</Name>
         <ImageFilename>Ships/Mortalen/Images/spaceportsmall</ImageFilename>
         <RaceId>99</RaceId>
@@ -4006,7 +4006,7 @@
     </ShipHull>
     <!--Star Port I-->
     <ShipHull>
-        <ShipHullId>4927</ShipHullId>
+        <ShipHullId>4940</ShipHullId>
         <Name>Star Port I</Name>
         <ImageFilename>Ships/Mortalen/Images/spaceportsmall</ImageFilename>
         <RaceId>99</RaceId>
@@ -4318,7 +4318,7 @@
     </ShipHull>
     <!--Star Port II-->
     <ShipHull>
-        <ShipHullId>4928</ShipHullId>
+        <ShipHullId>4941</ShipHullId>
         <Name>Star Port II</Name>
         <ImageFilename>Ships/Mortalen/Images/spaceportsmall</ImageFilename>
         <RaceId>99</RaceId>
@@ -4978,7 +4978,7 @@
     </ShipHull>
     <!--Dao Star Port I-->
     <ShipHull>
-        <ShipHullId>4929</ShipHullId>
+        <ShipHullId>4942</ShipHullId>
         <Name>Dao Star Port I</Name>
         <ImageFilename>Ships/Mortalen/Images/spaceportsmall</ImageFilename>
         <RaceId>99</RaceId>
@@ -4986,10 +4986,10 @@
         <Level>3</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>6400</Size>
-        <MaximumSize>12000</MaximumSize>
-        <DisplaySize>4025</DisplaySize>
+        <MaximumSize>16000</MaximumSize>
+        <DisplaySize>6125</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Small_Spaceport</ModelName>
-        <BaseCost>56250</BaseCost>
+        <BaseCost>80625</BaseCost>
         <BuildSpeedFactor>2</BuildSpeedFactor>
         <ArmorReactiveRating>13</ArmorReactiveRating>
         <IonDefense>7</IonDefense>
@@ -5638,7 +5638,7 @@
     </ShipHull>
     <!--Dao Star Port II-->
     <ShipHull>
-        <ShipHullId>4930</ShipHullId>
+        <ShipHullId>4943</ShipHullId>
         <Name>Dao Star Port II</Name>
         <ImageFilename>Ships/Mortalen/Images/spaceportsmall</ImageFilename>
         <RaceId>99</RaceId>
@@ -5646,10 +5646,10 @@
         <Level>4</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>6400</Size>
-        <MaximumSize>18000</MaximumSize>
-        <DisplaySize>4629</DisplaySize>
+        <MaximumSize>24000</MaximumSize>
+        <DisplaySize>8269</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Small_Spaceport</ModelName>
-        <BaseCost>84375</BaseCost>
+        <BaseCost>141094</BaseCost>
         <BuildSpeedFactor>2</BuildSpeedFactor>
         <ArmorReactiveRating>15</ArmorReactiveRating>
         <IonDefense>8</IonDefense>
@@ -6298,7 +6298,7 @@
     </ShipHull>
     <!--Great Dao Star Port I-->
     <ShipHull>
-        <ShipHullId>4931</ShipHullId>
+        <ShipHullId>4944</ShipHullId>
         <Name>Great Dao Star Port I</Name>
         <ImageFilename>Ships/Mortalen/Images/spaceportsmall</ImageFilename>
         <RaceId>99</RaceId>
@@ -6306,10 +6306,10 @@
         <Level>5</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>6400</Size>
-        <MaximumSize>27000</MaximumSize>
-        <DisplaySize>5323</DisplaySize>
+        <MaximumSize>48000</MaximumSize>
+        <DisplaySize>14471</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Small_Spaceport</ModelName>
-        <BaseCost>126563</BaseCost>
+        <BaseCost>352735</BaseCost>
         <BuildSpeedFactor>2</BuildSpeedFactor>
         <ArmorReactiveRating>17</ArmorReactiveRating>
         <IonDefense>9</IonDefense>
@@ -6958,7 +6958,7 @@
     </ShipHull>
     <!--Great Dao Star Port II-->
     <ShipHull>
-        <ShipHullId>4932</ShipHullId>
+        <ShipHullId>4945</ShipHullId>
         <Name>Great Dao Star Port II</Name>
         <ImageFilename>Ships/Mortalen/Images/spaceportsmall</ImageFilename>
         <RaceId>99</RaceId>
@@ -6966,10 +6966,10 @@
         <Level>6</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>6400</Size>
-        <MaximumSize>40500</MaximumSize>
-        <DisplaySize>6121</DisplaySize>
+        <MaximumSize>72000</MaximumSize>
+        <DisplaySize>19536</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Small_Spaceport</ModelName>
-        <BaseCost>189845</BaseCost>
+        <BaseCost>617286</BaseCost>
         <BuildSpeedFactor>2</BuildSpeedFactor>
         <ArmorReactiveRating>19</ArmorReactiveRating>
         <IonDefense>6</IonDefense>
@@ -7618,7 +7618,7 @@
     </ShipHull>
     <!--Star Base I-->
     <ShipHull>
-        <ShipHullId>4933</ShipHullId>
+        <ShipHullId>4946</ShipHullId>
         <Name>Star Base I</Name>
         <ImageFilename>Ships/Mortalen/Images/mediumspaceport</ImageFilename>
         <RaceId>99</RaceId>
@@ -8812,7 +8812,7 @@
     </ShipHull>
     <!--Star Base II-->
     <ShipHull>
-        <ShipHullId>4934</ShipHullId>
+        <ShipHullId>4947</ShipHullId>
         <Name>Star Base II</Name>
         <ImageFilename>Ships/Mortalen/Images/mediumspaceport</ImageFilename>
         <RaceId>99</RaceId>
@@ -10098,7 +10098,7 @@
     </ShipHull>
     <!--Dao Star Base I-->
     <ShipHull>
-        <ShipHullId>4935</ShipHullId>
+        <ShipHullId>4948</ShipHullId>
         <Name>Dao Star Base I</Name>
         <ImageFilename>Ships/Mortalen/Images/mediumspaceport</ImageFilename>
         <RaceId>99</RaceId>
@@ -10106,10 +10106,10 @@
         <Level>2</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>9600</Size>
-        <MaximumSize>18000</MaximumSize>
-        <DisplaySize>5750</DisplaySize>
+        <MaximumSize>24000</MaximumSize>
+        <DisplaySize>8750</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Medium_Spaceport</ModelName>
-        <BaseCost>120849</BaseCost>
+        <BaseCost>173217</BaseCost>
         <BuildSpeedFactor>2</BuildSpeedFactor>
         <ArmorReactiveRating>15</ArmorReactiveRating>
         <IonDefense>11</IonDefense>
@@ -11384,7 +11384,7 @@
     </ShipHull>
     <!--Dao Star Base II-->
     <ShipHull>
-        <ShipHullId>4936</ShipHullId>
+        <ShipHullId>4949</ShipHullId>
         <Name>Dao Star Base II</Name>
         <ImageFilename>Ships/Mortalen/Images/mediumspaceport</ImageFilename>
         <RaceId>99</RaceId>
@@ -11392,10 +11392,10 @@
         <Level>3</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>9600</Size>
-        <MaximumSize>27000</MaximumSize>
-        <DisplaySize>6613</DisplaySize>
+        <MaximumSize>36000</MaximumSize>
+        <DisplaySize>11813</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Medium_Spaceport</ModelName>
-        <BaseCost>181274</BaseCost>
+        <BaseCost>303130</BaseCost>
         <BuildSpeedFactor>2</BuildSpeedFactor>
         <ArmorReactiveRating>17</ArmorReactiveRating>
         <IonDefense>12</IonDefense>
@@ -12670,7 +12670,7 @@
     </ShipHull>
     <!--Great Dao Star Base I-->
     <ShipHull>
-        <ShipHullId>4937</ShipHullId>
+        <ShipHullId>4950</ShipHullId>
         <Name>Great Dao Star Base I</Name>
         <ImageFilename>Ships/Mortalen/Images/mediumspaceport</ImageFilename>
         <RaceId>99</RaceId>
@@ -12678,10 +12678,10 @@
         <Level>4</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>9600</Size>
-        <MaximumSize>40500</MaximumSize>
-        <DisplaySize>7605</DisplaySize>
+        <MaximumSize>72000</MaximumSize>
+        <DisplaySize>20673</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Medium_Spaceport</ModelName>
-        <BaseCost>271911</BaseCost>
+        <BaseCost>757825</BaseCost>
         <BuildSpeedFactor>2</BuildSpeedFactor>
         <ArmorReactiveRating>19</ArmorReactiveRating>
         <IonDefense>13</IonDefense>
@@ -13956,7 +13956,7 @@
     </ShipHull>
     <!--Great Dao Star Base II-->
     <ShipHull>
-        <ShipHullId>4938</ShipHullId>
+        <ShipHullId>4951</ShipHullId>
         <Name>Great Dao Star Base II</Name>
         <ImageFilename>Ships/Mortalen/Images/mediumspaceport</ImageFilename>
         <RaceId>99</RaceId>
@@ -13964,10 +13964,10 @@
         <Level>5</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>9600</Size>
-        <MaximumSize>60750</MaximumSize>
-        <DisplaySize>8746</DisplaySize>
+        <MaximumSize>108000</MaximumSize>
+        <DisplaySize>27909</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Medium_Spaceport</ModelName>
-        <BaseCost>407867</BaseCost>
+        <BaseCost>1326194</BaseCost>
         <BuildSpeedFactor>2</BuildSpeedFactor>
         <ArmorReactiveRating>21</ArmorReactiveRating>
         <IonDefense>14</IonDefense>
@@ -15242,7 +15242,7 @@
     </ShipHull>
     <!--Star Fortress I-->
     <ShipHull>
-        <ShipHullId>4939</ShipHullId>
+        <ShipHullId>4952</ShipHullId>
         <Name>Star Fortress I</Name>
         <ImageFilename>Ships/Mortalen/Images/Mortalen_Large_Spaceport</ImageFilename>
         <RaceId>99</RaceId>
@@ -16698,7 +16698,7 @@
     </ShipHull>
     <!--Star Fortress II-->
     <ShipHull>
-        <ShipHullId>4940</ShipHullId>
+        <ShipHullId>4953</ShipHullId>
         <Name>Star Fortress II</Name>
         <ImageFilename>Ships/Mortalen/Images/Mortalen_Large_Spaceport</ImageFilename>
         <RaceId>99</RaceId>
@@ -18202,7 +18202,7 @@
     </ShipHull>
     <!--Dao Array Space Citadel I-->
     <ShipHull>
-        <ShipHullId>4941</ShipHullId>
+        <ShipHullId>4954</ShipHullId>
         <Name>Dao Array Space Citadel I</Name>
         <ImageFilename>Ships/Mortalen/Images/Mortalen_Large_Spaceport</ImageFilename>
         <RaceId>99</RaceId>
@@ -18210,10 +18210,10 @@
         <Level>2</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>14400</Size>
-        <MaximumSize>27000</MaximumSize>
-        <DisplaySize>9000</DisplaySize>
+        <MaximumSize>36000</MaximumSize>
+        <DisplaySize>10500</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Large_Spaceport</ModelName>
-        <BaseCost>240326</BaseCost>
+        <BaseCost>344467</BaseCost>
         <BuildSpeedFactor>2</BuildSpeedFactor>
         <ArmorReactiveRating>18</ArmorReactiveRating>
         <IonDefense>19</IonDefense>
@@ -19706,7 +19706,7 @@
     </ShipHull>
     <!--Dao Array Space Citadel II-->
     <ShipHull>
-        <ShipHullId>4942</ShipHullId>
+        <ShipHullId>4955</ShipHullId>
         <Name>Dao Array Space Citadel II</Name>
         <ImageFilename>Ships/Mortalen/Images/Mortalen_Large_Spaceport</ImageFilename>
         <RaceId>99</RaceId>
@@ -19714,10 +19714,10 @@
         <Level>3</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>14400</Size>
-        <MaximumSize>40500</MaximumSize>
-        <DisplaySize>12150</DisplaySize>
+        <MaximumSize>54000</MaximumSize>
+        <DisplaySize>14175</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Large_Spaceport</ModelName>
-        <BaseCost>360489</BaseCost>
+        <BaseCost>602817</BaseCost>
         <BuildSpeedFactor>2</BuildSpeedFactor>
         <ArmorReactiveRating>21</ArmorReactiveRating>
         <IonDefense>20</IonDefense>
@@ -21210,7 +21210,7 @@
     </ShipHull>
     <!--Great Dao Space Citadel I-->
     <ShipHull>
-        <ShipHullId>4943</ShipHullId>
+        <ShipHullId>4956</ShipHullId>
         <Name>Great Dao Space Citadel I</Name>
         <ImageFilename>Ships/Mortalen/Images/Mortalen_Large_Spaceport</ImageFilename>
         <RaceId>99</RaceId>
@@ -21218,10 +21218,10 @@
         <Level>4</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>14400</Size>
-        <MaximumSize>60750</MaximumSize>
-        <DisplaySize>16403</DisplaySize>
+        <MaximumSize>108000</MaximumSize>
+        <DisplaySize>24806</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Large_Spaceport</ModelName>
-        <BaseCost>540734</BaseCost>
+        <BaseCost>1507043</BaseCost>
         <BuildSpeedFactor>2</BuildSpeedFactor>
         <ArmorReactiveRating>24</ArmorReactiveRating>
         <IonDefense>21</IonDefense>
@@ -22714,7 +22714,7 @@
     </ShipHull>
     <!--Great Dao Space Citadel II-->
     <ShipHull>
-        <ShipHullId>4944</ShipHullId>
+        <ShipHullId>4957</ShipHullId>
         <Name>Great Dao Space Citadel II</Name>
         <ImageFilename>Ships/Mortalen/Images/Mortalen_Large_Spaceport</ImageFilename>
         <RaceId>99</RaceId>
@@ -22722,10 +22722,10 @@
         <Level>5</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>14400</Size>
-        <MaximumSize>91125</MaximumSize>
-        <DisplaySize>22144</DisplaySize>
+        <MaximumSize>162000</MaximumSize>
+        <DisplaySize>33488</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Large_Spaceport</ModelName>
-        <BaseCost>811101</BaseCost>
+        <BaseCost>2637325</BaseCost>
         <BuildSpeedFactor>2</BuildSpeedFactor>
         <ArmorReactiveRating>27</ArmorReactiveRating>
         <IonDefense>22</IonDefense>
@@ -24218,7 +24218,7 @@
     </ShipHull>
     <!--Origin Dao Eternal Space Citadel-->
     <ShipHull>
-        <ShipHullId>4945</ShipHullId>
+        <ShipHullId>4958</ShipHullId>
         <Name>Origin Dao Eternal Space Citadel</Name>
         <ImageFilename>Ships/Mortalen/Images/Mortalen_Large_Spaceport</ImageFilename>
         <RaceId>99</RaceId>
@@ -24226,10 +24226,10 @@
         <Level>6</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>14400</Size>
-        <MaximumSize>136688</MaximumSize>
-        <DisplaySize>29894</DisplaySize>
+        <MaximumSize>405000</MaximumSize>
+        <DisplaySize>58604</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Large_Spaceport</ModelName>
-        <BaseCost>1216652</BaseCost>
+        <BaseCost>7911975</BaseCost>
         <BuildSpeedFactor>2</BuildSpeedFactor>
         <ArmorReactiveRating>30</ArmorReactiveRating>
         <IonDefense>25</IonDefense>
@@ -25722,7 +25722,7 @@
     </ShipHull>
     <!--Space Bastion I-->
     <ShipHull>
-        <ShipHullId>4946</ShipHullId>
+        <ShipHullId>4959</ShipHullId>
         <Name>Space Bastion I</Name>
         <ImageFilename>Ships/Mortalen/Images/spaceportsmall</ImageFilename>
         <RaceId>99</RaceId>
@@ -26343,7 +26343,7 @@
     </ShipHull>
     <!--Space Bastion II-->
     <ShipHull>
-        <ShipHullId>4947</ShipHullId>
+        <ShipHullId>4960</ShipHullId>
         <Name>Space Bastion II</Name>
         <ImageFilename>Ships/Mortalen/Images/spaceportsmall</ImageFilename>
         <RaceId>99</RaceId>
@@ -26721,20 +26721,20 @@
             </ResourceQuantity>
         </ResourcesRequired>
     </ShipHull>
-    <!--Dao Space Bastion I-->
+    <!--Dao Space Bastion-->
     <ShipHull>
-        <ShipHullId>4948</ShipHullId>
-        <Name>Dao Space Bastion I</Name>
+        <ShipHullId>4961</ShipHullId>
+        <Name>Dao Space Bastion</Name>
         <ImageFilename>Ships/Mortalen/Images/spaceportsmall</ImageFilename>
         <RaceId>99</RaceId>
         <Role>DefensiveBase</Role>
         <Level>2</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>2800</Size>
-        <MaximumSize>6300</MaximumSize>
-        <DisplaySize>3000</DisplaySize>
+        <MaximumSize>9450</MaximumSize>
+        <DisplaySize>3500</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Small_Spaceport</ModelName>
-        <BaseCost>39375</BaseCost>
+        <BaseCost>56438</BaseCost>
         <BuildSpeedFactor>1</BuildSpeedFactor>
         <ArmorReactiveRating>12</ArmorReactiveRating>
         <IonDefense>14</IonDefense>
@@ -27101,20 +27101,20 @@
             </ResourceQuantity>
         </ResourcesRequired>
     </ShipHull>
-    <!--Dao Space Bastion II-->
+    <!--Great Dao Space Bastion-->
     <ShipHull>
-        <ShipHullId>4949</ShipHullId>
-        <Name>Dao Space Bastion II</Name>
+        <ShipHullId>4962</ShipHullId>
+        <Name>Great Dao Space Bastion</Name>
         <ImageFilename>Ships/Mortalen/Images/spaceportsmall</ImageFilename>
         <RaceId>99</RaceId>
         <Role>DefensiveBase</Role>
         <Level>3</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>2800</Size>
-        <MaximumSize>9450</MaximumSize>
-        <DisplaySize>4500</DisplaySize>
+        <MaximumSize>23625</MaximumSize>
+        <DisplaySize>6125</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Small_Spaceport</ModelName>
-        <BaseCost>59063</BaseCost>
+        <BaseCost>141095</BaseCost>
         <BuildSpeedFactor>1</BuildSpeedFactor>
         <ArmorReactiveRating>15</ArmorReactiveRating>
         <IonDefense>16</IonDefense>
@@ -27481,20 +27481,20 @@
             </ResourceQuantity>
         </ResourcesRequired>
     </ShipHull>
-    <!--Dao Space Bastion III-->
+    <!--Origin Dao Space Bastion-->
     <ShipHull>
-        <ShipHullId>4950</ShipHullId>
-        <Name>Dao Space Bastion III</Name>
+        <ShipHullId>4963</ShipHullId>
+        <Name>Origin Dao Space Bastion</Name>
         <ImageFilename>Ships/Mortalen/Images/spaceportsmall</ImageFilename>
         <RaceId>99</RaceId>
         <Role>DefensiveBase</Role>
         <Level>4</Level>
         <DesignTemplateId>-1</DesignTemplateId>
         <Size>2800</Size>
-        <MaximumSize>14175</MaximumSize>
-        <DisplaySize>6750</DisplaySize>
+        <MaximumSize>70875</MaximumSize>
+        <DisplaySize>10719</DisplaySize>
         <ModelName>Ships/Mortalen/Mortalen_Small_Spaceport</ModelName>
-        <BaseCost>88595</BaseCost>
+        <BaseCost>423285</BaseCost>
         <BuildSpeedFactor>1</BuildSpeedFactor>
         <ArmorReactiveRating>18</ArmorReactiveRating>
         <IonDefense>18</IonDefense>
